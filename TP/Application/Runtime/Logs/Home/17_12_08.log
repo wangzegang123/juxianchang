@@ -1,0 +1,62 @@
+[ 2017-12-08T09:01:44+08:00 ] 140.207.54.80 /index.php/Home/Weixin/index?signature=43169b34e43d7d1ea41da264399e6a8b8f708b27&timestamp=1512694903&nonce=556337713&openid=ownZs0YBx2pGpJR_a26DeMdWLsZM
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+NOTIC: [2] session_start(): Cannot send session cookie - headers already sent C:\code\mtp\ThinkPHP\Common\functions.php 第 1263 行.
+NOTIC: [2] session_start(): Cannot send session cache limiter - headers already sent C:\code\mtp\ThinkPHP\Common\functions.php 第 1263 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2017-12-08T09:01:54+08:00 ] 120.204.17.46 /index.php/Home/Weixin/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Undefined index: HTTP_RAW_POST_DATA C:\code\mtp\Application\Home\Controller\WeixinController.class.php 第 83 行.
+
+[ 2017-12-08T09:02:31+08:00 ] 140.207.54.80 /index.php/Home/Weixin/index?signature=b981faf2bf70314130feb6013689c4232e4ff172&timestamp=1512694951&nonce=1259206408&openid=ownZs0YBx2pGpJR_a26DeMdWLsZM
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+NOTIC: [2] session_start(): Cannot send session cookie - headers already sent C:\code\mtp\ThinkPHP\Common\functions.php 第 1263 行.
+NOTIC: [2] session_start(): Cannot send session cache limiter - headers already sent C:\code\mtp\ThinkPHP\Common\functions.php 第 1263 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2017-12-08T19:20:31+08:00 ] 106.11.225.3 /
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `iphone_goods_info` [ RunTime:0.0000s ]
+SQL: select * from iphone_goods_info [ RunTime:0.0000s ]
+SQL: select * from iphone_goods_info order by sellnum desc limit 0,4 [ RunTime:0.0000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Use of undefined constant id - assumed 'id' C:\code\mtp\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 646 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' C:\code\mtp\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 646 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' C:\code\mtp\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 646 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' C:\code\mtp\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 646 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.031250s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.031250s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
