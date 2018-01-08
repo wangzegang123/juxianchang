@@ -37,7 +37,8 @@ class IndexController extends Controller {
             // var_dump($v['activity_id']);
             $sql3="select  * from jxc_wall where activity_id={$v3['activity_id']} and wall_active=1";
             $peo3=$Model->query($sql3);
-
+        var_dump($info);
+        die;
             if(count($peo3)){
                 $p3[$k3]=$peo3;
             }else{
