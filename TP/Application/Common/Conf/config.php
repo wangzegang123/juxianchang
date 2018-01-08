@@ -16,4 +16,6 @@ return array(
     'DB_PREFIX' => 'jxc_', // 数据库表前缀
     'DB_CHARSET'=> 'utf8', // 字符集
     'DB_DEBUG'  =>  TRUE, // 数据库调试模式 开启后可以记录SQL日志
+  "CAPTCHA_ID"=>"8c8baf9ca910298fa9679d7a93d564a4",
+"PRIVATE_KEY"=>"7e03ec81ce8f1b4878cebb63eeab58d8",
 );
