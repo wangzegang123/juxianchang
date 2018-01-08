@@ -2,66 +2,7 @@
 namespace Home\Controller;
 use Think\Controller;
 class IndexController extends Controller {
-    public function indexLayout(){//公共页面
-        $this->display("public/indexLayout");
-    }
-
     public function index(){
-        $date=M("goodsInfo");
-        $info=$date->query("select * from iphone_goods_info");
-        $infoto=$date->query("select * from iphone_goods_info order by sellnum desc limit 0,4");
-        $this->assign("newinfo",$info);
-        $this->assign("numinfo",$infoto);
-        $this->display();
+        $this->show('<style type="text/css">*{ padding: 0; margin: 0; } div{ padding: 4px 48px;} body{ background: #fff; font-family: "微软雅黑"; color: #333;font-size:24px} h1{ font-size: 100px; font-weight: normal; margin-bottom: 12px; } p{ line-height: 1.8em; font-size: 36px } a,a:hover{color:blue;}</style><div style="padding: 24px 48px;"> <h1>:)</h1><p>欢迎使用 <b>ThinkPHP</b>！</p><br/>版本 V{$Think.version}</div><script type="text/javascript" src="http://ad.topthink.com/Public/static/client.js"></script><thinkad id="ad_55e75dfae343f5a1"></thinkad><script type="text/javascript" src="http://tajs.qq.com/stats?sId=9347272" charset="UTF-8"></script>','utf-8');
     }
-
-
 }
-/*  $datepath=M("category");
-   $infopath=$datepath->query("select path from iphone_category where pid=0");
-   $arr="";
-   foreach($infopath as $v){
-       $arr.=$v['path'].",";
-   }
-   $arr=substr($arr,0,-1);
-   $sql="select id,catename,path from iphone_category where pid in ($arr)";
-   $datepath=M("category")->query($sql);
-   $inss=$this->pathss($datepath);
-   print_r($inss);
-   die;*/
- /*   function pathss($i){
-        $datepath=M("category");
-       for($j=0;$j<count($i);$j++){
-           $mmm=$i[$j]['id'];
-           $mm[$j]=$datepath->where("id=$mmm")->getField("pid");
-       }
-//print_r($mm);
-        return $mm;
-    }*/
-
-
-
-
-/*
-    function pathss($i){
-        $datepath=M("category");
-        for($j=0;$j<count($i);$j++){
-
-            $ii=array_pop(explode(",",$i[$j]['path']));
-
-            $sql="select path from iphone_category where pid=$ii";
-           $num=$datepath->query($sql);
-            //dump($num);
-               if(count($num)===0){
-                   $ioio[$j]=$datepath->where("id=$ii")->find();
-                 //  dump($ioio);
-
-                }else{
-
-                    $this->pathss($num);
-               }
-        }
-       // print_r($ioio);
-        return $ioio;
-}*/
-
