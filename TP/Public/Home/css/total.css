@@ -1,0 +1,232 @@
+﻿@charset "utf-8";
+/* CSS Document */
+fieldset, img { border: 0; }
+img {height: auto; }
+ol, ul { list-style: none; }
+h1, h2, h3, h4, h5, h6 { font-size: 100%; font-weight: normal; }
+em, i { font-style: normal; }
+input, button, select, textarea { outline: none; }
+textarea { resize: none; }
+a { text-decoration: none; }
+.clearfix:before, .clearfix:after { display: table; content: ""; }
+.clearfix:after { clear: both; }
+.clearfix { zoom: 1; }
+
+
+
+/*扫码体验*/
+.index_system_listbox .Case_QrcodeWrap { width: 200px; height: 180px; overflow: hidden; position: absolute; top: 140px; left: 50%; z-index: 10; margin-left: -100px; background-color: #fff; text-align: center; opacity: 0; -webkit-box-shadow: 0 1px 1px 2px rgba(0,0,0,0.1); -moz-box-shadow: 0 1px 1px 2px rgba(0,0,0,0.1); box-shadow: 0 1px 1px 2px rgba(0,0,0,0.1); -webkit-transition: .3s all ease-in-out; -moz-transition: .3s all ease-in-out; transition: .3s all ease-in-out; }
+.index_system_listbox .Case_QrcodeWrap_hover { height: 220px; top: 180px; opacity: 1; -webkit-transition: .3s all ease-in-out .2s; -moz-transition: .3s all ease-in-out .2s; transition: .3s all ease-in-out .2s; }
+
+/*扫码体验 特点功能*/
+.index_function_mian_listbox .Case_QrcodeWrap { width: 170px; height: 135px; overflow: hidden; position: absolute; top: -35px; left: 50%; z-index: 10; margin-left: -100px; background-color: #fff; text-align: center; opacity: 0; -webkit-box-shadow: 0 1px 1px 2px rgba(0,0,0,0.1); -moz-box-shadow: 0 1px 1px 2px rgba(0,0,0,0.1); box-shadow: 0 1px 1px 2px rgba(0,0,0,0.1); -webkit-transition: .3s all ease-in-out; -moz-transition: .3s all ease-in-out; transition: .3s all ease-in-out; }
+.index_function_mian_listbox .Case_QrcodeWrap_hover { height: 180px; top: -90px; opacity: 1; -webkit-transition: .3s all ease-in-out .2s; -moz-transition: .3s all ease-in-out .2s; transition: .3s all ease-in-out .2s; }
+
+.Case_QrcodeWrap span { position: relative; top: auto; font-size: 14px; }
+.Case_QrcodeWrap_Img { margin: 10px auto; }
+
+
+/*微信公众号系统*/
+.index_main_bgbox {width: 100%; height: auto; padding: 20px 0; background-color: #f5f5f5;}
+.index_main_box { width: 1200px; height: auto; margin: 0 auto;overflow: hidden; position: relative; }
+.index_main_titlebox { width: auto; height: 72px; background: url(../images/01_1.png) no-repeat center center; margin-bottom: 60px; }
+.index_main_titlebox h1 { font-size: 36px; color: #272727; text-align: center; margin-left: 42px; padding-top: 6px; }
+.index_main_titlebox p { text-align: center; font-size: 18px; color: #666; margin-top: 45px; line-height: 36px; }
+.index_main_titlebox p a { font-size: 18px; color: #00ad66; text-decoration: underline; padding-top: 10px; }
+.index_main_titlebox_zhuyun { width: auto; height: 72px; background: url(../images/06_1.png) no-repeat center center; margin-bottom: 60px; }
+.index_main_titlebox_zhuyun h1 { font-size: 36px; color: #272727; text-align: center; margin-left: 18px; padding-top: 6px; }
+.index_wxsystem_title { margin-bottom: 20px; }
+.index_system_mainbox { width: 100%; height: 420px; position: relative; }
+.index_system_listbox { width: 298px;  height:410px;position: absolute; left: 0; top: 0; z-index: 1; border: 1px solid #c7c7c7; background-color: #fff; clear: both; }
+.index_system_iconbox { width: 100%; height: 160px; background-color: #2dbad3; padding-top: 24px; }
+.index_system_icon { width: 76px; height: 76px; background: url(../images/price_iconbox.png) no-repeat center top; margin: 0 auto; }
+.system_icon01 { width: 100%; height: 76px; background: url(../images/price_icon01.png) no-repeat center center; display: block; }
+.system_icon02 { width: 100%; height: 76px; background: url(../images/price_icon02.png) no-repeat 23px center; display: block; }
+.system_icon03 { width: 100%; height: 76px; background: url(../images/price_icon03.png) no-repeat 23px center; display: block; }
+.system_icon04 { width: 100%; height: 76px; background: url(../images/price_icon04.png) no-repeat center center; display: block; }
+.index_system_title { width: 100%; margin-top: 12px; text-align: center; }
+.index_system_title a { font-size: 24px; color: #fff; }
+.index_system_title a:hover { font-size: 24px; color: #fff; text-decoration: underline; }
+.index_system_title p { font-size: 14px; color: #fff; opacity: 1.5; margin-top: 2px; }
+.index_system_pricebox { width: auto; padding: 0 20px; overflow: hidden; }
+.index_system_price { width: 100%; border-bottom: 1px dashed #e5e5e5; height: 70px; text-align: center; line-height: 70px; }
+.index_system_price h2 { font-size: 36px; font-family: Arial, Helvetica, sans-serif; letter-spacing: -1; font-weight: bold; color: #00ad66; }
+.index_system_price h2 i { font-size: 20px; font-weight: normal; }
+.system_price_functionbox { width: 100%; margin-top: 6px; overflow: hidden; }
+.system_price_functionbox ul { margin: 15px 0; overflow: hidden; }
+
+.system_price_functionbox ul li { float: left; font-size: 16px; color: #777;  margin-top: 10px;/*background: url(../images/icon_check.png) no-repeat 20px center;*/ padding-left: 28px; width: 89px; }
+
+.system_price_functionbox ul li.system_price_function_uncheck { background: url(../images/icon_uncheck.png) no-repeat 20px center; }
+.system_price_function_btn { width: auto; height: auto; overflow: hidden; margin: 20px 10px 30px; }
+.system_price_function_btn a { width: 106px; height: 32px; border-radius: 2px; color: #00ad66; border: 1px solid #00ad66; line-height: 32px; text-align: center; font-size: 16px; display: block; float: left; }
+.system_price_function_btn a.system_price_function_btn_r { float: right; }
+.system_price_function_btn a:hover { background-color: #00ad66; color: #fff; }
+.index_system_list02 { left: 298px; top: 0; }
+.index_system_list03 { left: 596px; top: 0; }
+.index_system_list04 { left: 892px;  top: 0; }
+.index_system_listbox:hover { border: 2px solid #30b3d4;z-index: 2; top: -1px; box-shadow: 0 0 10px #25cbd0; }
+.index_system_listbox:hover .index_system_iconbox { background: -webkit-linear-gradient(left, #30b3d4 ,#25cbd0,#1dd2d0,#25cbd0,#30b3d4 ); }
+.index_system_listbox:hover .index_system_icon { background: url(../images/price_iconbox.png) no-repeat center bottom; }
+.index_system_listbox:hover .system_icon01 { background: url(../images/price_icon01_hover.png) no-repeat center center; }
+.index_system_listbox:hover .system_icon02 { background: url(../images/price_icon02_hover.png) no-repeat 23px center; }
+.index_system_listbox:hover .system_icon03 { background: url(../images/price_icon03_hover.png) no-repeat 23px center; }
+.index_system_listbox:hover .system_icon04 { background: url(../images/price_icon04_hover.png) no-repeat center center; }
+.index_system_btn { width: 100%; margin-top: 50px; overflow: hidden; }
+.index_system_btn a { width: 228px; height: 44px; border-radius: 2px; border: 1px solid #272727; color: #272727; font-size: 20px; text-align: center; line-height: 44px; display: block; margin: 0 auto; }
+.index_system_btn a:hover { background-color: #00ad66; border: 1px solid #00ad66; color: #fff; }
+
+
+/*试用*/
+.main_consultbg { width: 100%; height: 140px; background: url(../images/bg_img.png) no-repeat center center; background: -webkit-linear-gradient(left, #30b3d4 ,#25cbd0,#1dd2d0,#25cbd0,#30b3d4 ); }
+.main_consultbox { width: 1100px; height: 100%; overflow: hidden; margin: 0 auto; }
+.main_consultbox table { width: 100%; height: 100%; border-collapse: collapse; }
+.main_consultbox_people { width: 135px; height: 157px; background: url(../images/consult_people_1.png) no-repeat left center; }
+.main_consultbox_content { width: 690px; overflow: hidden; }
+.main_consultbox_content_title { width: 100%; overflow: hidden; font-size: 24px; color: #fff; line-height: 37px; border-bottom: 1px solid #afadad; }
+.main_consultbox_content_hint { width: 100%; overflow: hidden; font-size: 16px; color: #fff; opacity: 1.6; line-height: 27px; padding-top: 5px; }
+.main_consultbox_content a { color: #3179cb; }
+.main_consultbox_button { float: right; }
+.main_consultbox_button a { width: 128px; height: 32px; border: 1px solid #272727; border-radius: 2px; text-align: center; line-height: 32px; display: block; color: #272727; font-size: 16px; }
+.main_consultbox_button a:hover { background-color: #272727; color: #fff; }
+
+
+/*增值服务*/
+.index_addservices_bgbox { width: 100%; height: auto; background-color: #f5f5f5; overflow: hidden; }
+.index_addservices_mainbox { width: 1200px; height: auto; overflow: hidden; margin: 0 auto; padding: 30px 0; }
+.index_addservices_mainbox ul li { float: left; width: 210px; padding: 0 58px; border-right: 1px solid #c7c7c7; }
+.index_addservices_mainbox ul li:first-child { padding-left: 0; }
+.index_addservices_mainbox ul li:last-child { border-right: 0; padding-right: 0; }
+.addservices_main_list { width: 100%; text-align: center; overflow: hidden; }
+.addservices_main_list h5 { font-size: 24px; color: #272727; line-height: 40px; background: url(../images/addservice_icon01.png) no-repeat 30px center; padding-left: 40px; }
+.index_addservices_mainbox ul li p { font-size: 14px; color: #666; line-height: 24px; margin-top: 10px; text-align: center; }
+.addservices_main_list02 h5 { background: url(../images/addservice_icon02.png) no-repeat 30px center; }
+.addservices_main_list03 h5 { background: url(../images/addservice_icon03.png) no-repeat 10px center; padding-left: 44px; }
+.addservices_main_list04 h5 { background: url(../images/addservice_icon04.png) no-repeat 30px center; }
+
+
+
+@media screen and (max-width: 600px) { /*当屏幕尺寸小于600px时，应用下面的CSS样式*/
+
+.index_main_box {
+    width: 99%;
+    height: auto;
+    margin: 0 auto;
+  /*
+  margin-right: 65px;
+    overflow: hidden;
+    position: relative;*/
+}
+
+
+.index_wxsystem_title {
+    margin-bottom: 20px;
+}
+
+.index_main_titlebox_zhuyun h1 {
+    font-size: 24px;
+    color: #6D6A6A;
+    text-align: center;
+    margin-left: 48px;
+    padding-top: 16px;
+}
+
+
+.index_system_listbox {
+    width: 50%;
+    height: 410px;
+    position: absolute;
+    left: 0;
+    top: 0;
+    z-index: 1;
+    border: 1px solid #c7c7c7;
+    background-color: #fff;
+    clear: both;
+}
+
+
+.index_system_mainbox {
+    width: 98%;
+    height: 840px;
+    position: relative;
+}
+.index_system_list04 {
+    left: 50%;
+    /* top: 0; */
+    margin-top: 415px;
+}
+.index_system_list03 {
+    /* left: 218px; */
+    /* top: 190px; */
+    /* float: left; */
+    /* width: 25%; */
+    /* padding: 0 0 50px; */
+    margin-top: 415px;
+}
+
+.index_system_list02 {
+    left: 50%;
+    top: 0;
+}
+
+.index_system_title p {
+    font-size: 13px;
+    color: #fff;
+    opacity: 1.5;
+    margin-top: 2px;
+}
+
+/*中间*/
+
+.index_addservices_mainbox {
+    width: 100%;
+    height: auto;
+    overflow: hidden;
+    margin: 0 auto;
+    padding: 10px 0;
+}
+.index_addservices_bgbox {
+    width: 100%;
+    height: auto;
+    background-color: #f5f5f5;
+    overflow: hidden;
+    display: none;
+}
+
+.main_consultbg {
+    width: 100%;
+    height: 140px;
+    background: url(../images/bg_img.png) no-repeat center center;
+    background: -webkit-linear-gradient(left, #30b3d4 ,#25cbd0,#1dd2d0,#25cbd0,#30b3d4 );
+    display: none;
+}
+
+.index_system_pricebox {
+    width: auto;
+    /* padding: 0 20px; */
+    overflow: hidden;
+}
+}
+@media screen and (max-width:600px){
+.system_price_functionbox ul li {
+    float: left;
+    font-size: 13px;
+    color: #777;
+    
+     padding-left: 1px; 
+    width: 90px;
+}
+
+
+.system_price_functionbox {
+    width: 150%;
+    margin-top: 6px;
+    overflow: hidden;
+}
+}
+
+
+
+
+
+}

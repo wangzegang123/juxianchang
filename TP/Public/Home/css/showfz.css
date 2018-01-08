@@ -1,0 +1,167 @@
+	
+			<style>
+			.article_bm {
+    background: url("img/line.gif") no-repeat scroll -1768px 41px rgba(0, 0, 0, 0);
+    clear: both;
+    height: 25px;
+    margin: 10px;
+    padding: 10px;
+    text-align: right;
+}
+.news_other {
+    clear: both;
+    height: 35px;
+    margin: 10px;
+    padding: 10px;
+}
+.news_other li.pre {
+    float: left;
+}
+.news_other li {
+    height: 30px;
+    width: 48%;
+}
+.news_other li.next {
+    float: right;
+    overflow: hidden;
+    text-align: right;
+}
+.news_other li {
+    height: 30px;
+    width: 48%;
+}
+</style>
+.forer {
+	width: 100%;
+	height: 150px;
+	background-color: #1d1d1d;
+	color: #fff;
+	text-align: center;
+	padding-top: 30px
+}
+
+.topFoter {
+	width: 30%;
+	height: 21px;
+	margin: 0 auto;
+	color: #fff;
+	font-size: 18px;
+	text-align: center;
+	line-height: 21px
+}
+
+.topFoter .noe {
+	width: 40px;
+	height: 1px;
+	margin-top: 10px;
+	float: left;
+	background-color: #fff
+}
+
+.topFoter .toe {
+	width: 40px;
+	height: 1px;
+	margin-top: 10px;
+	float: right;
+	background-color: #fff
+}
+
+.anniuse {
+	width: 30%;
+	height: 52px;
+	margin: 0 auto;
+	margin-top: 40px
+}
+
+.anniuse a {
+	display: block;
+	width: 28%;
+	height: 50px;
+	border: 1px solid #fff;
+	border-radius: 25px;
+	text-align: center;
+	line-height: 50px;
+	color: #fff;
+	font-size: 16px;
+	float: left;
+	margin: 0 15px;
+	cursor: pointer;
+	transition: all .2s;
+	-moz-transition: all .2s;
+	-webkit-transition: all .2s;
+	-o-transition: all .2s
+}
+
+.anniuse a:hover {
+	background-color: #fff;
+	color: #1d1d1d
+}
+
+.anniuse .on {
+	background-color: #fff;
+	color: #1d1d1d
+}
+
+.footter {
+	width: 100%;
+	height: 120px;
+	/*padding-top: 40px;*/
+	position: relative;
+    min-width: 100%;
+	background-color: #1d1d1d;
+	color: #fff;
+	text-align: center;
+	border-top: 1px dashed #80ddd2
+}
+
+.footter p a {
+	color: #fff;
+	margin-left: 5px
+}
+
+.noewr {
+	margin-top: 30px
+}
+
+#bg8 ul {
+	width: 1200px;
+	height: auto;
+	margin: 0 auto;
+	display: block
+}
+
+#bg8 ul li {
+	display: block;
+	width: 99px;
+	height: auto;
+	float: left;
+	text-align: center;
+	font-size: 14px;
+	border-right: 1px solid #fff
+}
+
+#bg8 ul li:last-child {
+	border-right: 0
+}
+
+#bg8 ul li a {
+	color: #fff
+}
+
+*{ margin:0; padding:0; list-style:none;}
+img{ border:0;}
+.keifu{ position:fixed; top:10%; right:0; width:131px;  _position:absolute; _top:expression(eval(document.documentElement.scrollTop+document.documentElement.clientHeight-this.offsetHeight-(parseInt(this.currentStyle.bottom,10)||0)-(parseInt(this.currentStyle.marginTop,10)||0)-(parseInt(this.currentStyle.marginBottom,10)||0)));
+ z-index:990;}
+.keifu_tab{ width:160px;}
+.icon_keifu{ width:35px; height:100px; float:left; background:url(http://xcdn.oss-cn-hangzhou.aliyuncs.com/jxcsta/kf/img/1keifu.png) 0 0; position:relative; display:none; cursor:pointer;}
+.keifu_box{ float:left; width:131px;}
+.keifu_tab img{ display:block;}
+.keifu_head{ width:131px; height:41px; background:url(http://xcdn.oss-cn-hangzhou.aliyuncs.com/jxcsta/kf/img/1keifu.png); background-position: 0 -103px; font-size:0; line-height:0; position:relative;}
+.keifu_close:link,.keifu_close:visited{ display:block; width:11px; height:11px; background:url(http://xcdn.oss-cn-hangzhou.aliyuncs.com/jxcsta/kf/img/1keifu.png) -42px 0; position:absolute; top:5px; right:5px;}
+.keifu_close:hover{ background-position:-60px 0;}
+.keifu_con{ border-left:7px solid #fed221; border-right:7px solid #fed221; padding-top:15px; background:#fed221;}
+.keifu_con li{height:33px; padding-left:12px;}
+.keifu_con .weixin{ height:96px;}
+.keifu_con .bt{ font-size:16px; height:30px; line-height:30px; text-align:left; padding:0 0 0 20px; color:#012646;}
+.keifu_bot{ width:131px; height:119px; background:url(http://xcdn.oss-cn-hangzhou.aliyuncs.com/jxcsta/kf/img/1keifu.png); background-position:0 -149px; }
+
