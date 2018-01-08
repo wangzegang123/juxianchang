@@ -5,18 +5,18 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>聚现场</title>
-    <link rel="shortcut icon" href="http://wall.juxianchang.com/web/resource//Public/Home/images/favicon.ico">
+    <link rel="shortcut icon" href="http://wall.juxianchang.com/web/resource/images/favicon.ico">
     <meta name="keywords" content="聚现场">
     <meta name="description" content="聚现场">
-    <link href="/Public/Home/css/bootstrap.min.css" rel="stylesheet">
-    <link href="/Public/Home/css/font-awesome.min.css" rel="stylesheet">
-    <link href="/Public/Home/css/common.css" rel="stylesheet">
+    <link href="/shangshanruoshui/TP/Public/Home/css/bootstrap.min.css" rel="stylesheet">
+    <link href="/shangshanruoshui/TP/Public/Home/css/font-awesome.min.css" rel="stylesheet">
+    <link href="/shangshanruoshui/TP/Public/Home/css/common.css" rel="stylesheet">
     <!--my css-->
-    <link rel="stylesheet" href="/Public/Home/css/common(1).css">
-    <link rel="stylesheet" href="/Public/Home/css/sys.css">
-    <link rel="stylesheet" href="/Public/Home/css/style.css">
-    <link rel="stylesheet" href="/Public/Home/css/spinners.css" type="text/css">
-    <link rel="stylesheet" href="/Public/Home/css/animate.min.css" type="text/css">
+    <link rel="stylesheet" href="/shangshanruoshui/TP/Public/Home/css/common(1).css">
+    <link rel="stylesheet" href="/shangshanruoshui/TP/Public/Home/css/sys.css">
+    <link rel="stylesheet" href="/shangshanruoshui/TP/Public/Home/css/style.css">
+    <link rel="stylesheet" href="/shangshanruoshui/TP/Public/Home/css/spinners.css" type="text/css">
+    <link rel="stylesheet" href="/shangshanruoshui/TP/Public/Home/css/animate.min.css" type="text/css">
     <script type="text/javascript">
         if(navigator.appName == 'Microsoft Internet Explorer'){
             if(navigator.userAgent.indexOf("MSIE 5.0")>0 || navigator.userAgent.indexOf("MSIE 6.0")>0 || navigator.userAgent.indexOf("MSIE 7.0")>0) {
@@ -34,19 +34,11 @@
 
     </script>
     <script>var require = { urlArgs: 'v=20180105100330' };</script>
-<<<<<<< HEAD:TP/Application/Runtime/Cache/Home/adeeaa7b9a41a851ee683ad737e14347.php
-    <script type="text/javascript" src="/Public/Home/js/jquery-1.11.1.min.js"></script>
-    <script type="text/javascript" src="/Public/Home/js/util.js"></script>
-    <script type="text/javascript" src="/Public/Home/js/common.min.js"></script>
-    <script type="text/javascript" src="/Public/Home/js/require.js"></script>
-    <script type="text/javascript" src="/Public/Home/js/config.js"></script>
-=======
-    <script type="text/javascript" href="__PUBLIC__/Home/js/jquery-1.11.1.min.js"></script>
-    <script type="text/javascript" href="__PUBLIC__/Home/js/util.js"></script>
-    <script type="text/javascript" href="__PUBLIC__/Home/js/common.min.js"></script>
-    <script type="text/javascript" href="__PUBLIC__/Home/js/require.js"></script>
-    <script type="text/javascript" href="__PUBLIC__/Home/js/config.js"></script>
->>>>>>> 0bc33c7... 公共部分继承:TP/Application/Home/View/public_part/public_part.html
+    <script type="text/javascript" href="/shangshanruoshui/TP/Public/Home/js/jquery-1.11.1.min.js"></script>
+    <script type="text/javascript" href="/shangshanruoshui/TP/Public/Home/js/util.js"></script>
+    <script type="text/javascript" href="/shangshanruoshui/TP/Public/Home/js/common.min.js"></script>
+    <script type="text/javascript" href="/shangshanruoshui/TP/Public/Home/js/require.js"></script>
+    <script type="text/javascript" href="/shangshanruoshui/TP/Public/Home/js/config.js"></script>
     <style>
         body{background-color:#e7e8eb;}
         .nav-tabs>li.active>a, .nav-tabs>li.active>a:hover, .nav-tabs>li.active>a:focus{
@@ -94,7 +86,7 @@
             margin:0 80px 0 80px;
         }
         .gw-container{
-            background:#e7e8eb url('/Public/Home/images/hucebg.png') repeat;
+            background:#e7e8eb url('images/hucebg.png') repeat;
         }
         .gw-container .breadcrumb{
             background-color:#FFF;
@@ -172,14 +164,11 @@
         };
     </script>
     <!---默认-->
-<<<<<<< HEAD:TP/Application/Runtime/Cache/Home/adeeaa7b9a41a851ee683ad737e14347.php
-    <script type="text/javascript" charset="utf-8" async="" data-requirecontext="_" data-requiremodule="jquery" src="/Public/Home/js/jquery-1.11.1.min.js(1)"></script><script type="text/javascript" charset="utf-8" async="" data-requirecontext="_" data-requiremodule="bootstrap" src="/Public/Home/js/bootstrap.min.js"></script></head>
-=======
-    <script type="text/javascript" charset="utf-8" async="" data-requirecontext="_" data-requiremodule="jquery" href="__PUBLIC__/Home/js/jquery-1.11.1.min.js(1)"></script><script type="text/javascript" charset="utf-8" async="" data-requirecontext="_" data-requiremodule="bootstrap" href="__PUBLIC__/Home/js/bootstrap.min.js"></script></head>
->>>>>>> 0bc33c7... 公共部分继承:TP/Application/Home/View/public_part/public_part.html
+    <script type="text/javascript" charset="utf-8" async="" data-requirecontext="_" data-requiremodule="jquery" href="/shangshanruoshui/TP/Public/Home/js/jquery-1.11.1.min.js(1)"></script><script type="text/javascript" charset="utf-8" async="" data-requirecontext="_" data-requiremodule="bootstrap" href="/shangshanruoshui/TP/Public/Home/js/bootstrap.min.js"></script></head>
 <body class="zh_CN">
 
 <div class="meepo_head">
+
     <div class="meepo_head_box">
         <div class="meepo_inner">
             <div class="meepo_logo"><a href="http://wall.juxianchang.com/web/index.php?c=site&amp;a=entry&amp;_admin_uniacid=52&amp;do=list&amp;m=meepo_xianchang#"></a></div>
@@ -236,34 +225,34 @@
                 <div class="sys-menu-user" style="border-bottom: 1px solid #e9e9e9;">
                     <div>
                         <div class="avatar">
-                            <a href="./index.php?c=site&amp;a=entry&amp;do=my_home&amp;m=meepo_xianchang"><img src="http://of3kdd1ar.bkt.clouddn.com//Public/Home/images/52/2018/01/T2vY9IEAOsod1O221oIrVIY1i5Kyvh.jpg" onerror=""></a>
+                            <a href="http://wall.juxianchang.com/web/index.php?c=site&amp;a=entry&amp;do=my_home&amp;m=meepo_xianchang"><img src="images/uqGt3Q9ngqHWGTqh3T3GvASSr7tNHH.jpg" onerror=""></a>
                         </div>
                         <i class="elem"></i>
                     </div>
-                    <h3 class="name"><a href="./index.php?c=site&amp;a=entry&amp;do=my_home&amp;m=meepo_xianchang">LZ123456</a></h3>
+                    <h3 class="name"><a href="http://wall.juxianchang.com/web/index.php?c=site&amp;a=entry&amp;do=my_home&amp;m=meepo_xianchang">13700834467</a></h3>
                     <!--<p>普通用户</p>-->
-                    <p><a id="agent_gl" href="./index.php?c=site&amp;a=entry&amp;do=my_home&amp;m=meepo_xianchang" class="btn-agency">个人中心</a></p>
+                    <p><a id="agent_gl" href="http://wall.juxianchang.com/web/index.php?c=site&amp;a=entry&amp;do=my_home&amp;m=meepo_xianchang" class="btn-agency">个人中心</a></p>
                 </div>
 
                 <ul class="sys-menu-menu">
                     <li>
                         <a href="javascript:void(0);"><em class="icon-screen"></em>活动</a>
                         <ul class="level2">
-                            <li><a href="./index.php?c=site&amp;a=entry&amp;do=list&amp;m=meepo_xianchang">我的活动</a></li>
+                            <li class="curr"><a href="http://wall.juxianchang.com/web/index.php?c=site&amp;a=entry&amp;do=list&amp;m=meepo_xianchang">我的活动</a></li>
                         </ul>
                     </li>
                     <li>
                         <a href="javascript:;"><em class="icon-orders"></em>订单</a>
                         <ul class="level2">
-                            <li><a href="./index.php?c=site&amp;a=entry&amp;do=my_order&amp;m=meepo_xianchang">我的订单</a></li>
+                            <li><a href="http://wall.juxianchang.com/web/index.php?c=site&amp;a=entry&amp;do=my_order&amp;m=meepo_xianchang">我的订单</a></li>
                         </ul>
                     </li>
                     <li>
                         <a href="javascript:;"><em class="icon-count"></em>账户</a>
                         <ul class="level2">
-                            <li class="curr"><a href="<?php echo U('Lk/zhyue');?>">我的账户</a></li>
-                            <li><a href="<?php echo U('Lk/details');?>">红包账户</a></li>
-                            <li><a href="./index.php?c=site&amp;a=entry&amp;do=my_home&amp;m=meepo_xianchang">个人中心</a></li>
+                            <li><a href="http://wall.juxianchang.com/web/index.php?c=site&amp;a=entry&amp;do=my_wallet&amp;m=meepo_xianchang">我的账户</a></li>
+                            <li><a href="http://wall.juxianchang.com/web/index.php?c=site&amp;a=entry&amp;do=redpack_wallet&amp;m=meepo_xianchang">红包账户</a></li>
+                            <li><a href="http://wall.juxianchang.com/web/index.php?c=site&amp;a=entry&amp;do=my_home&amp;m=meepo_xianchang">个人中心</a></li>
 
                         </ul>
                     </li>
@@ -272,156 +261,19 @@
             </div>
         </div>
         <!--右边内容-->
-        <div class="col-xs-12 col-sm-9 col-lg-10 sys_menu_box">
-            <style>
-                .withdrawals-box .account-money,.withdrawals-box .tip-account{width:50%}
-                .tool-bar {
-                    margin-bottom: 10px;
-                    line-height: 30px;
-                }
-                .pd-20 {
-                    padding: 20px;
-                }
-                .border-radus {
-                    border-radius: 4px 4px 0 0;
-                }
-                .bg-white {
-                    background-color: #fff!important;
-                }
-                .withdrawals-box .account-money .acc-title {
-                    margin-right: 30px;
-                }
-                .color-red {
-                    color: red;
-                }
-                .withdrawals-box .account-money .acc-title {
-                    margin-right: 30px
-                }
-                .withdrawals-box .help-com, .withdrawals-box .tip-account {
-                    position: relative;
-                }
-                .withdrawals-box .account-money ul {
-                    padding-top: 20px;
-                    border-right: 1px solid #e5e5e5
-                }
 
-                .withdrawals-box .account-money li {
-                    float: left;
-                    margin-right: 80px;
-                    text-align: center
-                }
 
-                .withdrawals-box .account-money li span.acc-num {
-                    font-size: 18px
-                }
 
-                .withdrawals-box .tip-account p {
-                    margin: 0
-                }
 
-                .withdrawals-box .tip-account p.gray-color {
-                    color: #666
-                }
 
-                .withdrawals-box .help-com .help-cont {
-                    position: absolute;
-                    width: 320px;
-                    top: 35px;
-                    left: -172px;
-                    border: 1px solid #f1da96;
-                    border-radius: 4px;
-                    font-size: 12px;
-                    background-color: #ffedb9;
-                    z-index: 100
-                }
 
-                .withdrawals-box .help-com .help-cont p {
-                    margin: 0;
-                    line-height: 20px
-                }
+        
 
-                .withdrawals-box .help-com .help-cont:after,.withdrawals-box .help-com .help-cont:before {
-                    position: absolute;
-                    display: block;
-                    content: '';
-                    width: 0;
-                    height: 0;
-                    left: 56%;
-                    margin-left: -10px;
-                    border-left: 10px solid transparent;
-                    border-right: 10px solid transparent
-                }
 
-                .withdrawals-box .help-com .help-cont:before {
-                    top: -11px;
-                    border-bottom: 10px solid #f1da96
-                }
 
-                .withdrawals-box .help-com .help-cont:after {
-                    top: -10px;
-                    border-bottom: 10px solid #ffedb9
-                }
-                .gray-color{color:gray}
-                .timer, {
-                    text-align:Center;
-                    text-shadow: 0 1px 5px rgba(0,0,0,.1);
-                }
-                .timer_title{height:20px;line-height:20px;margin:10px 0px;}
-                .timer .days-wrapper,
-                .timer .hours-wrapper,
-                .timer .minutes-wrapper,
-                .timer .seconds-wrapper {
-                    display: inline-block;
-                    width: 60px;
-                    height: 60px;
-                    margin: 0 10px;
-                    background: #32b16c;
-                    color:#fff;
-                    font-size: 18px;
-                    line-height:60px;
-                    text-align:Center;
-                    -moz-border-radius: 50%;
-                    -webkit-border-radius: 50%;
-                    border-radius: 50%;
-                }
 
-            </style>
-            <ul class="nav nav-tabs">
-                <li>
-                    <a href="<?php echo U('Lk/zhyue');?>"><i class="fa fa-money" aria-hidden="true"></i> 账户余额</a>
-                </li>
-                <li class="active">
-                    <a href="<?php echo U('Lk/shezhi');?>"><i class="fa fa-file-text" aria-hidden="true"></i> 账户设置</a>
-                </li>
-            </ul>
-            <div class="panel panel-default">
-                <div class="panel-heading">账户设置</div>
-                <div class="panel-body">
-                    <form action="<?php echo U('Home/Lk/shezhi');?>" method="post" class="form-horizontal" role="form">
-                        <input type="hidden" value="" name="account_id">
-                        <div class="form-group">
-                            <label class="col-xs-12 col-sm-3 col-md-2 control-label"><span style="color:red">*</span><span class="label label-danger">支付宝账户</span></label>
-                            <div class="col-sm-9">
-                                <input type="text" class="form-control" name="zhifubao" placeholder="支付宝账户" value="">
-                                <span class="help-block"><span class="label label-success">支付宝账户</span></span>
-                            </div>
-                        </div>
-                        <div class="form-group">
-                            <label class="col-xs-12 col-sm-3 col-md-2 control-label"><span style="color:red">*</span><span class="label label-danger">真实姓名</span></label>
-                            <div class="col-sm-9">
-                                <input type="text" class="form-control" name="name" placeholder="真实姓名" value="">
-                                <span class="help-block"><span class="label label-success">真实姓名</span></span>
-                            </div>
-                        </div>
-                        <div class="form-group col-sm-12">
-                            <input type="submit" name="submit" value="提交" class="btn btn-primary col-lg-1">
-                            <input type="hidden" name="token" value="7ea42ec0">
-                        </div>
-                    </form></div>
-            </div>
-        </div>
         <!--slider css--->
-        <link rel="stylesheet" href="/Public/Home/css/boostrap.slider.css">
+        <link rel="stylesheet" href="/shangshanruoshui/TP/Public/Home/css/boostrap.slider.css">
         <style>
             .slider.slider-horizontal {
                 height:40px;
@@ -537,7 +389,7 @@
     .rides-cs .cn ul li span { color: #777;}
     .rides-cs .cn ul li a{color: #777;}
     .rides-cs .cn ul li img { vertical-align: middle;}
-    .rides-cs .btnOpen, .rides-cs .btnCtn {  position: relative; z-index:9; top:25px; left: 0;  background-image: url(http://demo.lanrenzhijia.com/2014/service1031//Public/Home/images/lanrenzhijia.png); background-repeat: no-repeat; display:block;  height: 146px; padding: 8px;}
+    .rides-cs .btnOpen, .rides-cs .btnCtn {  position: relative; z-index:9; top:25px; left: 0;  background-image: url(http://demo.lanrenzhijia.com/2014/service1031/images/lanrenzhijia.png); background-repeat: no-repeat; display:block;  height: 146px; padding: 8px;}
     .rides-cs .btnOpen { background-position: 0 0;}
     .rides-cs .btnCtn { background-position: -37px 0;}
     .rides-cs ul li.top { border-bottom: solid #ACE5F9 1px;}
@@ -548,7 +400,7 @@
         position:fixed;
         width:40px;
         height:40px;
-        background-image:url(../addons/meepo_xianchang/template/resource//Public/Home/images/top.png);
+        background-image:url(../addons/meepo_xianchang/template/resource/images/top.png);
         bottom:30px;
         right:10px;
         -webkit-transition:all 0.2s;
