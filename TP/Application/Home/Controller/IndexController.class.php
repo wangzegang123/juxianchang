@@ -3,6 +3,25 @@ namespace Home\Controller;
 use Think\Controller;
 class IndexController extends Controller {
     public function index(){
-        $this->show('<style type="text/css">*{ padding: 0; margin: 0; } div{ padding: 4px 48px;} body{ background: #fff; font-family: "微软雅黑"; color: #333;font-size:24px} h1{ font-size: 100px; font-weight: normal; margin-bottom: 12px; } p{ line-height: 1.8em; font-size: 36px } a,a:hover{color:blue;}</style><div style="padding: 24px 48px;"> <h1>:)</h1><p>欢迎使用 <b>ThinkPHP</b>！</p><br/>版本 V{$Think.version}</div><script type="text/javascript" src="http://ad.topthink.com/Public/static/client.js"></script><thinkad id="ad_55e75dfae343f5a1"></thinkad><script type="text/javascript" src="http://tajs.qq.com/stats?sId=9347272" charset="UTF-8"></script>','utf-8');
+          echo "1111";
+    }
+    public function person_activity(){//我的活动页面列表
+        /*1、判断是否登录，登录获取保存session里的用户id，未登录跳登录页面
+         * 2、查询活动表，（查询此用户购买所有活动）
+         * 3、如果没有公共头部，查询用户表（查询此用户所有信息）
+         * */
+        $activity=M("activity");
+        $res=$activity->where("member_id=1")->select();//查询此用户购买所有活动
+//        var_dump($activity);
+//        die;
+//        $sql="SELECT * from jxc_member WHERE member_id=1";
+//        $info=
+        $user=M("member");
+        $info=$user->where('member_id=1')->select();//查询此用户所有信息
+        var_dump($info);
+        die;
+        $this->assign("res",$res);
+        $this->assign("res",$user);
+        $this->display("person_activity");
     }
 }
