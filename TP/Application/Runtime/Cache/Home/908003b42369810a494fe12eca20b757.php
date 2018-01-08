@@ -167,6 +167,7 @@
     <script type="text/javascript" charset="utf-8" async="" data-requirecontext="_" data-requiremodule="jquery" src="/juxianchang/TP/Public/Home/js/jquery-1.11.1.min.js(1)"></script><script type="text/javascript" charset="utf-8" async="" data-requirecontext="_" data-requiremodule="bootstrap" src="/juxianchang/TP/Public/Home/js/bootstrap.min.js"></script></head>
 <body class="zh_CN">
 
+<!--头部开始-->
 <div class="meepo_head">
     <div class="meepo_head_box">
         <div class="meepo_inner">
@@ -214,7 +215,7 @@
         </div>
     </div>
 </div>
-<!--头部 end -->
+<!--头部结尾-->
 
 <div class="content">
     <div class="row">
@@ -224,7 +225,7 @@
                 <div class="sys-menu-user" style="border-bottom: 1px solid #e9e9e9;">
                     <div>
                         <div class="avatar">
-                            <a href="http://wall.juxianchang.com/web/index.php?c=site&amp;a=entry&amp;do=my_home&amp;m=meepo_xianchang"><img src="/juxianchang/TP/Public/Home/images//uqGt3Q9ngqHWGTqh3T3GvASSr7tNHH.jpg" onerror=""></a>
+                            <a href="http://wall.juxianchang.com/web/index.php?c=site&amp;a=entry&amp;do=my_home&amp;m=meepo_xianchang"><img src="/juxianchang/TP/Public/Home/images/uqGt3Q9ngqHWGTqh3T3GvASSr7tNHH.jpg" onerror=""></a>
                         </div>
                         <i class="elem"></i>
                     </div>
@@ -615,7 +616,8 @@
 <!--默认js-->
 
 
-<!--尾部-->
+
+<!--尾部信息-->
 <style>
     #footer{
         height:60px;
@@ -727,6 +729,5 @@
 </div>
 <a href="http://wall.juxianchang.com/web/index.php?c=site&amp;a=entry&amp;_admin_uniacid=52&amp;do=list&amp;m=meepo_xianchang#" title="返回顶部" id="goto-top"></a>
 <script>$(function(){$('img').attr('onerror', '').on('error', function(){if (!$(this).data('check-src') && (this.src.indexOf('http://') > -1 || this.src.indexOf('https://') > -1)) {this.src = this.src.indexOf('http://wall.juxianchang.com/attachment/') == -1 ? this.src.replace('http://of3kdd1ar.bkt.clouddn.com/', 'http://wall.juxianchang.com/attachment/') : this.src.replace('http://wall.juxianchang.com/attachment/', 'http://of3kdd1ar.bkt.clouddn.com/');$(this).data('check-src', true);}});});</script>
-
-
-</body></html>
+</body>
+</html>

@@ -18,8 +18,7 @@ class IndexController extends Controller {
 //        $info=
         $user=M("member");
         $info=$user->where('member_id=1')->select();//查询此用户所有信息
-        var_dump($info);
-        die;
+
         $this->assign("res",$res);
         $this->assign("res",$user);
         $this->display("person_activity");

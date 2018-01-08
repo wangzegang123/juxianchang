@@ -107,3 +107,24 @@ INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
 
 ERR: 非法操作:resource
 
+[ 2018-01-08T19:11:46+08:00 ] ::1 /juxianchang/TP/index.php/Home/addons/meepo_xianchang/template/resource/css/boostrap.slider.css
+ERR: 无法加载控制器:Addons
+
+[ 2018-01-08T19:11:47+08:00 ] ::1 /juxianchang/TP/index.php/Home/addons/meepo_xianchang/template/resource/css/boostrap.slider.css
+ERR: 无法加载控制器:Addons
+
+[ 2018-01-08T19:11:47+08:00 ] ::1 /juxianchang/TP/index.php/Home/Index/resource/js/lib/jquery-1.11.1.min.js?v=20180105100330
+ERR: 非法操作:resource
+
+[ 2018-01-08T19:11:50+08:00 ] ::1 /juxianchang/TP/index.php/Home/addons/meepo_xianchang/template/resource/css/boostrap.slider.css
+ERR: 无法加载控制器:Addons
+
+[ 2018-01-08T19:11:54+08:00 ] ::1 /juxianchang/TP/index.php/Home/addons/meepo_xianchang/template/resource/css/boostrap.slider.css
+ERR: 无法加载控制器:Addons
+
+[ 2018-01-08T19:11:54+08:00 ] ::1 /juxianchang/TP/index.php/Home/addons/meepo_xianchang/template/resource/css/boostrap.slider.css
+ERR: 无法加载控制器:Addons
+
+[ 2018-01-08T19:11:54+08:00 ] ::1 /juxianchang/TP/index.php/Home/Index/resource/js/lib/jquery-1.11.1.min.js?v=20180105100330
+ERR: 非法操作:resource
+
