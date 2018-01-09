@@ -250,9 +250,16 @@
                     <li>
                         <a href="javascript:;"><em class="icon-count"></em>账户</a>
                         <ul class="level2">
+<<<<<<< HEAD:TP/Application/Runtime/Cache/Home/45e9777793de22efc3504b7097315bf4.php
                             <li><a href="http://wall.juxianchang.com/web/index.php?c=site&amp;a=entry&amp;do=my_wallet&amp;m=meepo_xianchang">我的账户</a></li>
                             <li><a href="http://wall.juxianchang.com/web/index.php?c=site&amp;a=entry&amp;do=redpack_wallet&amp;m=meepo_xianchang">红包账户</a></li>
                             <li><a href="http://wall.juxianchang.com/web/index.php?c=site&amp;a=entry&amp;do=my_home&amp;m=meepo_xianchang">个人中心</a></li>
+=======
+                        <ul class="level2">
+                            <li><a href="<?php echo U('Lk/zhyue');?>">我的账户</a></li>
+                            <li class="curr"><a href="<?php echo U('Lk/details');?>">红包账户</a></li>
+                            <li><a href="./index.php?c=site&amp;a=entry&amp;do=my_home&amp;m=meepo_xianchang">个人中心</a></li>
+>>>>>>> 3b4b4a5... liukai:TP/Application/Runtime/Cache/Home/c17a606686b03b963f6916bced82347a.php
 
                         </ul>
                     </li>
@@ -262,6 +269,7 @@
         </div>
         <!--右边内容-->
 
+<<<<<<< HEAD:TP/Application/Runtime/Cache/Home/45e9777793de22efc3504b7097315bf4.php
         
 <!--右边内容-->
 <div class="panel panel-default">
@@ -272,6 +280,88 @@
             <div class="panel panel-default" style="margin:20px;">
                 <div class="panel-body" style="text-align: center;">
                     <a class="btn btn-warning" href="" onclick="return confirm('您已经微信支付成功？');return false;">我已支付成功</a>
+=======
+                .withdrawals-box .help-com .help-cont p {
+                    margin: 0;
+                    line-height: 20px
+                }
+
+                .withdrawals-box .help-com .help-cont:after,.withdrawals-box .help-com .help-cont:before {
+                    position: absolute;
+                    display: block;
+                    content: '';
+                    width: 0;
+                    height: 0;
+                    left: 56%;
+                    margin-left: -10px;
+                    border-left: 10px solid transparent;
+                    border-right: 10px solid transparent
+                }
+
+                .withdrawals-box .help-com .help-cont:before {
+                    top: -11px;
+                    border-bottom: 10px solid #f1da96
+                }
+
+                .withdrawals-box .help-com .help-cont:after {
+                    top: -10px;
+                    border-bottom: 10px solid #ffedb9
+                }
+                .gray-color{color:gray}
+                .timer, {
+                    text-align:Center;
+                    text-shadow: 0 1px 5px rgba(0,0,0,.1);
+                }
+                .timer_title{height:20px;line-height:20px;margin:10px 0px;}
+                .timer .days-wrapper,
+                .timer .hours-wrapper,
+                .timer .minutes-wrapper,
+                .timer .seconds-wrapper {
+                    display: inline-block;
+                    width: 60px;
+                    height: 60px;
+                    margin: 0 10px;
+                    background: #32b16c;
+                    color:#fff;
+                    font-size: 18px;
+                    line-height:60px;
+                    text-align:Center;
+                    -moz-border-radius: 50%;
+                    -webkit-border-radius: 50%;
+                    border-radius: 50%;
+                }
+
+            </style>
+            <ul class="nav nav-tabs">
+                <li class="active">
+                    <a href="<?php echo U('Lk/details');?>"></i> 红包账户明细</a>
+                </li>
+                <li>
+                    <a href="<?php echo U('Lk/chongzhi');?>"><i class="fa fa-file-text" aria-hidden="true"></i> 账户充值</a>
+                </li>
+            </ul>
+            <div class="panel panel-default">
+                <div class="panel-heading">红包账户明细</div>
+                <div class="panel-body withdrawals-box">
+                    <div class="tool-bar bg-white border-radus clearfix pd-20">
+                        <div class="account-money pull-left">
+                            <ul class="list-unstyled pull-left v-align-t">
+                                <li>
+                                    <div class="color-red">￥<span class="acc-num js-earn">0.00</span></div>
+                                    <p>账户余额（元）</p>
+                                </li>
+                                <li>
+                                    <div class="color-red">￥<span class="acc-num js-cash">0.00</span></div>
+                                    <p>已发放（元）</p>
+                                </li>
+                            </ul>
+                        </div>
+                        <div class="tip-account pull-right help-info">
+                            <div>温馨提醒：<span class="color-red js-leftCount">您的红包账号余额太少、将影响您的抢红包活动哦!</span></div>
+                            <div style="margin-top:30px;"><a class="btn btn-success pull-left" href="<?php echo U('Lk/chongzhi');?>">立即充值</a></div>
+                        </div>
+                    </div>
+>>>>>>> 3b4b4a5... liukai:TP/Application/Runtime/Cache/Home/c17a606686b03b963f6916bced82347a.php
                 </div>
             </div>
         </div>
