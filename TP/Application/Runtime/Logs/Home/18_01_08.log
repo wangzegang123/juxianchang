@@ -107,3 +107,58 @@ INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
 
 ERR: 非法操作:resource
 
+[ 2018-01-08T19:41:51+08:00 ] 127.0.0.1 /index.php/Home/Login/verify.html?sum=0.6812138340590987
+ERR: 非法操作:verify
+
+[ 2018-01-08T19:41:52+08:00 ] 127.0.0.1 /index.php/Home/Login/verify.html?sum=0.06503010538021536
+ERR: 非法操作:verify
+
+[ 2018-01-08T19:41:53+08:00 ] 127.0.0.1 /index.php/Home/Login/verify.html?sum=0.4340159376650543
+ERR: 非法操作:verify
+
+[ 2018-01-08T19:57:30+08:00 ] 127.0.0.1 /index.php/home/Yanzheng/YanzhenggetVerify/t/%2B%28new+Date%28%29%29.getTime%28%29%2B.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+ERR: 无法加载控制器:Yanzheng
+
+[ 2018-01-08T20:01:58+08:00 ] 127.0.0.1 /index.php/Home/Yanzheng/YanzhenggetVerify/t/%2B%28new+Date%28%29%29.getTime%28%29%2B.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+
+[ 2018-01-08T20:03:16+08:00 ] 127.0.0.1 /index.php/Home/Yanzheng/YanzhenggetVerify/t/%2B%28new+Date%28%29%29.getTime%28%29%2B.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+
+[ 2018-01-08T20:04:26+08:00 ] 127.0.0.1 /index.php/Home/Yanzheng/YanzhenggetVerify/t/%2B%28new+Date%28%29%29.getTime%28%29%2B.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+
+[ 2018-01-08T20:05:57+08:00 ] 127.0.0.1 /index.php/Home/Yanzheng/YanzhenggetVerify/t/%2B%28new+Date%28%29%29.getTime%28%29%2B.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+
+[ 2018-01-08T20:08:28+08:00 ] 127.0.0.1 /index.php/Home/Yanzheng/YanzhenggetVerify/t/%2B%28new+Date%28%29%29.getTime%28%29%2B.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+
+[ 2018-01-08T20:17:05+08:00 ] 127.0.0.1 /index.php/Home/Yanzheng/YanzhenggetVerify/t/%2B%28new+Date%28%29%29.getTime%28%29%2B.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+
+[ 2018-01-08T20:35:33+08:00 ] 127.0.0.1 /index.php/Home/Yanzheng/YanzhenggetVerify/t/%2B%28new+Date%28%29%29.getTime%28%29%2B.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+
+[ 2018-01-08T20:35:35+08:00 ] 127.0.0.1 /index.php/Home/Yanzheng/YanzhenggetVerify/t/%2B%28new+Date%28%29%29.getTime%28%29%2B.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+
