@@ -240,6 +240,7 @@
                             <li><a href="./index.php?c=site&amp;a=entry&amp;do=list&amp;m=meepo_xianchang">我的活动</a></li>
                         </ul>
                     </li>
+
                     <li>
                         <a href="javascript:;"><em class="icon-orders"></em>订单</a>
                         <ul class="level2">
@@ -253,11 +254,10 @@
                             <li><a href="{:U('Lk/zhyue')}">我的账户</a></li>
                             <li class="curr"><a href="{:U('Lk/details')}">红包账户</a></li>
                             <li><a href="./index.php?c=site&amp;a=entry&amp;do=my_home&amp;m=meepo_xianchang">个人中心</a></li>
-
                         </ul>
-                    </li>
-
                 </ul>
+                    </li>
+                    </ul>
             </div>
         </div>
         <!--右边内容-->
@@ -390,7 +390,7 @@
                         <div class="account-money pull-left">
                             <ul class="list-unstyled pull-left v-align-t">
                                 <li>
-                                    <div class="color-red">￥<span class="acc-num js-earn">0.00</span></div>
+                                    <div class="color-red">￥<span class="acc-num js-earn">{$prices}</span></div>
                                     <p>账户余额（元）</p>
                                 </li>
                                 <li>

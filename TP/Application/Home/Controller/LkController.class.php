@@ -3,7 +3,14 @@ namespace Home\Controller;
 use Think\Controller;
 class LkController extends Controller {
     public function details(){
-
+        $res= M('pay')->where('uid',1)->select();
+        $prices=0;
+        foreach($res as $k=>$v){
+            $prices=$prices+$v['jine'];
+        }
+//        var_dump($prices);
+//        die;
+        $this->assign('prices',$prices);
          $this->display('Home/details');
     }
     public function chongzhi(){
@@ -48,6 +55,9 @@ class LkController extends Controller {
         $this->display('Home/shezhi');
     }
     public function zhyue(){
+//        $id=$_SESSION['uid'];
+//        print_r($id);
+//        die;
         $this->display('Home/zhyue');
     }
     public function exportExcel($expTitle,$expCellName,$expTableData){

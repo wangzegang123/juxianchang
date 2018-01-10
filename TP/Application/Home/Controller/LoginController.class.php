@@ -45,7 +45,7 @@ class LoginController extends Controller {
                     }else{
                         echo "<script>alert('用户名或密码有误');location='login'</script>";
                     }
-                } else {
+                }else{
                     $ver = new \Think\Verify();
                     if($ver->check($_POST['very'])){
                         $name=$_POST["username"];
