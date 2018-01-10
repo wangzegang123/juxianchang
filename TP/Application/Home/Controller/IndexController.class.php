@@ -3,7 +3,7 @@ namespace Home\Controller;
 use Think\Controller;
 class IndexController extends Controller {
     public function index(){
-          echo "1111";
+              $this->display("index");
     }
     public function person_activity(){//我的活动页面列表
         /*1、判断是否登录，登录获取保存session里的用户id，未登录跳登录页面

@@ -23,9 +23,10 @@ class LoginController extends Controller {
                     $pwd=trim(md5($_POST["password"]));
                     $model=M("member");
                     $arr=$model->query("select * from jxc_member where member_name='{$name}' and member_pwd='{$pwd}'");
+                    $id=$model->query("select member_id from jxc_member where member_name='{$name}' and member_pwd='{$pwd}'");
                     if($arr){
-                        session("name",$name);
-                        echo "<script>alert('登陆成功');location='index'</script>";
+                        session("mid",$id);
+                        echo "<script>alert('登陆成功');location='person_activity'</script>";
                     }else{
                         echo "<script>alert('用户名或密码有误');location='login'</script>";
                     }
@@ -38,9 +39,10 @@ class LoginController extends Controller {
                     $pwd=trim(md5($_POST["password"]));
                     $model=M("member");
                     $arr=$model->query("select * from jxc_member where member_name='{$name}' and member_pwd='{$pwd}'");
+                    $id=$model->query("select member_id from jxc_member where member_name='{$name}' and member_pwd='{$pwd}'");
                     if($arr){
-                        session("name",$name);
-                        echo "<script>alert('登陆成功');location='main'</script>";
+                        session("mid",$id);
+                        echo "<script>alert('登陆成功');location='person_activity'</script>";
                     }else{
                         echo "<script>alert('用户名或密码有误');location='login'</script>";
                     }
@@ -51,8 +53,9 @@ class LoginController extends Controller {
                         $pwd=md5($_POST["password"]);
                         $model=M("member");
                         $arr=$model->query("select * from jxc_member where member_name='{$name}' and member_pwd='{$pwd}'");
+                       $id=$model->query("select member_id from jxc_member where member_name='{$name}' and member_pwd='{$pwd}'");
                         if($arr){
-                            session("name",$name);
+                            session("mid",$id);
                             echo "<script>alert('登陆成功');location='main'</script>";
                         }else{
                             echo "<script>alert('用户名或密码有误');location='login'</script>";

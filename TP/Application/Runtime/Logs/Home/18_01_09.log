@@ -908,3 +908,334 @@ INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
 [ 2018-01-09T15:31:40+08:00 ] 127.0.0.1 /index.php/Home/Login/index
 ERR: 非法操作:index
 
+[ 2018-01-09T17:43:38+08:00 ] 127.0.0.1 /index.php/Home/Yanzheng/YanzhenggetVerify/t/%2B%28new+Date%28%29%29.getTime%28%29%2B.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+NOTIC: [8] A session had already been started - ignoring session_start() E:\dingy\test\codea\php\jxc\tp\TP\Application\Home\Controller\YanzhengController.class.php 第 13 行.
+NOTIC: [8] Array to string conversion E:\dingy\test\codea\php\jxc\tp\TP\Application\Home\Controller\YanzhengController.class.php 第 20 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2018-01-09T19:12:02+08:00 ] 127.0.0.1 /index.php/Home/Yanzheng/YanzhenggetVerify/t/%2B%28new+Date%28%29%29.getTime%28%29%2B.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+NOTIC: [8] A session had already been started - ignoring session_start() E:\dingy\test\codea\php\jxc\tp\TP\Application\Home\Controller\YanzhengController.class.php 第 13 行.
+NOTIC: [8] Array to string conversion E:\dingy\test\codea\php\jxc\tp\TP\Application\Home\Controller\YanzhengController.class.php 第 20 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2018-01-09T19:12:16+08:00 ] 127.0.0.1 /index.php/Home/Login/index
+ERR: 非法操作:index
+
+[ 2018-01-09T19:12:35+08:00 ] 127.0.0.1 /index.php/Home/Yanzheng/YanzhenggetVerify/t/%2B%28new+Date%28%29%29.getTime%28%29%2B.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+NOTIC: [8] A session had already been started - ignoring session_start() E:\dingy\test\codea\php\jxc\tp\TP\Application\Home\Controller\YanzhengController.class.php 第 13 行.
+NOTIC: [8] Array to string conversion E:\dingy\test\codea\php\jxc\tp\TP\Application\Home\Controller\YanzhengController.class.php 第 20 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2018-01-09T19:12:43+08:00 ] 127.0.0.1 /index.php/Home/Login/index
+ERR: 非法操作:index
+
+[ 2018-01-09T19:13:33+08:00 ] 127.0.0.1 /index.php/Home/Yanzheng/YanzhenggetVerify/t/%2B%28new+Date%28%29%29.getTime%28%29%2B.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] A session had already been started - ignoring session_start() E:\dingy\test\codea\php\jxc\tp\TP\Application\Home\Controller\YanzhengController.class.php 第 13 行.
+NOTIC: [8] Array to string conversion E:\dingy\test\codea\php\jxc\tp\TP\Application\Home\Controller\YanzhengController.class.php 第 20 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2018-01-09T19:13:42+08:00 ] 127.0.0.1 /index.php/Home/Login/index
+ERR: 非法操作:index
+
+[ 2018-01-09T19:13:45+08:00 ] 127.0.0.1 /index.php/Home/Yanzheng/YanzhenggetVerify/t/%2B%28new+Date%28%29%29.getTime%28%29%2B.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+NOTIC: [8] A session had already been started - ignoring session_start() E:\dingy\test\codea\php\jxc\tp\TP\Application\Home\Controller\YanzhengController.class.php 第 13 行.
+NOTIC: [8] Array to string conversion E:\dingy\test\codea\php\jxc\tp\TP\Application\Home\Controller\YanzhengController.class.php 第 20 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2018-01-09T19:13:45+08:00 ] 127.0.0.1 /index.php/Home/Yanzheng/YanzhenggetVerify/t/%2B%28new+Date%28%29%29.getTime%28%29%2B.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+NOTIC: [8] A session had already been started - ignoring session_start() E:\dingy\test\codea\php\jxc\tp\TP\Application\Home\Controller\YanzhengController.class.php 第 13 行.
+NOTIC: [8] Array to string conversion E:\dingy\test\codea\php\jxc\tp\TP\Application\Home\Controller\YanzhengController.class.php 第 20 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2018-01-09T19:13:57+08:00 ] 127.0.0.1 /index.php/Home/Login/index
+ERR: 非法操作:index
+
+[ 2018-01-09T19:14:38+08:00 ] 127.0.0.1 /index.php/Home/Yanzheng/YanzhenggetVerify/t/%2B%28new+Date%28%29%29.getTime%28%29%2B.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+NOTIC: [8] A session had already been started - ignoring session_start() E:\dingy\test\codea\php\jxc\tp\TP\Application\Home\Controller\YanzhengController.class.php 第 13 行.
+NOTIC: [8] Array to string conversion E:\dingy\test\codea\php\jxc\tp\TP\Application\Home\Controller\YanzhengController.class.php 第 20 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2018-01-09T19:14:46+08:00 ] 127.0.0.1 /index.php/Home/Login/login_index.html
+ERR: 1054:Unknown column 'id' in 'field list'
+ [ SQL语句 ] : select id from jxc_member where member_name='jack' and member_pwd='66cb87e4e66a825d10cf4227e0e82eee'
+
+[ 2018-01-09T19:15:52+08:00 ] 127.0.0.1 /index.php/Home/Yanzheng/YanzhenggetVerify/t/%2B%28new+Date%28%29%29.getTime%28%29%2B.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+NOTIC: [8] A session had already been started - ignoring session_start() E:\dingy\test\codea\php\jxc\tp\TP\Application\Home\Controller\YanzhengController.class.php 第 13 行.
+NOTIC: [8] Array to string conversion E:\dingy\test\codea\php\jxc\tp\TP\Application\Home\Controller\YanzhengController.class.php 第 20 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2018-01-09T19:15:53+08:00 ] 127.0.0.1 /index.php/Home/Yanzheng/YanzhenggetVerify/t/%2B%28new+Date%28%29%29.getTime%28%29%2B.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+NOTIC: [8] A session had already been started - ignoring session_start() E:\dingy\test\codea\php\jxc\tp\TP\Application\Home\Controller\YanzhengController.class.php 第 13 行.
+NOTIC: [8] Array to string conversion E:\dingy\test\codea\php\jxc\tp\TP\Application\Home\Controller\YanzhengController.class.php 第 20 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2018-01-09T19:16:01+08:00 ] 127.0.0.1 /index.php/Home/Login/person_activity
+ERR: 非法操作:person_activity
+
+[ 2018-01-09T19:16:39+08:00 ] 127.0.0.1 /index.php/Home/Yanzheng/YanzhenggetVerify/t/%2B%28new+Date%28%29%29.getTime%28%29%2B.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] A session had already been started - ignoring session_start() E:\dingy\test\codea\php\jxc\tp\TP\Application\Home\Controller\YanzhengController.class.php 第 13 行.
+NOTIC: [8] Array to string conversion E:\dingy\test\codea\php\jxc\tp\TP\Application\Home\Controller\YanzhengController.class.php 第 20 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2018-01-09T19:16:48+08:00 ] 127.0.0.1 /index.php/Home/Login/HomeIndexperson_activity
+ERR: 非法操作:HomeIndexperson_activity
+
+[ 2018-01-09T19:16:56+08:00 ] 127.0.0.1 /index.php/Home/Yanzheng/YanzhenggetVerify/t/%2B%28new+Date%28%29%29.getTime%28%29%2B.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+NOTIC: [8] A session had already been started - ignoring session_start() E:\dingy\test\codea\php\jxc\tp\TP\Application\Home\Controller\YanzhengController.class.php 第 13 行.
+NOTIC: [8] Array to string conversion E:\dingy\test\codea\php\jxc\tp\TP\Application\Home\Controller\YanzhengController.class.php 第 20 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2018-01-09T19:17:01+08:00 ] 127.0.0.1 /index.php/Home/Yanzheng/YanzhenggetVerify/t/%2B%28new+Date%28%29%29.getTime%28%29%2B.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+NOTIC: [8] A session had already been started - ignoring session_start() E:\dingy\test\codea\php\jxc\tp\TP\Application\Home\Controller\YanzhengController.class.php 第 13 行.
+NOTIC: [8] Array to string conversion E:\dingy\test\codea\php\jxc\tp\TP\Application\Home\Controller\YanzhengController.class.php 第 20 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2018-01-09T19:17:03+08:00 ] 127.0.0.1 /index.php/Home/Yanzheng/YanzhenggetVerify/t/%2B%28new+Date%28%29%29.getTime%28%29%2B.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] A session had already been started - ignoring session_start() E:\dingy\test\codea\php\jxc\tp\TP\Application\Home\Controller\YanzhengController.class.php 第 13 行.
+NOTIC: [8] Array to string conversion E:\dingy\test\codea\php\jxc\tp\TP\Application\Home\Controller\YanzhengController.class.php 第 20 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2018-01-09T19:17:12+08:00 ] 127.0.0.1 /index.php/Home/Login/Home/Index/person_activity
+ERR: 非法操作:Home
+
+[ 2018-01-09T19:18:34+08:00 ] 127.0.0.1 /index.php/Home/Yanzheng/YanzhenggetVerify/t/%2B%28new+Date%28%29%29.getTime%28%29%2B.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+NOTIC: [8] A session had already been started - ignoring session_start() E:\dingy\test\codea\php\jxc\tp\TP\Application\Home\Controller\YanzhengController.class.php 第 13 行.
+NOTIC: [8] Array to string conversion E:\dingy\test\codea\php\jxc\tp\TP\Application\Home\Controller\YanzhengController.class.php 第 20 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2018-01-09T19:20:49+08:00 ] 127.0.0.1 /index.php/Home/Yanzheng/YanzhenggetVerify/t/%2B%28new+Date%28%29%29.getTime%28%29%2B.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+NOTIC: [8] A session had already been started - ignoring session_start() E:\dingy\test\codea\php\jxc\tp\TP\Application\Home\Controller\YanzhengController.class.php 第 13 行.
+NOTIC: [8] Array to string conversion E:\dingy\test\codea\php\jxc\tp\TP\Application\Home\Controller\YanzhengController.class.php 第 20 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2018-01-09T19:20:58+08:00 ] 127.0.0.1 /index.php/Home/Yanzheng/YanzhenggetVerify/t/%2B%28new+Date%28%29%29.getTime%28%29%2B.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+NOTIC: [8] A session had already been started - ignoring session_start() E:\dingy\test\codea\php\jxc\tp\TP\Application\Home\Controller\YanzhengController.class.php 第 13 行.
+NOTIC: [8] Array to string conversion E:\dingy\test\codea\php\jxc\tp\TP\Application\Home\Controller\YanzhengController.class.php 第 20 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002000s ]
+
+[ 2018-01-09T19:22:46+08:00 ] 127.0.0.1 /index.php/Home/Yanzheng/YanzhenggetVerify/t/%2B%28new+Date%28%29%29.getTime%28%29%2B.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+NOTIC: [8] A session had already been started - ignoring session_start() E:\dingy\test\codea\php\jxc\tp\TP\Application\Home\Controller\YanzhengController.class.php 第 13 行.
+NOTIC: [8] Array to string conversion E:\dingy\test\codea\php\jxc\tp\TP\Application\Home\Controller\YanzhengController.class.php 第 20 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2018-01-09T19:22:56+08:00 ] 127.0.0.1 /index.php/Home/Yanzheng/YanzhenggetVerify/t/%2B%28new+Date%28%29%29.getTime%28%29%2B.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+NOTIC: [8] A session had already been started - ignoring session_start() E:\dingy\test\codea\php\jxc\tp\TP\Application\Home\Controller\YanzhengController.class.php 第 13 行.
+NOTIC: [8] Array to string conversion E:\dingy\test\codea\php\jxc\tp\TP\Application\Home\Controller\YanzhengController.class.php 第 20 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2018-01-09T19:26:06+08:00 ] 127.0.0.1 /index.php/Home/Yanzheng/YanzhenggetVerify/t/%2B%28new+Date%28%29%29.getTime%28%29%2B.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+NOTIC: [8] A session had already been started - ignoring session_start() E:\dingy\test\codea\php\jxc\tp\TP\Application\Home\Controller\YanzhengController.class.php 第 13 行.
+NOTIC: [8] Array to string conversion E:\dingy\test\codea\php\jxc\tp\TP\Application\Home\Controller\YanzhengController.class.php 第 20 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2018-01-09T19:31:31+08:00 ] 127.0.0.1 /index.php/Home/Yanzheng/YanzhenggetVerify/t/%2B%28new+Date%28%29%29.getTime%28%29%2B.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+NOTIC: [8] A session had already been started - ignoring session_start() E:\dingy\test\codea\php\jxc\tp\TP\Application\Home\Controller\YanzhengController.class.php 第 13 行.
+NOTIC: [8] Array to string conversion E:\dingy\test\codea\php\jxc\tp\TP\Application\Home\Controller\YanzhengController.class.php 第 20 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2018-01-09T19:32:07+08:00 ] 127.0.0.1 /index.php/Home/Yanzheng/YanzhenggetVerify/t/%2B%28new+Date%28%29%29.getTime%28%29%2B.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+NOTIC: [8] A session had already been started - ignoring session_start() E:\dingy\test\codea\php\jxc\tp\TP\Application\Home\Controller\YanzhengController.class.php 第 13 行.
+NOTIC: [8] Array to string conversion E:\dingy\test\codea\php\jxc\tp\TP\Application\Home\Controller\YanzhengController.class.php 第 20 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2018-01-09T19:32:08+08:00 ] 127.0.0.1 /index.php/Home/Yanzheng/YanzhenggetVerify/t/%2B%28new+Date%28%29%29.getTime%28%29%2B.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+NOTIC: [8] A session had already been started - ignoring session_start() E:\dingy\test\codea\php\jxc\tp\TP\Application\Home\Controller\YanzhengController.class.php 第 13 行.
+NOTIC: [8] Array to string conversion E:\dingy\test\codea\php\jxc\tp\TP\Application\Home\Controller\YanzhengController.class.php 第 20 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2018-01-09T19:39:45+08:00 ] 127.0.0.1 /index.php/Home/Yanzheng/YanzhenggetVerify/t/%2B%28new+Date%28%29%29.getTime%28%29%2B.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+NOTIC: [8] A session had already been started - ignoring session_start() E:\dingy\test\codea\php\jxc\tp\TP\Application\Home\Controller\YanzhengController.class.php 第 13 行.
+NOTIC: [8] Array to string conversion E:\dingy\test\codea\php\jxc\tp\TP\Application\Home\Controller\YanzhengController.class.php 第 20 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2018-01-09T19:39:46+08:00 ] 127.0.0.1 /index.php/Home/Login/zhuce.html
+ERR: 非法操作:zhuce
+
+[ 2018-01-09T19:39:48+08:00 ] 127.0.0.1 /index.php/Home/Yanzheng/YanzhenggetVerify/t/%2B%28new+Date%28%29%29.getTime%28%29%2B.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+NOTIC: [8] A session had already been started - ignoring session_start() E:\dingy\test\codea\php\jxc\tp\TP\Application\Home\Controller\YanzhengController.class.php 第 13 行.
+NOTIC: [8] Array to string conversion E:\dingy\test\codea\php\jxc\tp\TP\Application\Home\Controller\YanzhengController.class.php 第 20 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2018-01-09T19:43:22+08:00 ] 127.0.0.1 /index.php/Home/Login/zhuce.html
+ERR: 非法操作:zhuce
+
+[ 2018-01-09T19:43:23+08:00 ] 127.0.0.1 /index.php/Home/Yanzheng/YanzhenggetVerify/t/%2B%28new+Date%28%29%29.getTime%28%29%2B.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+NOTIC: [8] A session had already been started - ignoring session_start() E:\dingy\test\codea\php\jxc\tp\TP\Application\Home\Controller\YanzhengController.class.php 第 13 行.
+NOTIC: [8] Array to string conversion E:\dingy\test\codea\php\jxc\tp\TP\Application\Home\Controller\YanzhengController.class.php 第 20 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2018-01-09T19:43:27+08:00 ] 127.0.0.1 /index.php/Home/Yanzheng/YanzhenggetVerify/t/%2B%28new+Date%28%29%29.getTime%28%29%2B.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+NOTIC: [8] A session had already been started - ignoring session_start() E:\dingy\test\codea\php\jxc\tp\TP\Application\Home\Controller\YanzhengController.class.php 第 13 行.
+NOTIC: [8] Array to string conversion E:\dingy\test\codea\php\jxc\tp\TP\Application\Home\Controller\YanzhengController.class.php 第 20 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2018-01-09T19:43:31+08:00 ] 127.0.0.1 /index.php/Home/Yanzheng/YanzhenggetVerify/t/%2B%28new+Date%28%29%29.getTime%28%29%2B.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] A session had already been started - ignoring session_start() E:\dingy\test\codea\php\jxc\tp\TP\Application\Home\Controller\YanzhengController.class.php 第 13 行.
+NOTIC: [8] Array to string conversion E:\dingy\test\codea\php\jxc\tp\TP\Application\Home\Controller\YanzhengController.class.php 第 20 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2018-01-09T19:55:58+08:00 ] 127.0.0.1 /index.php/Home/Yanzheng/YanzhenggetVerify/t/%2B%28new+Date%28%29%29.getTime%28%29%2B.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+NOTIC: [8] A session had already been started - ignoring session_start() E:\dingy\test\codea\php\jxc\tp\TP\Application\Home\Controller\YanzhengController.class.php 第 13 行.
+NOTIC: [8] Array to string conversion E:\dingy\test\codea\php\jxc\tp\TP\Application\Home\Controller\YanzhengController.class.php 第 20 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2018-01-09T19:56:06+08:00 ] 127.0.0.1 /index.php/Home/Yanzheng/YanzhenggetVerify/t/%2B%28new+Date%28%29%29.getTime%28%29%2B.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] A session had already been started - ignoring session_start() E:\dingy\test\codea\php\jxc\tp\TP\Application\Home\Controller\YanzhengController.class.php 第 13 行.
+NOTIC: [8] Array to string conversion E:\dingy\test\codea\php\jxc\tp\TP\Application\Home\Controller\YanzhengController.class.php 第 20 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2018-01-09T20:00:01+08:00 ] 127.0.0.1 /index.php/Home/Yanzheng/YanzhenggetVerify/t/%2B%28new+Date%28%29%29.getTime%28%29%2B.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+NOTIC: [8] A session had already been started - ignoring session_start() E:\dingy\test\codea\php\jxc\tp\TP\Application\Home\Controller\YanzhengController.class.php 第 13 行.
+NOTIC: [8] Array to string conversion E:\dingy\test\codea\php\jxc\tp\TP\Application\Home\Controller\YanzhengController.class.php 第 20 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+

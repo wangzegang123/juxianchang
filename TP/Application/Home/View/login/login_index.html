@@ -55,8 +55,6 @@
                 <a href="http://wall.juxianchang.com/app/index.php?i=52&amp;c=entry&amp;do=manage_register&amp;m=meepo_xianchang" style="color: red;">注册</a></div></div>
     </form>
 </div>
-
-
 <script>
     var vm = new Vue({
         el: '#login',
@@ -116,7 +114,7 @@
                     return;
                 }
 							var data={
-				
+
                 'username':this.username,
                 'password':this.password,
                 'verify':this.verify
@@ -140,7 +138,7 @@
 					if(json.errno==-2){
 						$(".get-code").attr('src',"./index.php?i=52&c=entry&do=verify&m=meepo_xianchang&t="+Math.random());
 					}
-    				
+
     			}
     		}, 'json');
             }
