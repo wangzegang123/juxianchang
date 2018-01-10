@@ -8,24 +8,30 @@ class LkController extends Controller {
     }
     public function chongzhi(){
         if(IS_POST){
+//            print_r($_SESSION['mid']);
+//            die;
             $data['money']=$_POST['money'];
-            $date['shouxufei']=$data['money']*0.5;
-            $date['zongjine']=$data['money']+$date['price'];
+            $date['shouxufei']=$data['money']*0.05;
             $date['jine']=$data['money'];
-            $res=M('mone');
+            $date['zongjine']=$date['jine']+$date['shouxufei'];
+            $date['addtime']=time();
+//            $res=M('mone');
             $res1=M('pay');
-            $res1->add($date);
-           $lk=$res->add($data);
+            $lk =$res1->add($date);
+//           =$res->add($data);
             if($lk){
-                $this->assign('res',$res);
-                $this->assign('res1',$res1);
-                $this->display('Home/chongzhi');
+//                $this->success('Home/chongzhi');
+                echo "<script>alert('充值成功');location='chongzhi'</script>";
             }else{
                 $this->display('Home/chongzhi');
             }
-        }else{
-            $this->display('Home/chongzhi');
         }
+        $res2=M('pay');
+        $lk=$res2->join('jxc_status on jxc_pay.status_id=jxc_status.id')->select();
+//        print_r($lk);
+//        die;
+        $this->assign('lk',$lk);
+        $this->display('Home/chongzhi');
     }
     public function shezhi(){
         if(IS_POST){
@@ -34,9 +40,9 @@ class LkController extends Controller {
             $data['shezhi_username']=$_POST['name'];
             $lk=$k->add($data);
             if($lk){
-                echo 1;
+                echo "<script>alert('设置成功');location='shezhi'</script>";
             }else{
-                echo 2;
+                echo "<script>alert('设置失败');location='shezhi'</script>";
             }
         }
         $this->display('Home/shezhi');
@@ -103,5 +109,8 @@ class LkController extends Controller {
         $res=M('shezhi');
         $chaxun= $res->Field('shezhi_id,shezhi_zhifubao,shezhi_username')->select();
     $this->exportExcel($name,$shujuku,$chaxun);
+    }
+    public function order(){
+        $this->display('Home/order');
     }
 }
