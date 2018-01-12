@@ -15,8 +15,12 @@ class IndexController extends Controller {
 //        var_dump($activity);
 //        die;
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 <<<<<<< HEAD
+=======
+
+>>>>>>> bdfb9dd... y6
         $this->assign("res",$res1);
         $this->display("activity_person");
     }
@@ -51,6 +55,7 @@ class IndexController extends Controller {
         $res1=$this->activity($res);
         $this->assign("res",$res1);
         $this->display("activity_end");
+<<<<<<< HEAD
 =======
 >>>>>>> 0bc33c7... 公共部分继承
 //        $sql="SELECT * from jxc_member WHERE member_id=1";
@@ -70,5 +75,8 @@ class IndexController extends Controller {
         $this->display("person_activity");
 >>>>>>> 21c76c3... 公共部分继承
 >>>>>>> 0bc33c7... 公共部分继承
+=======
+
+>>>>>>> bdfb9dd... y6
     }
 }
