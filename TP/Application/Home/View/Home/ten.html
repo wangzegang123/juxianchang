@@ -1,0 +1,130 @@
+<extend name="Application/Home/View/Home/head2.html"/>
+<block name="wei">
+<div class="wrap" id="wrap">
+  <div id="top"></div>
+  <div class="header">
+     <div class="inner clearfix">
+      <h1 class="logo left">
+        <a href="http://www.juxianchang.com/">微信大屏幕</a>
+        <a href="http://www.juxianchang.com/" class="btn-back">回首页</a>      </h1>
+      <button class="btn-menu js_BtnMenu right"><span></span><span></span><span></span></button>
+                    <div class="nav-login right"><a href="http://wall.juxianchang.com/app/index.php?i=52&amp;c=entry&amp;do=manage_login&amp;m=meepo_xianchang" rel="external nofollow" title="登录">登录</a></div>
+            <ul class="nav-list right js_navList">
+	  <li class=""><a href="http://www.juxianchang.com/case" title="精选案例">案例</a></li>
+	 <li class=""><a href="http://demo.juxianchang.com/" title="演示" rel="external nofollow" target="_blank">演示<em class="icon-hot"></em></a></li>
+			  <li><a href="http://www.juxianchang.com/3d" title="3D签到">3D签到</a></li>
+        <li><a href="http://www.juxianchang.com/jiaocheng" title="微信墙教程">使用教程</a></li>
+        <li><a href="http://www.juxianchang.com/mall" title="服务定价">服务定价</a></li>
+    
+       <li><a href="http://user.juxianchang.com/register.html" rel="external nofollow" title="申请开通">申请开通<em class="icon-hot"></em></a></li>
+     </ul>
+ </div><!-- inner or inner2 end-->
+ </div><!-- header end-->
+  <script>
+  $(function(){
+
+    $('.js_BtnMenu').on('click', function(){
+        if ($(this).hasClass('curr')) {
+        $(this).removeClass('curr');
+        $('.js_navList').hide();
+      } else {
+        $(this).addClass('curr');
+        $('.js_navList').show();
+      }
+    });
+    
+  
+    if ($(window).width()>768){
+  	$('.js_navList li.cooperate').mouseover(function(){
+  	  $(this).children('.subnav').show();
+  	});
+  	$('.js_navList li.cooperate').mouseleave(function(){
+  	  $(this).children('.subnav').hide();
+  	});
+    } else {
+      $('.js_navList li.cooperate').children('.subnav').show();
+    }
+  });
+
+  
+  //二级菜单
+  $(".nav-list > li").mouseenter(function(){
+    $(this).find('.subnav').show();
+    $(this).addClass('shadow');
+  }).mouseleave(function(){
+    $(this).find('.subnav').hide();
+    $(this).removeClass('shadow');
+  });
+
+
+  </script>
+
+  <!-- <div style="height:50px;"></div> -->
+  <div class="container clearfix">
+    <div class="casedetail casedetail-type1">
+      <div class="case-part1 clearfix">
+        <div class="textdetail">
+            <h1>微信墙跑马摇一摇怎么做？</h1>
+            <div class="shop-d">
+              <center> <span class="date-act">来源：</span>&nbsp;&nbsp;&nbsp;<span>更新时间：2016-03-12</span></center> 
+                          </div>
+
+   
+             <div class="detail-scroll">
+              <div class="swiper-container gallery-top swiper-container-horizontal">
+                <div id="caseLeft3" class="swiper-button-Prev swiper-button-disabled"><em></em></div>
+                  <div id="caseRight3" class="swiper-button-Next swiper-button-disabled"><em></em></div>
+               
+              </div>
+         
+            </div>
+                    </div>
+      </div>
+	
+	
+	
+	<!--end .case-part1-->
+	
+   
+      <div class="case-part2 clearfix">
+        <div class="textbox ">
+          <div class="textdetail">
+            <p></p><p style="margin-top: 0px; margin-bottom: 15px; padding: 0px; list-style: none; font-size: 14px; line-height: 20px; text-indent: 28px; color: rgb(100, 100, 100); font-family: &#39;Microsoft yahei&#39;, Arial, Helvetica, sans-serif; white-space: normal; background-color: rgb(255, 255, 255);"><span style="margin: 0px; padding: 0px; list-style: none; font-size: 16px;">微信墙又被称为微信大屏幕，在微信墙怎么做_微信上墙怎么申请？【新手必看】中小编已经告诉大家如何发送消息上墙了。微信墙最具互动，最火爆的功能之一就是微信墙摇一摇了，也有人叫微信墙跑马或者微信墙摇一摇跑马，其实就是跑道赛马的一种摇一摇模式。聚现场微信墙摇一摇模块不仅有跑道赛马摇一摇，还有炫彩喷泉摇一摇，可以根据自己的现场活动需要选择不同的摇一摇样式使用哦。</span></p><p style="margin-top: 0px; margin-bottom: 15px; padding: 0px; list-style: none; font-size: 14px; line-height: 20px; text-indent: 28px; color: rgb(100, 100, 100); font-family: &#39;Microsoft yahei&#39;, Arial, Helvetica, sans-serif; white-space: normal; background-color: rgb(255, 255, 255);"><span style="margin: 0px; padding: 0px; list-style: none; font-size: 16px;"><br></span></p><p style="margin-top: 0px; margin-bottom: 15px; padding: 0px; list-style: none; font-size: 14px; line-height: 20px; text-indent: 28px; color: rgb(100, 100, 100); font-family: &#39;Microsoft yahei&#39;, Arial, Helvetica, sans-serif; white-space: normal; text-align: center; background-color: rgb(255, 255, 255);"><span style="margin: 0px; padding: 0px; list-style: none; font-size: 16px;">&nbsp;<span style="margin: 0px; padding: 0px; list-style: none; color: #00B0F0; font-size: 20px;"><strong>微信墙跑马摇一摇效果图</strong></span></span></p><p style="margin-top: 0px; margin-bottom: 15px; padding: 0px; list-style: none; font-size: 14px; line-height: 20px; text-indent: 28px; color: rgb(100, 100, 100); font-family: &#39;Microsoft yahei&#39;, Arial, Helvetica, sans-serif; white-space: normal; text-align: center; background-color: rgb(255, 255, 255);">&nbsp;<img src="__PUBLIC__/Home/images/14814500392.png" alt="QQ截图20160910234138.jpg" width="600" height="337" border="0" vspace="0" style="width: 600px; height: 337px;"></p><p style="margin-top: 0px; margin-bottom: 15px; padding: 0px; list-style: none; font-size: 14px; line-height: 20px; text-indent: 28px; color: rgb(100, 100, 100); font-family: &#39;Microsoft yahei&#39;, Arial, Helvetica, sans-serif; white-space: normal; text-align: center; background-color: rgb(255, 255, 255);">&nbsp;<img src="__PUBLIC__/Home/images/14814500409.png" alt="14785108840.png" width="600" height="299" border="0" vspace="0" style="width: 600px; height: 299px;"></p><p style="margin-top: 0px; margin-bottom: 15px; padding: 0px; list-style: none; font-size: 14px; line-height: 20px; text-indent: 28px; color: rgb(100, 100, 100); font-family: &#39;Microsoft yahei&#39;, Arial, Helvetica, sans-serif; white-space: normal; text-align: center; background-color: rgb(255, 255, 255);"><img src="__PUBLIC__/Home/images/14814500412.png" alt="14785108998.png" width="600" height="337" border="0" vspace="0" style="width: 600px; height: 337px;"></p><p style="text-align: center;"><img src="__PUBLIC__/Home/images/14814500411.png" style="width: 600px; height: 320px;" width="600" height="320" border="0" vspace="0" alt=""></p><p style="text-align: center;"><img src="__PUBLIC__/Home/images/14814500421.png" style="width: 600px; height: 450px;" width="600" height="450" border="0" vspace="0" alt=""></p><p style="margin-top: 0px; margin-bottom: 15px; padding: 0px; list-style: none; font-size: 14px; line-height: 20px; text-indent: 28px; color: rgb(100, 100, 100); font-family: &#39;Microsoft yahei&#39;, Arial, Helvetica, sans-serif; white-space: normal; background-color: rgb(255, 255, 255);"><strong style="margin: 0px; padding: 0px; list-style: none;"><span style="margin: 0px; padding: 0px; list-style: none; font-size: 16px;"></span></strong></p><hr><p style="margin-top: 0px; margin-bottom: 15px; padding: 0px; list-style: none; font-size: 14px; line-height: 20px; text-indent: 28px; color: rgb(100, 100, 100); font-family: &#39;Microsoft yahei&#39;, Arial, Helvetica, sans-serif; white-space: normal; background-color: rgb(255, 255, 255);"><strong style="margin: 0px; padding: 0px; list-style: none;"><span style="margin: 0px; padding: 0px; list-style: none; font-size: 16px;">摇一摇注意事项：</span></strong></p><p style="margin-top: 0px; margin-bottom: 15px; padding: 0px; list-style: none; font-size: 14px; line-height: 20px; text-indent: 28px; color: rgb(100, 100, 100); font-family: &#39;Microsoft yahei&#39;, Arial, Helvetica, sans-serif; white-space: normal; background-color: rgb(255, 255, 255);"><span style="margin: 0px; padding: 0px; list-style: none; font-size: 16px; color: #17365D;">1、摇一摇赛道模式 的摇一摇跑马功能需要有人到达终点才会结束，然后大屏幕显示排名。测试的时候，亲们请不要摇到一半然后就关掉，这样下一轮的时候会有上一轮的数据的哦（情况就是下一轮倒计时完毕的时候，会显示上一轮的人还在原来的位置，继续摇一摇，才重头开始），如果是正式活动，就会显得好像有问题（服务器君无辜躺枪）。所以，</span><strong style="margin: 0px; padding: 0px; list-style: none;"><span style="color: #FF0000; margin: 0px; padding: 0px; list-style: none; font-size: 16px;">赛道跑马摇一摇模式测试的时候一定要坚持跑到终点哦亲</span></strong><span style="color: #0000FF; margin: 0px; padding: 0px; list-style: none; font-size: 16px;">！<span style="margin: 0px; padding: 0px; list-style: none; font-size: 16px; color: #17365D;">或者记得后台清除掉测试数据！</span></span></p><p style="margin-top: 0px; margin-bottom: 15px; padding: 0px; list-style: none; font-size: 14px; line-height: 20px; text-indent: 28px; color: rgb(100, 100, 100); font-family: &#39;Microsoft yahei&#39;, Arial, Helvetica, sans-serif; white-space: normal; background-color: rgb(255, 255, 255);"><span style="font-size: 16px; margin: 0px; padding: 0px; list-style: none; color: #17365D;">2、摇一摇跑马比赛本身是大屏幕显示的前十名可以理解为比赛的排名，并非中奖者。至于是给前几名颁奖还是说每一轮奖励的人数都不一样（比如有的客户第一轮摇一摇是奖励前三名，第二轮是奖励前五名），现场主持人灵活应变直接告诉大家就好了。</span></p><p style="margin-top: 0px; margin-bottom: 15px; padding: 0px; list-style: none; font-size: 14px; line-height: 20px; text-indent: 28px; color: rgb(100, 100, 100); font-family: &#39;Microsoft yahei&#39;, Arial, Helvetica, sans-serif; white-space: normal; background-color: rgb(255, 255, 255);"><span style="font-size: 16px; margin: 0px; padding: 0px; list-style: none; color: #17365D;">同时摇一摇跑马支持给前10名设置发微信红包，红包大小可设定，可设置是否能重复中奖，是否开启红包。</span></p><p style="margin-top: 0px; margin-bottom: 15px; padding: 0px; list-style: none; font-size: 14px; line-height: 20px; text-indent: 28px; color: rgb(100, 100, 100); font-family: &#39;Microsoft yahei&#39;, Arial, Helvetica, sans-serif; white-space: normal; background-color: rgb(255, 255, 255);"><span style="font-size: 16px; margin: 0px; padding: 0px; list-style: none; color: #17365D;">3、赛道跑马摇一摇模式默认不屏蔽中奖者，原因是中奖者不固定（见上一条事项）。如果您需要中奖者在后面的摇一摇不再中奖，需要在摇一摇结束之后 &nbsp;关闭可重复中奖，这样后面的摇一摇，他就不会再次中奖了。（此处的屏蔽中奖会导致微信抽奖也不会中）</span></p><p style="margin-top: 0px; margin-bottom: 15px; padding: 0px; list-style: none; font-size: 14px; line-height: 20px; text-indent: 28px; color: rgb(100, 100, 100); font-family: &#39;Microsoft yahei&#39;, Arial, Helvetica, sans-serif; white-space: normal; background-color: rgb(255, 255, 255);"><span style="font-size: 16px; margin: 0px; padding: 0px; list-style: none; color: #17365D;">4、如果有特殊需要，在摇一摇倒计时的界面显示奖品，可通过后台设定的哟。</span></p><p style="margin-top: 0px; margin-bottom: 15px; padding: 0px; list-style: none; font-size: 14px; line-height: 20px; text-indent: 28px; color: rgb(100, 100, 100); font-family: &#39;Microsoft yahei&#39;, Arial, Helvetica, sans-serif; white-space: normal; background-color: rgb(255, 255, 255);"><span style="font-size: 16px; margin: 0px; padding: 0px; list-style: none; color: #17365D;"></span></p><hr><p style="margin-top: 0px; margin-bottom: 15px; padding: 0px; list-style: none; font-size: 14px; line-height: 20px; text-indent: 28px; color: rgb(100, 100, 100); font-family: &#39;Microsoft yahei&#39;, Arial, Helvetica, sans-serif; white-space: normal; background-color: rgb(255, 255, 255);"><span style="font-size: 16px; margin: 0px; padding: 0px; list-style: none; color: #17365D;"></span>如何配置：</p><p style="margin-top: 0px; margin-bottom: 15px; padding: 0px; list-style: none; font-size: 14px; line-height: 20px; text-indent: 28px; color: rgb(100, 100, 100); font-family: &#39;Microsoft yahei&#39;, Arial, Helvetica, sans-serif; white-space: normal; background-color: rgb(255, 255, 255);">进入跑马摇一摇后</p><p style="margin-top: 0px; margin-bottom: 15px; padding: 0px; list-style: none; font-size: 14px; line-height: 20px; text-indent: 28px; color: rgb(100, 100, 100); font-family: &#39;Microsoft yahei&#39;, Arial, Helvetica, sans-serif; white-space: normal; background-color: rgb(255, 255, 255);">以下区域是电脑端的界面配置，支持自定义元素，元素设置得漂亮，整个活动也加分哟。</p><p style="margin-top: 0px; margin-bottom: 15px; padding: 0px; list-style: none; font-size: 14px; line-height: 20px; text-indent: 28px; color: rgb(100, 100, 100); font-family: &#39;Microsoft yahei&#39;, Arial, Helvetica, sans-serif; white-space: normal; text-align: center; background-color: rgb(255, 255, 255);"><img src="__PUBLIC__/Home/images/14814500422.png" alt="微信墙跑马摇一摇,微信大屏幕摇一摇" width="640" height="369" border="0" vspace="0" style="width: 640px; height: 369px;"></p><p style="margin-top: 0px; margin-bottom: 15px; padding: 0px; list-style: none; font-size: 14px; line-height: 20px; text-indent: 28px; color: rgb(100, 100, 100); font-family: &#39;Microsoft yahei&#39;, Arial, Helvetica, sans-serif; white-space: normal; text-align: center; background-color: rgb(255, 255, 255);"><img src="__PUBLIC__/Home/images/14814500429.png" alt="微信墙跑马摇一摇,微信大屏幕摇一摇" width="640" height="361" border="0" vspace="0" style="width: 640px; height: 361px;"></p><p style="margin-top: 0px; margin-bottom: 15px; padding: 0px; list-style: none; font-size: 14px; line-height: 20px; text-indent: 28px; color: rgb(100, 100, 100); font-family: &#39;Microsoft yahei&#39;, Arial, Helvetica, sans-serif; white-space: normal; text-align: center; background-color: rgb(255, 255, 255);"><img src="__PUBLIC__/Home/images/14814500434.png" alt="微信墙跑马摇一摇,微信大屏幕摇一摇" width="640" height="347" border="0" vspace="0" style="width: 640px; height: 347px;"></p><p style="margin-top: 0px; margin-bottom: 15px; padding: 0px; list-style: none; font-size: 14px; line-height: 20px; text-indent: 28px; color: rgb(100, 100, 100); font-family: &#39;Microsoft yahei&#39;, Arial, Helvetica, sans-serif; white-space: normal; background-color: rgb(255, 255, 255);">下面是手机端的基本配置，传好图片就ok</p><p style="margin-top: 0px; margin-bottom: 15px; padding: 0px; list-style: none; font-size: 14px; line-height: 20px; text-indent: 28px; color: rgb(100, 100, 100); font-family: &#39;Microsoft yahei&#39;, Arial, Helvetica, sans-serif; white-space: normal; text-align: center; background-color: rgb(255, 255, 255);"><img src="__PUBLIC__/Home/images/14814500438.png" alt="微信墙跑马摇一摇,聚现场,微信大屏幕摇一摇" width="640" height="320" border="0" vspace="0" style="width: 640px; height: 320px;"></p><p style="margin-top: 0px; margin-bottom: 15px; padding: 0px; list-style: none; font-size: 14px; line-height: 20px; text-indent: 28px; color: rgb(100, 100, 100); font-family: &#39;Microsoft yahei&#39;, Arial, Helvetica, sans-serif; white-space: normal; background-color: rgb(255, 255, 255);">如果需要发红包的话，就需要填写下面的参数哟，最好联系客服协助</p><p style="margin-top: 0px; margin-bottom: 15px; padding: 0px; list-style: none; font-size: 14px; line-height: 20px; text-indent: 28px; color: rgb(100, 100, 100); font-family: &#39;Microsoft yahei&#39;, Arial, Helvetica, sans-serif; white-space: normal; text-align: center; background-color: rgb(255, 255, 255);"><img src="__PUBLIC__/Home/images/14814500447.png" alt="微信墙跑马摇一摇,聚现场,微信大屏幕摇一摇" width="640" height="331" border="0" vspace="0" style="width: 640px; height: 331px;"></p><p style="margin-top: 0px; margin-bottom: 15px; padding: 0px; list-style: none; font-size: 14px; line-height: 20px; text-indent: 28px; color: rgb(100, 100, 100); font-family: &#39;Microsoft yahei&#39;, Arial, Helvetica, sans-serif; white-space: normal; text-align: center; background-color: rgb(255, 255, 255);"><strong>这些部分的内容填写完毕后，我们就可以去增加游戏轮数，开启正式的活动啦！</strong></p><p style="margin-top: 0px; margin-bottom: 15px; padding: 0px; list-style: none; font-size: 14px; line-height: 20px; text-indent: 28px; color: rgb(100, 100, 100); font-family: &#39;Microsoft yahei&#39;, Arial, Helvetica, sans-serif; white-space: normal; text-align: center; background-color: rgb(255, 255, 255);"><strong><img src="__PUBLIC__/Home/images/14814500440.png" alt="微信墙跑马摇一摇,聚现场,微信大屏幕摇一摇" width="640" height="185" border="0" vspace="0" style="width: 640px; height: 185px;"></strong></p><p style="margin-top: 0px; margin-bottom: 15px; padding: 0px; list-style: none; font-size: 14px; line-height: 20px; text-indent: 28px; color: rgb(100, 100, 100); font-family: &#39;Microsoft yahei&#39;, Arial, Helvetica, sans-serif; white-space: normal; text-align: center; background-color: rgb(255, 255, 255);"><strong>这里添加轮数和游戏的结束方式。注意：冠军和两强结束领奖台只会弹出1-2个人，但是总榜上都会显示</strong></p><p style="margin-top: 0px; margin-bottom: 15px; padding: 0px; list-style: none; font-size: 14px; line-height: 20px; text-indent: 28px; color: rgb(100, 100, 100); font-family: &#39;Microsoft yahei&#39;, Arial, Helvetica, sans-serif; white-space: normal; text-align: center; background-color: rgb(255, 255, 255);"><strong><img src="__PUBLIC__/Home/images/1481450039.png" alt="微信墙跑马摇一摇,聚现场,微信大屏幕摇一摇" width="640" height="327" border="0" vspace="0" style="width: 640px; height: 327px;"></strong></p><p></p>
+          </div>
+
+		
+                   <!--	<div class="article_bm">【<a href="#">返回顶部</a>】 【<a href="javascript:window.print()">打印此页</a>】 【<a href="#" onclick="javascript:window.close();">关闭</a>】</div>
+                          -->  <ul class="news_other">
+                                <li class="pre">上一篇：<a href="http://www.juxianchang.com/jiaocheng/97.html">微信3d签到！聚现场如何实现？</a> </li>
+                                <li class="next">下一篇：<a href="http://www.juxianchang.com/jiaocheng/99.html">怎么做？【新手必看】</a> </li>
+                            </ul> 
+          <script>
+              window._bd_share_config = {
+              //此处添加分享具体设置
+              common : {
+                  //此处放置通用设置
+                  bdText : "#微信大屏幕# #微信墙# 我在@微盒互动 微信墙跑马摇一摇怎么做？ ",
+                  bdUrl : "",
+                  bdPic : "http://www.juxianchang.com/statics/images/nopic.gif",
+                  searchPic : 0,
+                  render : true
+              },
+              share : [
+                  //此处放置分享按钮设置
+                  { "bdSize" : 32, }
+              ]
+              }
+              //以下为js加载部分
+              with(document)0[(getElementsByTagName('head')[0]||body).appendChild(createElement('script')).src='http://bdimg.share.baidu.com/static/api/js/share.js?cdnversion='+~(-new Date()/36e5)];
+            </script>
+        </div>
+        <!--end:左侧-->
+        <div class="related-case clearfix">
+          <!--start:推荐案例-->
+        </div>
+      </div><!--end .case-part2-->
+      <!--end .case-part4-->
+    </div><!--end .casedetail-->
+  </div>
+    </div>
+    </block>
