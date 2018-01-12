@@ -25,9 +25,17 @@ class IndexController extends Controller {
         $this->display("person_activity");
     }
    public function index_case(){
-
-
     $this->display();
 }
+function index_case1(){
+    $this->display();
+}
+    function index_case2(){
+        $this->display();
+    }
+    function index_case3(){
+        $this->display();
+    }
+
 
 }
