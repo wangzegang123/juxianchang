@@ -389,7 +389,7 @@
                         <div class="account-money pull-left">
                             <ul class="list-unstyled pull-left v-align-t">
                                 <li>
-                                    <div class="color-red">￥<span class="acc-num js-earn">0.00</span></div>
+                                    <div class="color-red">￥<span class="acc-num js-earn"></span></div>
                                     <p>总收入（元）<span class="label label-danger">含手续费、不含礼物分成</span></p>
                                 </li>
                                 <li>
@@ -403,7 +403,7 @@
                             </ul>
                         </div>
                         <div class="tip-account pull-right help-info" style="padding: 20px;">
-                            <div>未提现金额：<span class="color-red js-leftCount">￥0.00 元</span><a class="btn btn-success pull-right" href="./index.php?c=site&amp;a=entry&amp;op=tx&amp;do=my_wallet&amp;m=meepo_xianchang" onclick="return confirm('提现将导致所有霸屏上墙的数据记录被清空，确认吗？');return false;">立即提现</a></div>
+                            <div>未提现金额：<span class="color-red js-leftCount">￥0.00 元</span><a class="btn btn-success pull-right" href="" onclick="return confirm('提现将导致所有霸屏上墙的数据记录被清空，确认吗？');return false;">立即提现</a></div>
                             <p class="gray-color">提现方式：未提现金额必须满 <span class="color-red">100</span> 元</p>
                             <p class="gray-color">提现注意事项：提现需要收取 <span class="color-red">20%</span> 的手续费</p>
                         </div>

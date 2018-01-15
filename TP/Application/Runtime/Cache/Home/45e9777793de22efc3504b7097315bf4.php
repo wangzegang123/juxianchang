@@ -151,7 +151,6 @@
                 alert('您使用的 IE 浏览器版本过低, 推荐使用 Chrome 浏览器或 IE8 及以上版本浏览器.');
             }
         }
-
         window.sysinfo = {
             'uniacid': '52',
             'acid': '52',
@@ -166,7 +165,6 @@
     <!---默认-->
     <script type="text/javascript" charset="utf-8" async="" data-requirecontext="_" data-requiremodule="jquery" href="/shangshanruoshui/TP/Public/Home/js/jquery-1.11.1.min.js(1)"></script><script type="text/javascript" charset="utf-8" async="" data-requirecontext="_" data-requiremodule="bootstrap" href="/shangshanruoshui/TP/Public/Home/js/bootstrap.min.js"></script></head>
 <body class="zh_CN">
-
 <div class="meepo_head">
 
     <div class="meepo_head_box">
@@ -259,12 +257,15 @@
                             <li><a href="<?php echo U('Lk/zhyue');?>">我的账户</a></li>
                             <li class="curr"><a href="<?php echo U('Lk/details');?>">红包账户</a></li>
                             <li><a href="./index.php?c=site&amp;a=entry&amp;do=my_home&amp;m=meepo_xianchang">个人中心</a></li>
+<<<<<<< HEAD:TP/Application/Runtime/Cache/Home/45e9777793de22efc3504b7097315bf4.php
 >>>>>>> 3b4b4a5... liukai:TP/Application/Runtime/Cache/Home/c17a606686b03b963f6916bced82347a.php
 
+=======
+>>>>>>> 770dfc1... 刘凯:TP/Application/Runtime/Cache/Home/c17a606686b03b963f6916bced82347a.php
                         </ul>
-                    </li>
-
                 </ul>
+                    </li>
+                    </ul>
             </div>
         </div>
         <!--右边内容-->
@@ -347,7 +348,7 @@
                         <div class="account-money pull-left">
                             <ul class="list-unstyled pull-left v-align-t">
                                 <li>
-                                    <div class="color-red">￥<span class="acc-num js-earn">0.00</span></div>
+                                    <div class="color-red">￥<span class="acc-num js-earn"><?php echo ($prices); ?></span></div>
                                     <p>账户余额（元）</p>
                                 </li>
                                 <li>

@@ -151,7 +151,6 @@
                 alert('您使用的 IE 浏览器版本过低, 推荐使用 Chrome 浏览器或 IE8 及以上版本浏览器.');
             }
         }
-
         window.sysinfo = {
             'uniacid': '52',
             'acid': '52',
@@ -381,6 +380,9 @@
                 <li class="active">
                     <a href="<?php echo U('Lk/chongzhi');?>"><i class="fa fa-file-text" aria-hidden="true"></i> 账户充值</a>
                 </li>
+                <li class="">
+                    <a href="<?php echo U('Lk/order');?>"><i class="fa fa-file-text" aria-hidden="true"></i> 支付订单</a>
+                </li>
             </ul>
             <div class="panel panel-default">
                 <div class="panel-heading">
@@ -441,27 +443,27 @@
                 <div class="panel-heading">账户充值明细</div>
                 <div class="panel-body">
                     <table class="table table-hover" style="display:auto;">
-                        <thead class="navbar-inner">
+
                         <tr>
                             <th style="width:10%;text-align:center">状态</th>
                             <th style="width:30%;text-align:center">详细</th>
                             <th style="width:20%;text-align:center">时间</th>
                             <th style="width:40%;text-align:center">操作</th>
                         </tr>
-                        </thead>
-                        <tbody>
-
-                        </tbody>
-                        <tr>
-                            <td style="width:10%;text-align:center"></td>
-                            <?php if(is_array($res1)): foreach($res1 as $key=>$k): ?><td style="width:30%;text-align:center">
-                                <p>支付总金额:<span>{k.zongjine}</span></p>
-                                <p>充值金额:<span></span></p>
-                                <p>充值手续费:<span></span></p>
-                            </td><?php endforeach; endif; ?>
-                            <td style="width:20%;text-align:center"></td>
-                            <td style="width:40%;text-align:center"></td>
-                        </tr>
+                        <?php if(is_array($lk)): foreach($lk as $key=>$v): ?><tr>
+                            <td style="width:10%;text-align:center">
+                            <a style="color: red"><?php echo ($v['status_id']==1?'支付成功':'支付失败'); ?></a>
+                            </td>
+                            <td style="width:30%;text-align:center">
+                                <p style="color: #ff0000">支付总金额:<span><?php echo ($v["zongjine"]); ?>元</span></p>
+                                <p style="color: #ff0000">充值金额:<span><?php echo ($v["jine"]); ?>元</span></p>
+                                <p style="color: #ff0000">充值手续费:<span><?php echo ($v["shouxufei"]); ?>元</span></p>
+                            </td>
+                            <td style="width:20%;text-align:center;color: #ff0000"><?php echo (date("Y-m-d H:i:s" ,$v["addtime"])); ?></td>
+                            <td style="width:40%;text-align:center">
+                                <a href="<?php echo U('Lk/status');?>?id=<?php echo ($v["id"]); ?>&<?php echo ($v["status_id"]); ?>" style="color: #ff0000"><?php echo ($v['status_id']==1?'继续充值':'重新支付'); ?></a>
+                            </td>
+                        </tr><?php endforeach; endif; ?>
                     </table>
                     <div class="pager_box">
                     </div>

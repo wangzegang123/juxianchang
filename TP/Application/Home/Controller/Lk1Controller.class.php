@@ -53,4 +53,7 @@ class Lk1Controller extends Controller {
     public function ten(){
         $this->display('Home/ten');
     }
+    public function fuwudingjia(){
+        $this->display('Home/fuwudingjia');
+    }
 }
