@@ -36,6 +36,8 @@ function index_case1(){
     function index_case3(){
         $this->display();
     }
-
+    function index_case4(){
+        $this->display();
+    }
 
 }
