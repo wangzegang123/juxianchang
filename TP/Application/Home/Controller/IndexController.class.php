@@ -39,5 +39,10 @@ function index_case1(){
     function index_case4(){
         $this->display();
     }
-
+    function demo(){
+        $this->display();
+    }
+    function demo_index(){
+        $this->display();
+    }
 }
