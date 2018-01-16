@@ -1,0 +1,299 @@
+<extend name="Application/Home/View/Home/head3.html"/>
+<block name="wei">
+<div class="wrap" id="wrap"> 
+  <div id="top"></div>
+  <script>
+ 
+    $('.js_BtnMenu').on('click', function(){
+        if ($(this).hasClass('curr')) {
+        $(this).removeClass('curr');
+        $('.js_navList').hide();
+      } else {
+        $(this).addClass('curr');
+        $('.js_navList').show();
+      }
+    });
+  //二级菜单
+  $(".nav-list > li").mouseenter(function(){
+    $(this).find('.subnav').show();
+    $(this).addClass('shadow');
+  }).mouseleave(function(){
+    $(this).find('.subnav').hide();
+    $(this).removeClass('shadow');
+  });
+
+  </script>
+
+  <style type="text/css">
+    .location-shopcar .padding-fix {
+      padding:0px;
+    }
+	.funcs-list3 li .price-prev {
+    display: block;
+    font-size: 12px;
+    color: #666;
+    text-decoration: line-through;
+    margin: -3px 0 0;
+  </style>
+  <!--end:header-->
+  <div class="inner2 location clearfix">
+    <div class="left">
+     <a href="http://www.juxianchang.com/wxfunction/">功能服务</a> &gt; <a href="http://www.juxianchang.com/wxfunction/zservice/">增值服务</a> &gt;   <a href="http://www.juxianchang.com/wxfunction/zservice/42.html">互动策划</a> 
+    </div>
+    <div class="location-shopcar js_locationShopcar right">
+
+   </div>
+  </div>
+  <!--start:-->
+  <div class="inner2">
+    <div class="column2 clearfix">
+      <div class="column2-pic left js_funcPic">
+        <div id="js_funcPicBig" class="swiper-container  gallery-top">
+          <div class="swiper-pagination"></div>
+          <ul class="swiper-wrapper column2-pic-big">
+                        <li class="swiper-slide"><img src="__PUBLIC__/Home/images/20161005103444728.png"></li>
+                      </ul>
+        </div>
+        <div id="js_funcPicSmall" class="swiper-container gallery-thumbs">
+          <ul class="swiper-wrapper column2-pic-small clearfix">
+                      </ul>
+        </div>
+      </div>
+      <div class="column2-con left">
+        <h3>互动策划 </h3>
+        <p>互动策划</p>
+        <p class="price">￥<span>3000元/场</span></p>
+		  <p style="display: block; font-size: 12px; color:red;text-decoration: line-through; margin: -3px 0 0;"><span></span></p>
+    <div class="tag">
+		         	
+			
+			</div>
+        <div class="options">
+          <a href="http://wpa.qq.com/msgrd?v=3&amp;uin=2758820275&amp;site=qq&amp;menu=yes" class="btn-buy btn-normal btn-buy">立即联系</a>
+          
+         <div id="js_iconShopcar" class="icon-shopcar js_iconShopcar"><i></i></div>
+
+                              
+        </div>
+      </div>
+    </div>
+    <div class="clearfix">
+      <div class="sidebar left">
+        <h3 class="title1">推荐功能</h3>
+        <ul class="mall-list3">
+                                       <li>  
+                <a href="http://www.juxianchang.com/wxfunction/baoming/30.html">
+                  <img src="__PUBLIC__/Home/images/1481354053.png" style="border-radius:50px;" width="90" height="90">
+				  <br>
+                    <span class="title2">邀请函</span>                  
+                </a>
+              </li>
+                           <li>  
+                <a href="http://www.juxianchang.com/wxfunction/baoming/27.html">
+                  <img src="__PUBLIC__/Home/images/1481354098.png" style="border-radius:50px;" width="90" height="90">
+				  <br>
+                    <span class="title2">电子票</span>                  
+                </a>
+              </li>
+                           <li>  
+                <a href="http://www.juxianchang.com/wxfunction/hudong/25.html">
+                  <img src="__PUBLIC__/Home/images/1481354140.png" style="border-radius:50px;" width="90" height="90">
+				  <br>
+                    <span class="title2">现场直播</span>                  
+                </a>
+              </li>
+                           <li>  
+                <a href="http://www.juxianchang.com/wxfunction/hudong/23.html">
+                  <img src="__PUBLIC__/Home/images/20161007100007101.png" style="border-radius:50px;" width="90" height="90">
+				  <br>
+                    <span class="title2">摇一摇</span>                  
+                </a>
+              </li>
+                           <li>  
+                <a href="http://www.juxianchang.com/wxfunction/kphd/22.html">
+                  <img src="__PUBLIC__/Home/images/1481354369.png" style="border-radius:50px;" width="90" height="90">
+				  <br>
+                    <span class="title2">自定义LOGO</span>                  
+                </a>
+              </li>
+                           <li>  
+                <a href="http://www.juxianchang.com/wxfunction/hudong/21.html">
+                  <img src="__PUBLIC__/Home/images/1481354241.png" style="border-radius:50px;" width="90" height="90">
+				  <br>
+                    <span class="title2">投票</span>                  
+                </a>
+              </li>
+                                           <li>
+          </li></ul>
+		
+      </div>
+
+      <div class="detail right">
+                <div class="detail-tab js_detailTab clearfix">
+          <ul class="left">
+            <li><a href="http://www.juxianchang.com/wxfunction/zservice/42.html#jsDetailIntro">详情介绍</a></li>
+                                              
+          </ul>
+          <a href="http://wpa.qq.com/msgrd?v=3&amp;uin=2758820275&amp;site=qq&amp;menu=yes" class="btn-shopcar"><em></em>立即联系</a>
+        </div>
+      <div id="jsDetailIntro" class="detail-con">
+          <div class="txt">
+           <p>互动策划</p>		   </div>
+        </div>
+       
+      </div>
+      <!--end:detail-->
+    </div>
+  </div>
+  <!--end:-->
+</div>
+<div class="keifu" style="height: 345px; top: 199.5px;">
+  <div class="keifu_tab">
+    <div class="icon_keifu" style="top: 122px;"></div>
+    <div class="keifu_box">
+      <div class="keifu_head"><a href="javascript:void(0)" class="keifu_close"></a></div>
+      <ul class="keifu_con">
+	 
+     <li>聚现场-乐乐<br><a target="_blank" title="聚现场乐乐" href="http://wpa.qq.com/msgrd?v=3&amp;uin=2758820275&amp;site=qq&amp;menu=yes"><img src="__PUBLIC__/Home/images/qq.png"></a></li>
+       <br> <li>聚现场-阳阳<br><a target="_blank" title="聚现场阳阳" href="http://wpa.qq.com/msgrd?v=3&amp;uin=214023493&amp;site=qq&amp;menu=yes"><img src="__PUBLIC__/Home/images/qq.png"></a></li>
+       <br> <li>聚现场-售后<br><a target="_blank" title="聚现场售后" href="http://wpa.qq.com/msgrd?v=3&amp;uin=2758820275&amp;site=qq&amp;menu=yes"><img src="__PUBLIC__/Home/images/qq.png"></a></li>
+     
+      <li> </li></ul>
+      <div class="keifu_bot"></div>
+    </div>
+  </div>
+</div>
+
+<script>
+$(function(){
+	var KF = $(".keifu");
+	var wkbox = $(".keifu_box");
+	var kf_close = $(".keifu .keifu_close");
+	var icon_keifu = $(".icon_keifu");
+	var kH = wkbox.height();
+	var kW = wkbox.width();
+	var wH = $(window).height();
+	KF.css({height:kH});
+	icon_keifu.css("top",parseInt((kH-100)/2));
+	var KF_top = (wH-kH)/2;
+	if(KF_top<0) KF_top=0;
+	KF.css("top",KF_top);
+	$(kf_close).click(function(){
+		KF.animate({width:"0"},200,function(){
+			wkbox.hide();
+			icon_keifu.show();
+			KF.animate({width:26},300);		
+		});	
+	});
+	$(icon_keifu).click(function(){
+			$(this).hide();
+			wkbox.show();
+			KF.animate({width:kW},200);
+	});
+});
+</script>
+<a href="http://www.juxianchang.com/wxfunction/zservice/42.html#top" id="scrollUp"></a>
+<script>
+var companyId = 0;
+
+$(function(){
+
+    var bodyH = $(window).height();
+    if ($('.wrap').height() < bodyH){
+    $('.wrap').css({ minHeight:(bodyH-80) });
+      $('.footer').css({ position:'fixed', left:'0px', bottom:'0px', width:'100%' })
+    } else {
+      $('.footer').css({ position:'static', width:'100%' })
+    }
+    
+  $.scrollUp({
+    scrollName: 'scrollUp', // Element ID
+    topDistance: '300', // Distance from top before showing element (px)
+    topSpeed: 300, // Speed back to top (ms)
+    animation: 'fade', // Fade, slide, none
+    animationInSpeed: 200, // Animation in speed (ms)
+    animationOutSpeed: 200, // Animation out speed (ms)
+    scrollText: '', // Text for element
+    activeOverlay: false  // Set CSS color to display scrollUp active point, e.g '#00FFFF'
+  });
+});
+</script>
+<script>
+function showCommMsg(data){
+  if(!data.title) data.title = '提示信息';
+  $('#commMsgLayer .poptit').html(data.title);
+  $('#commMsgLayer .pop-tips').html(data.content);
+  $('.popmayer, #commMsgLayer').show();
+  
+  //$('#commMsgLayer').css({
+  //  'margin-top': (-$('#commMsgLayer').height()/2)+'px'
+  //});
+  $('#commMsgLayer .js_close').one('click', function(){
+    if(data.closeFn) data.closeFn();
+    $('.popmayer, #commMsgLayer').hide();
+  });
+}
+var autoHeight=function(){
+  var l=$(".sidebar2").height();
+  var r=$(".order-main").height();
+  if(r>l){
+         $(".sidebar2").css('height',r+100);
+       }
+}
+
+$(function (){
+   //除首页外高度不够给div.container填补padding值
+    var winHeight = $(window).height(),
+        pagesHeight = $(document.body).height(),
+        diffHeight = winHeight - pagesHeight;
+    if( winHeight > pagesHeight ){
+      $('.container').css("paddingBottom", diffHeight+20);
+    }else{ 
+      $('.container').css("paddingBottom", "");
+    } 
+});
+</script>
+
+<script>
+var _hmt = _hmt || [];
+(function() {
+  var hm = document.createElement("script");
+  hm.src = "//hm.baidu.com/hm.js?cbc479ac4119d55c0b8a663cd1ccbdec";
+  var s = document.getElementsByTagName("script")[0]; 
+  s.parentNode.insertBefore(hm, s);
+})();
+</script>
+
+<!--百度统计-->
+<script>
+var _hmt = _hmt || [];
+(function() {
+  var hm = document.createElement("script");
+  hm.src = "//hm.baidu.com/hm.js?c7a5bdab1ca800634638e6c2b6c570dc";
+  var s = document.getElementsByTagName("script")[0]; 
+  s.parentNode.insertBefore(hm, s);
+})();
+</script>
+
+<script>
+(function(){
+    var bp = document.createElement('script');
+    var curProtocol = window.location.protocol.split(':')[0];
+    if (curProtocol === 'https'){
+   bp.src = 'https://zz.bdstatic.com/linksubmit/push.js';
+  }
+  else{
+  bp.src = 'http://push.zhanzhang.baidu.com/push.js';
+  }
+    var s = document.getElementsByTagName("script")[0];
+    s.parentNode.insertBefore(bp, s);
+})();
+</script>
+<script>
+$(function(){
+  if (document.cookie.indexOf('_test_server') != -1) {
+    $(".footer").append('<a href="javascript:void(0);" style="position: fixed; left: 0px; bottom: 5px; background: #fff000; padding: 3px;">这是测试机</a>');
+  }
+});
+</script>
+</block>

@@ -101,4 +101,52 @@ class Lk1Controller extends Controller {
     public function money(){
         $this->display('Home/money');
     }
+    public function houzi(){
+        $this->display('Home/houzi');
+    }
+    public function tuandui(){
+        $this->display('Home/tuandui');
+    }
+    public function dazhuanpan(){
+        $this->display('Home/dazhuanpan');
+    }
+    public function choujiangxiang(){
+        $this->display('Home/choujiangxiang');
+    }
+    public function jindan(){
+        $this->display('Home/jindan');
+    }
+    public function haoma(){
+        $this->display('Home/haoma');
+    }
+    public function phone(){
+        $this->display('Home/phone');
+    }
+    public function hongbao(){
+        $this->display('Home/hongbao');
+    }
+    public function paoma(){
+        $this->display('Home/paoma');
+    }
+    public function yaohongbao(){
+        $this->display('Home/yaohongbao');
+    }
+    public function LOGO(){
+        $this->display('Home/LOGO');
+    }
+    public function beijing(){
+        $this->display('Home/beijing');
+    }
+    public function yingjian(){
+        $this->display('Home/yingjian');
+    }
+    public function cehua(){
+        $this->display('Home/cehua');
+    }
+    public function shengwai(){
+        $this->display('Home/shengwai');
+    }
+    public function chongqing(){
+        $this->display('Home/chongqing');
+    }
 }
