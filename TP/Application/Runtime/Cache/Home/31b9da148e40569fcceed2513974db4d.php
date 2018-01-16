@@ -56,7 +56,7 @@
             <li><a href="http://www.juxianchang.com/wxfunction/qiandao/10.html" title="3D签到">3D签到</a></li>
 
             <li><a href="http://www.juxianchang.com/jiaocheng" title="使用教程">使用教程</a></li>
-            <li><a href="<?php echo U('fuwudingjia');?>" title="服务定价">服务定价</a></li>
+            <li><a href="http://www.juxianchang.com/mall" title="服务定价">服务定价</a></li>
 
             <li><a href="http://user.juxianchang.com/register.html" rel="external nofollow" title="免费开通">免费开通<em class="icon-hot"></em></a></li>
 
@@ -473,7 +473,7 @@
     </li>
               
                			<li>
-      <a href="<?php echo U('houzi');?>" target="_blank">
+      <a href="/53.html" target="_blank">
        <img src="/Public/Home/images/1495776529.png" style="border-radius:50px;" width="90" height="90">
         <span class="name">猴子爬树		<br><span style="font-size:15px;">600元/天		</span>  <!--关闭价格显示-->
 		<!--原价-->
@@ -485,7 +485,7 @@
     </li>
               
                			<li>
-      <a href="<?php echo U('tuandui');?>" target="_blank">
+      <a href="/52.html" target="_blank">
        <img src="/Public/Home/images/20161007100007101.png" style="border-radius:50px;" width="90" height="90">
         <span class="name">团队摇一摇		<br><span style="font-size:15px;">500元/天		</span>  <!--关闭价格显示-->
 		<!--原价-->
@@ -497,7 +497,7 @@
     </li>
               
                			<li>
-      <a href="<?php echo U('dazhuanpan');?>" target="_blank">
+      <a href="/46.html" target="_blank">
        <img src="/Public/Home/images/20170430061504921.png" style="border-radius:50px;" width="90" height="90">
         <span class="name">幸运大转盘		<br><span style="font-size:15px;">500元/天		</span>  <!--关闭价格显示-->
 		<!--原价-->
@@ -509,7 +509,7 @@
     </li>
               
                			<li>
-      <a href="<?php echo U('choujiangxiang');?>" target="_blank">
+      <a href="/38.html" target="_blank">
        <img src="/Public/Home/images/1481440362.png" style="border-radius:50px;" width="90" height="90">
         <span class="name">抽奖箱		<br><span style="font-size:15px;">200元/天		</span>  <!--关闭价格显示-->
 		<!--原价-->
@@ -521,7 +521,7 @@
     </li>
               
                			<li>
-      <a href="<?php echo U('jindan');?>" target="_blank">
+      <a href="/37.html" target="_blank">
        <img src="/Public/Home/images/1481439937.png" style="border-radius:50px;" width="90" height="90">
         <span class="name">砸金蛋		<br><span style="font-size:15px;">200元/天		</span>  <!--关闭价格显示-->
 		<!--原价-->
@@ -533,7 +533,7 @@
     </li>
               
                			<li>
-      <a href="<?php echo U('haoma');?>" target="_blank">
+      <a href="/36.html" target="_blank">
        <img src="/Public/Home/images/1481439605.png" style="border-radius:50px;" width="90" height="90">
         <span class="name">幸运号码		<br><span style="font-size:15px;">200元/天		</span>  <!--关闭价格显示-->
 		<!--原价-->
@@ -545,7 +545,7 @@
     </li>
               
                			<li>
-      <a href="<?php echo U('phone');?>" target="_blank">
+      <a href="/35.html" target="_blank">
        <img src="/Public/Home/images/1481439191.png" style="border-radius:50px;" width="90" height="90">
         <span class="name">幸运手机号		<br><span style="font-size:15px;">200元/天		</span>  <!--关闭价格显示-->
 		<!--原价-->
@@ -557,7 +557,7 @@
     </li>
               
                			<li>
-      <a href="<?php echo U('hongbao');?>" target="_blank">
+      <a href="/33.html" target="_blank">
        <img src="/Public/Home/images/1481376881.png" style="border-radius:50px;" width="90" height="90">
         <span class="name">红包雨		<br><span style="font-size:15px;">500元起/天		</span>  <!--关闭价格显示-->
 		<!--原价-->
@@ -581,7 +581,7 @@
     </li>
               
                			<li>
-      <a href="<?php echo U('paoma');?>" target="_blank">
+      <a href="/20.html" target="_blank">
        <img src="/Public/Home/images/1481440673.png" style="border-radius:50px;" width="90" height="90">
         <span class="name">跑马摇一摇		<br><span style="font-size:15px;">300起/天		</span>  <!--关闭价格显示-->
 		<!--原价-->
@@ -593,7 +593,7 @@
     </li>
               
                			<li>
-      <a href="<?php echo U('yaohongbao');?>" target="_blank">
+      <a href="/15.html" target="_blank">
        <img src="/Public/Home/images/20161007100044168.png" style="border-radius:50px;" width="90" height="90">
         <span class="name">摇红包		<br><span style="font-size:15px;">500元/天		</span>  <!--关闭价格显示-->
 		<!--原价-->
@@ -615,7 +615,7 @@
   <ul class="clearfix">
      		
 												<li>
-      <a href="<?php echo U('LOGO');?>" target="_blank">
+      <a href="http://www.juxianchang.com/wxfunction/kphd/22.html" target="_blank">
        <img src="/Public/Home/images/1481354369.png" style="border-radius:50px;" width="90" height="90">
         <span class="name">自定义LOGO		<br><span style="font-size:15px;">0元/天		</span> <!-- 关闭价格显示-->
 		<!--原价-->
@@ -627,7 +627,7 @@
     </li>
               
                			<li>
-      <a href="<?php echo U('beijing');?>" target="_blank">
+      <a href="http://www.juxianchang.com/wxfunction/kphd/17.html" target="_blank">
        <img src="/Public/Home/images/1481354327.png" style="border-radius:50px;" width="90" height="90">
         <span class="name">自定义背景		<br><span style="font-size:15px;">0元/天		</span> <!-- 关闭价格显示-->
 		<!--原价-->
@@ -649,7 +649,7 @@
   <ul class="clearfix">
      		
 												<li>
-      <a href="<?php echo U('yingjian');?>" target="_blank">
+      <a href="http://www.juxianchang.com/wxfunction/zservice/43.html" target="_blank">
        <img src="/Public/Home/images/20170430051624590.jpg" style="border-radius:50px;" width="90" height="90">
         <span class="name"> 硬件租赁		<br><span style="font-size:15px;">联系客服		</span> <!-- 关闭价格显示-->
 		<!--原价-->
@@ -661,7 +661,7 @@
     </li>
               
                			<li>
-      <a href="<?php echo U('cehua');?>" target="_blank">
+      <a href="http://www.juxianchang.com/wxfunction/zservice/42.html" target="_blank">
        <img src="/Public/Home/images/20161007075850645.png" style="border-radius:50px;" width="90" height="90">
         <span class="name">互动策划		<br><span style="font-size:15px;">3000元/场		</span> <!-- 关闭价格显示-->
 		<!--原价-->
@@ -673,7 +673,7 @@
     </li>
               
                			<li>
-      <a href="<?php echo U('shengwai');?>" target="_blank">
+      <a href="http://www.juxianchang.com/wxfunction/zservice/41.html" target="_blank">
        <img src="/Public/Home/images/20161007100032289.png" style="border-radius:50px;" width="90" height="90">
         <span class="name">人工服务(省外)		<br><span style="font-size:15px;">3000元/天		</span> <!-- 关闭价格显示-->
 		<!--原价-->
@@ -685,7 +685,7 @@
     </li>
               
                			<li>
-      <a href="<?php echo U('chongqing');?>" target="_blank">
+      <a href="http://www.juxianchang.com/wxfunction/zservice/40.html" target="_blank">
        <img src="/Public/Home/images/20161007100032289.png" style="border-radius:50px;" width="90" height="90">
         <span class="name">人工服务(重庆)		<br><span style="font-size:15px;">1500元/天		</span> <!-- 关闭价格显示-->
 		<!--原价-->

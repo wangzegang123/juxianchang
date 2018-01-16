@@ -42,8 +42,7 @@
 </div>
 </div>
 <video class="bg_video" id="bg_video" src="http://qiniu.wexbox.com/2.mp4" autoplay="" loop="" muted="" style="margin: auto; position: absolute; top: 50%; left: 50%; transform: translate(-50%, -50%); visibility: visible; opacity: 1; z-index: -1; width: 1602px; height: auto;"></video>
-<div id="login" class="login-container" style="justify-content: center; align-items: center; display: -webkit-flex;">
-    <div class="warning-1" style="display: none; opacity: 1;"></div>
+<div id="login" class="login-container" style="justify-content: center; align-items: center; display: -webkit-flex;"><div class="warning-1" style="display: none; opacity: 1;"></div>
     <form active="{:U('Home\Login\login_index')}"  method="post">
     <div class="login-box">
         <div class="login-logo"><img src="__PUBLIC__/Home/images/sys_logo.png" alt="logo"></div>
@@ -51,114 +50,108 @@
         <div class="common-login"><label for="username-login" class="iconfont"></label> <input type="text" id="username-login" maxlength="33" placeholder="用户名" autocomplete="off" name="username" autofocus="autofocus"> <i class="iconfont" style="display: none;"></i></div> <div class="common-login"><label for="password-login" class="iconfont"></label> <input type="password" id="password-login" maxlength="33" placeholder="密码" name="password"> <i class="iconfont" style="display: none;"></i></div>
         <div id="embed-captcha" style="margin-left:20px;opacity:0.5;">
         </div>
-            <div class="common-login login-submit"><input type="submit" value="登录" id="embed-submit"> <input name="token" value="wRPp" type="hidden"></div>
-        <div class="register-link">
+            <div class="common-login login-submit"><input type="submit" value="登 录" id="embed-submit"> <input name="token" value="wRPp" type="hidden"></div> <div class="register-link">
                 还没有账号？点击
-            <input type="button" value="注册" id="reg" />
-                <!--<a href="{:U('home/login/register')}"  style="color: red;" >注册</a>-->
-        </div>
-    </div>
-        {$_SESSION['mid']}
+                <a href="http://wall.juxianchang.com/app/index.php?i=52&amp;c=entry&amp;do=manage_register&amp;m=meepo_xianchang" style="color: red;">注册</a></div></div>
     </form>
 </div>
+
+
 <script>
-    $("#reg").click(function(){
-        window.location.href="{:U('home/login/register')}";
+    var vm = new Vue({
+        el: '#login',
+        data: {
+            username: "",
+            password: '',
+			verify: '',
+            warShow: false,
+			warText:''
+        },
+        methods: {
+            login: function(event) {
+				$("#loading").show();
+                var _this = this;
+                if( this.username.length <= 0 )
+                {
+					$("#loading").hide();
+					this.warText = '请输入登录用户名';
+                    this.warShow = true;
+                    setTimeout(function(){
+                        _this.warShow = false;
+                    }, 2222);
+                    event.preventDefault();
+                    return;
+                }
+				if( this.password.length <= 0 )
+                {
+					$("#loading").hide();
+					this.warText = '请输入登录密码';
+                    this.warShow = true;
+                    setTimeout(function(){
+                        _this.warShow = false;
+                    }, 2222);
+                    event.preventDefault();
+                    return;
+                }
+								if( this.verify.length <= 0)
+                {
+					$("#loading").hide();
+					this.warText = '请输入验证码';
+                    this.warShow = true;
+                    setTimeout(function(){
+                        _this.warShow = false;
+                    }, 2222);
+                    event.preventDefault();
+                    return;
+                }
+				if( this.verify.length < 4)
+                {
+					$("#loading").hide();
+					this.warText = '请输入正确的验证码';
+                    this.warShow = true;
+                    setTimeout(function(){
+                        _this.warShow = false;
+                    }, 2222);
+                    event.preventDefault();
+                    return;
+                }
+							var data={
+				
+                'username':this.username,
+                'password':this.password,
+                'verify':this.verify
+            };
+			var _this = this;
+            $.post('#',data, function(json){
+				$("#loading").hide();
+    			if(json.errno==0){
+    			    //alert(json.message);
+					_this.warText = json.message;
+					_this.warShow = true;
+					setTimeout(function(){
+						window.location.href = json.url;
+					}, 2000);
+                }else{
+    				_this.warText = json.message;
+					_this.warShow = true;
+					setTimeout(function(){
+                        _this.warShow = false;
+                    }, 2222);
+					if(json.errno==-2){
+						$(".get-code").attr('src',"./index.php?i=52&c=entry&do=verify&m=meepo_xianchang&t="+Math.random());
+					}
+    				
+    			}
+    		}, 'json');
+            }
+        }
     });
-//    var vm = new Vue({
-//        el: '#login',
-//        data: {
-//            username: "",
-//            password: '',
-//			verify: '',
-//            warShow: false,
-//			warText:''
-//        },
-//        methods: {
-//            login: function(event){
-//				$("#loading").show();
-//                var _this = this;
-//                if( this.username.length <= 0 )
-//                {
-//					$("#loading").hide();
-//					this.warText = '请输入登录用户名';
-//                    this.warShow = true;
-//                    setTimeout(function(){
-//                        _this.warShow = false;
-//                    }, 2222);
-//                    event.preventDefault();
-//                    return;
-//                }
-//				if( this.password.length <= 0 )
-//                {
-//					$("#loading").hide();
-//					this.warText = '请输入登录密码';
-//                    this.warShow = true;
-//                    setTimeout(function(){
-//                        _this.warShow = false;
-//                    }, 2222);
-//                    event.preventDefault();
-//                    return;
-//                }
-//								if( this.verify.length <= 0)
-//                {
-//					$("#loading").hide();
-//					this.warText = '请输入验证码';
-//                    this.warShow = true;
-//                    setTimeout(function(){
-//                        _this.warShow = false;
-//                    }, 2222);
-//                    event.preventDefault();
-//                    return;
-//                }
-//				if( this.verify.length < 4)
-//                {
-//					$("#loading").hide();
-//					this.warText = '请输入正确的验证码';
-//                    this.warShow = true;
-//                    setTimeout(function(){
-//                        _this.warShow = false;
-//                    }, 2222);
-//                    event.preventDefault();
-//                    return;
-//                }
-//							var data={
-//
-//                'username':this.username,
-//                'password':this.password,
-//                'verify':this.verify
-//            };
-//			var _this = this;
-//            $.post('#',data, function(json){
-//				$("#loading").hide();
-//    			if(json.errno==0){
-//    			    //alert(json.message);
-//					_this.warText = json.message;
-//					_this.warShow = true;
-//					setTimeout(function(){
-//						window.location.href = json.url;
-//					}, 2000);
-//                }else{
-//    				_this.warText = json.message;
-//					_this.warShow = true;
-//					setTimeout(function(){
-//                        _this.warShow = false;
-//                    }, 2222);
-//					if(json.errno==-2){
-//						$(".get-code").attr('src',"./index.php?i=52&c=entry&do=verify&m=meepo_xianchang&t="+Math.random());
-//					}
-//
-//    			}
-//    		}, 'json');
-//            }
-//        }
-//    });
-//	$(function(){
-//		$(".warning-1").css({'opacity':1});
-//		if ($(".bg_video").length > 0){
-//			$(".bg_video").css({width: $("body").width() + 2,height:"auto",opacity: 1})
-//		}
-//	});
+	$(function(){
+		$(".warning-1").css({'opacity':1});
+		if ($(".bg_video").length > 0) {
+			$(".bg_video").css({width: $("body").width() + 2,height:"auto",opacity: 1})
+		}
+	});
 </script>
 <script>
     //服务端SDK的主要目的是为客户端提供两个接口：API1（验证初始化）、API2（二次验证，判断验证结果的真实性）
@@ -170,7 +163,7 @@
     var handlerEmbed = function (captchaObj) {
         // 这里可以调用验证实例 captchaObj 的实例方法
         console.log("KKKK");
-        $("#embed-submit").click(function (e){
+        $("#embed-submit").click(function (e) {
             var validate = captchaObj.getValidate();//获取二次验证所需的凭证
             console.log(validate);
             if (!validate) {
@@ -180,7 +173,7 @@
             // 将验证码加到id为captcha的元素里，同时会有三个input的值：geetest_challenge, geetest_validate, geetest_seccode
         });
         captchaObj.appendTo("#embed-captcha");//将验证按钮插入到宿主页面中，参数可以是 id 选择器，也可以是具体的元素
-        captchaObj.onReady(function (){
+        captchaObj.onReady(function () {
             $("#wait")[0].className = "hide";
         });
 
@@ -216,5 +209,5 @@
     });
 
 </script>
-<!--<script>var imgs = document.getElementsByTagName('img');for(var i=0, len=imgs.length; i < len; i++){imgs[i].onerror = function() {if (!this.getAttribute('check-src') && (this.src.indexOf('http://') > -1 || this.src.indexOf('https://') > -1)) {this.src = this.src.indexOf('http://wall.juxianchang.com/attachment/') == -1 ? this.src.replace('http://of3kdd1ar.bkt.clouddn.com/', 'http://wall.juxianchang.com/attachment/') : this.src.replace('http://wall.juxianchang.com/attachment/', 'http://of3kdd1ar.bkt.clouddn.com/');this.setAttribute('check-src', true);}}}</script>-->
+<script>var imgs = document.getElementsByTagName('img');for(var i=0, len=imgs.length; i < len; i++){imgs[i].onerror = function() {if (!this.getAttribute('check-src') && (this.src.indexOf('http://') > -1 || this.src.indexOf('https://') > -1)) {this.src = this.src.indexOf('http://wall.juxianchang.com/attachment/') == -1 ? this.src.replace('http://of3kdd1ar.bkt.clouddn.com/', 'http://wall.juxianchang.com/attachment/') : this.src.replace('http://wall.juxianchang.com/attachment/', 'http://of3kdd1ar.bkt.clouddn.com/');this.setAttribute('check-src', true);}}}</script>
 </body></html>

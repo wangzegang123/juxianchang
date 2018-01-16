@@ -44,7 +44,9 @@ var requirejs, require, define;
 			return c.apply(b, arguments)
 		}
 	}
-
+	function da(b) {
+		throw b;
+	}
 	function ea(b) {
 		if (!b) return b;
 		var c = ca;
@@ -145,7 +147,14 @@ var requirejs, require, define;
 			else if (n = q(a), n.error && "error" === e) b(n.error);
 			else n.on(e, b)
 		}
-
+		function w(a, e) {
+			var b = a.requireModules,
+				f = !1;
+			if (e) e(a);
+			else if (v(b, function(e) {
+				if (e = j(k, e)) e.error = a, e.events.error && (f = !0, e.emit("error", a))
+			}), !f) h.onError(a)
+		}
 		function x() {
 			S.length && (ia.apply(A, [A.length, 0].concat(S)), S = [])
 		}
@@ -655,6 +664,7 @@ var requirejs, require, define;
 			}
 		});
 		if (z && (y = x.head = document.getElementsByTagName("head")[0], D = document.getElementsByTagName("base")[0])) y = x.head = D.parentNode;
+		h.onError = da;
 		h.createNode = function(b) {
 			var c = b.xhtml ? document.createElementNS("http://www.w3.org/1999/xhtml", "html:script") : document.createElement("script");
 			c.type = b.scriptType || "text/javascript";
@@ -701,7 +711,7 @@ var requirejs, require, define;
 try {
 	if (window.console && window.console.log) {
 		console.log("%c聚现场|微信互动|会议签到|摇一摇|微信墙 ^_^ ：", "height:25px; line-height:25px;");
-
+		
 
 	}
 } catch (e) {};
