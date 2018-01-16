@@ -1,12 +1,13 @@
+{require("__PUBLIC__/Home/js/jquery-1.11.1.min.js")}
+{require("__PUBLIC__/Home/js/jquery.jplayer.min.js")}
+{require("__PUBLIC__/Home/js/bootstrap.min.js")}
 require.config({
+
 	baseUrl: 'resource/js/app',
 	paths: {
-		'jquery': '../lib/jquery-1.11.1.min',
 		'jquery.ui': '../lib/jquery-ui-1.10.3.min',
 		'jquery.caret': '../lib/jquery.caret',
-		'jquery.jplayer': '../../components/jplayer/jquery.jplayer.min',
 		'jquery.zclip': '../../components/zclip/jquery.zclip.min',
-		'bootstrap': '../lib/bootstrap.min',
 		'bootstrap.switch': '../../components/switch/bootstrap-switch.min',
 		'angular': '../lib/angular.min',
 		'angular.sanitize': '../lib/angular-sanitize.min',

@@ -1,4 +1,4 @@
-<!DOCTYPE html>
+<?php if (!defined('THINK_PATH')) exit();?><!DOCTYPE html>
 <!-- saved from url=(0100)http://wall.juxianchang.com/web/index.php?c=site&a=entry&_admin_uniacid=52&do=list&m=meepo_xianchang -->
 <html lang="zh-cn"><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8"><style type="text/css">@charset "UTF-8";[ng\:cloak],[ng-cloak],[data-ng-cloak],[x-ng-cloak],.ng-cloak,.x-ng-cloak,.ng-hide:not(.ng-hide-animate){display:none !important;}ng\:form{display:block;}.ng-animate-shim{visibility:hidden;}.ng-anchor{position:absolute;}</style>
 
@@ -8,15 +8,15 @@
     <link rel="shortcut icon" href="http://wall.juxianchang.com/web/resource/images/favicon.ico">
     <meta name="keywords" content="聚现场">
     <meta name="description" content="聚现场">
-    <link href="__PUBLIC__/Home/css/bootstrap.min.css" rel="stylesheet">
-    <link href="__PUBLIC__/Home/css/font-awesome.min.css" rel="stylesheet">
-    <link href="__PUBLIC__/Home/css/common.css" rel="stylesheet">
+    <link href="/shangshanruoshui/TP/Public/Home/css/bootstrap.min.css" rel="stylesheet">
+    <link href="/shangshanruoshui/TP/Public/Home/css/font-awesome.min.css" rel="stylesheet">
+    <link href="/shangshanruoshui/TP/Public/Home/css/common.css" rel="stylesheet">
     <!--my css-->
-    <link rel="stylesheet" href="__PUBLIC__/Home/css/common1.css">
-    <link rel="stylesheet" href="__PUBLIC__/Home/css/sys.css">
-    <link rel="stylesheet" href="__PUBLIC__/Home/css/style.css">
-    <link rel="stylesheet" href="__PUBLIC__/Home/css/spinners.css" type="text/css">
-    <link rel="stylesheet" href="__PUBLIC__/Home/css/animate.min.css" type="text/css">
+    <link rel="stylesheet" href="/shangshanruoshui/TP/Public/Home/css/common1.css">
+    <link rel="stylesheet" href="/shangshanruoshui/TP/Public/Home/css/sys.css">
+    <link rel="stylesheet" href="/shangshanruoshui/TP/Public/Home/css/style.css">
+    <link rel="stylesheet" href="/shangshanruoshui/TP/Public/Home/css/spinners.css" type="text/css">
+    <link rel="stylesheet" href="/shangshanruoshui/TP/Public/Home/css/animate.min.css" type="text/css">
     <script type="text/javascript">
         if(navigator.appName == 'Microsoft Internet Explorer'){
             if(navigator.userAgent.indexOf("MSIE 5.0")>0 || navigator.userAgent.indexOf("MSIE 6.0")>0 || navigator.userAgent.indexOf("MSIE 7.0")>0) {
@@ -30,15 +30,15 @@
             'attachurl_local': 'http://wall.juxianchang.com/attachment/',
             'attachurl_remote': 'http://of3kdd1ar.bkt.clouddn.com/',
             'MODULE_URL': 'http://wall.juxianchang.com/addons/meepo_xianchang/',		'cookie' : {'pre': 'da90_'},
-            'account' : {"acid":"52","uniacid":"52","token":"U1Xx30fI20xZb8RzBz8EkXg8Kr22G8if","access_token":"","encodingaeskey":"iGgz99H3y03yGsHChHvYq73rBcSG3GS3994sS2YqH32","level":"1","name":"\u805a\u73b0\u573a\u4e92\u52a8","account":"","original":"","signature":"","country":"","province":"","city":"","username":"admin","password":"44fa961a7bf1168bb83bb73501ec46eb","lastupdate":"0","key":"wx89df1fd213b2971b","secret":"8650aeef73cd5d727d4ba5f3176cd954","styleid":"0","subscribeurl":"","auth_refresh_token":"","default_acid":"52","type":"1","uid":null,"starttime":null,"endtime":null,"groups":{"52":{"groupid":"52","uniacid":"52","title":"\u9ed8\u8ba4\u4f1a\u5458\u7ec4","credit":"0","isdefault":"1"}},"grouplevel":"0"}	};
+            'account' : {"acid":"52","uniacid":"52","token":"U1Xx30fI20xZb8RzBz8EkXg8Kr22G8if","access_token":"","encodingaeskey":"iGgz99H3y03yGsHChHvYq73rBcSG3GS3994sS2YqH32","level":"1","name":"u805au73b0u573au4e92u52a8","account":"","original":"","signature":"","country":"","province":"","city":"","username":"admin","password":"44fa961a7bf1168bb83bb73501ec46eb","lastupdate":"0","key":"wx89df1fd213b2971b","secret":"8650aeef73cd5d727d4ba5f3176cd954","styleid":"0","subscribeurl":"","auth_refresh_token":"","default_acid":"52","type":"1","uid":null,"starttime":null,"endtime":null,"groups":{"52":{"groupid":"52","uniacid":"52","title":"u9ed8u8ba4u4f1au5458u7ec4","credit":"0","isdefault":"1"}},"grouplevel":"0"}	};
 
     </script>
     <script>var require = { urlArgs: 'v=20180105100330' };</script>
-    <script type="text/javascript" src="__PUBLIC__/Home/js/jquery-1.11.1.min.js"></script>
-    <script type="text/javascript" src="__PUBLIC__/Home/js/util.js"></script>
-    <script type="text/javascript" src="__PUBLIC__/Home/js/common.min.js"></script>
-    <script type="text/javascript" src="__PUBLIC__/Home/js/require.js"></script>
-    <script type="text/javascript" src="__PUBLIC__/Home/js/config.js"></script>
+    <script type="text/javascript" src="/shangshanruoshui/TP/Public/Home/js/jquery-1.11.1.min.js"></script>
+    <script type="text/javascript" src="/shangshanruoshui/TP/Public/Home/js/util.js"></script>
+    <script type="text/javascript" src="/shangshanruoshui/TP/Public/Home/js/common.min.js"></script>
+    <script type="text/javascript" src="/shangshanruoshui/TP/Public/Home/js/require.js"></script>
+    <script type="text/javascript" src="/shangshanruoshui/TP/Public/Home/js/config.js"></script>
     <style>
         body{background-color:#e7e8eb;}
         .nav-tabs>li.active>a, .nav-tabs>li.active>a:hover, .nav-tabs>li.active>a:focus{
@@ -86,7 +86,7 @@
             margin:0 80px 0 80px;
         }
         .gw-container{
-            background:#e7e8eb url("__PUBLIC__/Home/images/hucebg.png") repeat;
+            background:#e7e8eb url("/shangshanruoshui/TP/Public/Home/images/hucebg.png") repeat;
         }
         .gw-container .breadcrumb{
             background-color:#FFF;
@@ -164,7 +164,7 @@
         };
     </script>
     <!---默认-->
-    <script type="text/javascript" charset="utf-8" async="" data-requirecontext="_" data-requiremodule="jquery" href="__PUBLIC__/Home/js/jquery-1.11.1.min.js(1)"></script><script type="text/javascript" charset="utf-8" async="" data-requirecontext="_" data-requiremodule="bootstrap" href="__PUBLIC__/Home/js/bootstrap.min.js"></script></head>
+    <script type="text/javascript" charset="utf-8" async="" data-requirecontext="_" data-requiremodule="jquery" href="/shangshanruoshui/TP/Public/Home/js/jquery-1.11.1.min.js(1)"></script><script type="text/javascript" charset="utf-8" async="" data-requirecontext="_" data-requiremodule="bootstrap" href="/shangshanruoshui/TP/Public/Home/js/bootstrap.min.js"></script></head>
 <body class="zh_CN">
 
 <div class="meepo_head">
@@ -262,13 +262,25 @@
         </div>
         <!--右边内容-->
 
-        <block name="right">
+        
+<!--右边内容-->
+<div class="panel panel-default">
+    <div class="panel-body">
+        <div id="box">
+            <p style="color:Red">微信扫一扫支付(￥<?php echo ($total_money); ?>)</p>
+            <img src="/shangshanruoshui/TP/Public/Home/images/payment_erweima.png" width="150" onerror="">
+            <div class="panel panel-default" style="margin:20px;">
+                <div class="panel-body" style="text-align: center;">
+                    <a class="btn btn-warning" href="" onclick="return confirm('您已经微信支付成功？');return false;">我已支付成功</a>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
 
-
-            </block>
 
         <!--slider css--->
-        <link rel="stylesheet" href="__PUBLIC__/Home/css/boostrap.slider.css">
+        <link rel="stylesheet" href="/shangshanruoshui/TP/Public/Home/css/boostrap.slider.css">
         <style>
             .slider.slider-horizontal {
                 height:40px;
@@ -325,14 +337,7 @@
                     $.post("./index.php?c=site&a=entry&do=update_important&m=meepo_xianchang",{ac_id:ac_id,is_important:is_important},function(result){
                         console.log(result);
                         if(result.errno==0){
-                            if(result.message==1){//加入特别关心
-                                $this.attr('data-important','1');
-                                $this.addClass('active');
-
-                            }else{//取消特别关心
-                                $this.attr('data-important','0');
-                                $this.removeClass('active');
-                            }
+                            if(result.message==1)else
                         }
                     },'json');
                 });
@@ -402,7 +407,7 @@
         position:fixed;
         width:40px;
         height:40px;
-        background-image:url("__PUBLIC__/Home/images/top.png");
+        background-image:url("/shangshanruoshui/TP/Public/Home/images/top.png");
         bottom:30px;
         right:10px;
         -webkit-transition:all 0.2s;
