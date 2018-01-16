@@ -1,0 +1,87 @@
+<extend name="./public_part/public_part"/>
+<block name="right">
+    <div class="col-xs-12 col-sm-9 col-lg-10 sys_menu_box">
+        <ul class="nav nav-tabs">
+            <li>
+                <a href="{:U('member_info')}"> 基本信息</a>
+            </li>
+            <li class="active">
+                <a href=""> 安全中心</a>
+            </li>
+        </ul>
+        <form action="" method="post" class="form-horizontal" id="form1">
+            <div class="panel panel-default">
+                <div class="panel-heading">安全中心</div>
+                <div class="panel-body">
+                    <div class="form-group">
+                        <label class="col-xs-12 col-sm-2 col-md-2 col-lg-2 control-label">当前密码</label>
+                        <div class="col-sm-10 col-xs-12">
+                            <input id="oldpassword" name="oldpassword" type="password" class="form-control" autocomplete="off">
+                        </div>
+                    </div>
+                    <div class="form-group">
+                        <label class="col-xs-12 col-sm-2 col-md-2 col-lg-2 control-label">新密码</label>
+                        <div class="col-sm-10 col-xs-12">
+                            <input id="password" name="password" type="password" class="form-control" autocomplete="off" value="">
+                        </div>
+                    </div>
+                    <div class="form-group">
+                        <label class="col-xs-12 col-sm-2 col-md-2 col-lg-2 control-label">确认新密码</label>
+                        <div class="col-sm-10 col-xs-12">
+                            <input id="repassword" name="repassword" type="password" class="form-control" value="" autocomplete="off">
+                        </div>
+                    </div>
+                    <div class="form-group">
+                        <label class="col-sm-2 col-md-2 control-label"></label>
+                        <div class="col-sm-6 col-md-8 col-xs-12">
+                            <input type="submit" name="user_submit" value="确认" class="btn btn-primary col-lg-1">
+                            <input type="hidden" name="token" value="7ea42ec0">
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </form>
+    </div>
+    <script>
+        $("#form1").validate({
+            errorClass: "invalid",
+            successClass: "valid",
+            rules: {
+                oldpassword: {
+                    required: true,
+                    remote: {
+                        url:"{:U('Home/Member/member_pwd')}",
+                        type: "get"
+                    }
+                },
+                password: {
+                    required: true,
+                    rangelength: [5, 18]
+                },
+                repassword: {
+                    required: true,
+                    equalTo: "#password"
+                }
+            },
+            messages: {
+                oldpassword: {
+                    required: "原密码不能为空",
+                    remote: "原密码输入有误"
+                },
+                password: {
+                    required: "新密码不能为空",
+                    rangelength: "密码长度在5-18位"
+                },
+                repassword: {
+                    required: "确认密码不能为空",
+                    equalTo: "两次密码不一致"
+                }
+            },
+            success: function (label) {
+                label.addClass("ok");
+                label.html("验证通过");
+            },
+            validClass: "ok"
+        });
+    </script>
+</block>
