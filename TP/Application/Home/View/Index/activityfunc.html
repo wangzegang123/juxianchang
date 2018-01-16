@@ -1,0 +1,522 @@
+<extend name="./public_part/public_part"/>
+<block name="right">
+<div class="col-xs-12 col-sm-9 col-lg-10 sys_menu_box">
+    <!--slider css--->
+    <link rel="stylesheet" href="__PUBLIC__/home/css/boostrap.slider.css">
+    <style>
+        .slider.slider-horizontal {
+            height:40px;
+            width:100%;
+        }
+        .slider.slider-horizontal .slider-handle {
+            margin-left: -10px;
+            margin-top: 10px;
+        }
+        #Slider .slider-handle {
+            background: #36b27a;
+            border-radius:50%;
+        }
+        #Slider .slider-selection {
+            background: #36b27a;
+        }
+        .add-jian input{height:40px;text-align:center}
+        .quantity-remove, .quantity-add {
+            cursor: pointer;
+        }
+        .quantity-add.glyphicon, .quantity-remove.glyphicon {
+            display: block;
+            cursor: pointer;
+        }
+        .slider_box{
+            padding:20px;margin-bottom:0px;display:none
+        }
+        .update_important{
+            position:absolute;
+            top:0;
+            right:80px;
+            color:gray;
+            cursor:pointer;
+            z-index:10
+        }
+        .update_important.active{
+            color:#22B766
+        }
+        .update_important.active:hover{
+            color:gray
+        }
+        .update_important:hover{
+            color:#22B766
+        }
+    </style>
+    <!--slider end--->
+    <div class="bd_nav_list">
+        <div class="btn-group">
+            <a class="btn btn-default" href="./index.php?c=site&amp;a=entry&amp;do=list&amp;m=meepo_xianchang"><i class="fa fa-mail-reply"></i> 返回我的活动</a>
+        </div>
+    </div>
+    <div class="panel panel-default" style="border-right:0;border-left:0">
+        <ul class="nav nav-tabs" style="margin-bottom:0;margin-top:20px;">
+            <li>
+                <a href="{:U('ExitActivity')}?id={$data['activity_id']}">基础设置</a>
+            </li>
+            <li class="active">
+                <a href="{:U('activityfunc')}?id={$data['activity_id']}">活动功能</a>
+            </li>
+        </ul>
+    </div>
+    <form method="post" class="form-horizontal" enctype="multipart/form-data" id="form1" onsubmit="return check_gn();">
+        <input type="hidden" value="1298" class="form-control" name="id">
+        <input type="hidden" name="total_money" id="total_money" value="10551.50">
+        <input type="hidden" name="can_join" id="can_join" value="11953">
+        <div class="panel panel-default">
+            <div class="panel-body">
+                <div class="tab-pane  active">
+                    <div class="panel panel-default">
+                        <div class="panel-heading">功能与人数选择</div>
+                        <div class="panel-body">
+                            <div class="order_title">活动功能选择</div>
+                            <div class="had_selected_control" style="display:none">
+
+                                <input type="hidden" name="controls[]" class="lottory_3d" value="lottory_3d">
+
+
+                                <input type="hidden" name="controls[]" class="zjd" value="zjd">
+
+                                <input type="hidden" name="controls[]" class="lottory" value="lottory"><input type="hidden" name="controls[]" class="lizi" value="lizi"></div>
+                            <div class="had_selected_zzcontrol" style="display:none">
+                                <input type="hidden" name="zz_controls[]" class="zz_pmy4q" value="zz_pmy4q"><input type="hidden" name="zz_controls[]" class="zz_dehq6" value="zz_dehq6"></div>
+                            <ul id="moduleList" class="moduleList order_line">
+                                <li data-price="300.00" data-control="qd" class="module_on">
+                                    <i class="meepo-signin"></i>
+                                    <a class="module-name">签到</a><span>￥300.00</span>
+                                </li>
+                                <li data-price="1200.00" data-control="lizi" class="module_on">
+                                    <i class="meepo-threed"></i>
+                                    <a class="module-name">粒子签到</a><span>￥1200.00</span>
+                                    <i class="fa fa-check-circle module_checked"></i></li>
+                                <li data-price="300.00" data-control="wall">
+                                    <i class="meepo-msgNum"></i>
+                                    <a class="module-name">普通上墙</a><span>￥300.00</span>
+                                </li>
+                                <li data-price="600.00" data-control="barwall">
+                                    <i class="meepo-holdscreen"></i>
+                                    <a class="module-name">霸屏上墙</a><span>￥600.00</span>
+                                </li>
+                                <li data-price="300.00" data-control="lottory" class="module_on">
+                                    <i class="meepo-gift"></i>
+                                    <a class="module-name">普通抽奖</a><span>￥300.00</span>
+                                    <i class="fa fa-check-circle module_checked"></i></li>
+                                <li data-price="300.00" data-control="jb">
+                                    <i class="meepo-guest"></i>
+                                    <a class="module-name">嘉宾</a><span>￥300.00</span>
+                                </li>
+                                <li data-price="300.00" data-control="vote">
+                                    <i class="meepo-vote"></i>
+                                    <a class="module-name">投票</a><span>￥300.00</span>
+                                </li>
+                                <li data-price="600.00" data-control="shake">
+                                    <i class="meepo-shake2"></i>
+                                    <a class="module-name">摇一摇</a><span>￥600.00</span>
+                                </li>
+                                <li data-price="300.00" data-control="cjx">
+                                    <i class="meepo-pie"></i>
+                                    <a class="module-name">抽奖箱</a><span>￥300.00</span>
+                                </li>
+                                <li data-price="600.00" data-control="redpack">
+                                    <i class="meepo-redpacker"></i>
+                                    <a class="module-name">抢红包</a><span>￥600.00</span>
+                                </li>
+                                <li data-price="300.00" data-control="ddp">
+                                    <i class="meepo-mstching"></i>
+                                    <a class="module-name">对对碰</a><span>￥300.00</span>
+                                </li>
+                                <li data-price="0.00" data-control="xc">
+                                    <i class="meepo-photo"></i>
+                                    <a class="module-name">相册</a><span>￥0.00</span>
+                                </li>
+                                <li data-price="300.00" data-control="xyh">
+                                    <i class="meepo-publish"></i>
+                                    <a class="module-name">幸运号码</a><span>￥300.00</span>
+                                </li>
+                                <li data-price="300.00" data-control="zjd" class="module_on">
+                                    <i class="meepo-stars"></i>
+                                    <a class="module-name">砸金蛋</a><span>￥300.00</span>
+                                    <i class="fa fa-check-circle module_checked"></i>					</li>
+                                <li data-price="300.00" data-control="dm">
+                                    <i class="meepo-msgreview"></i>
+                                    <a class="module-name">弹幕</a><span>￥300.00</span>
+                                </li>
+                                <li data-price="300.00" data-control="xysjh">
+                                    <i class="meepo-phone"></i>
+                                    <a class="module-name">幸运手机号</a><span>￥300.00</span>
+                                </li>
+                                <li data-price="500.00" data-control="tshake">
+                                    <i class="meepo-shake"></i>
+                                    <a class="module-name">团队摇一摇</a><span>￥500.00</span>
+                                </li>
+                                <li data-price="500.00" data-control="dt">
+                                    <i class="meepo-photo"></i>
+                                    <a class="module-name">现场答题</a><span>￥500.00</span>
+                                </li>
+                                <li data-price="600.00" data-control="mshake">
+                                    <i class="meepo-shake"></i>
+                                    <a class="module-name">猴子爬树</a><span>￥600.00</span>
+                                </li>
+                                <li data-price="300.00" data-control="xys">
+                                    <i class="meepo-heart"></i>
+                                    <a class="module-name">许愿树</a><span>￥300.00</span>
+                                </li>
+                                <li data-price="800.00" data-control="shuqian">
+                                    <i class="meepo-money"></i>
+                                    <a class="module-name">疯狂数钱</a><span>￥800.00</span>
+                                </li>
+                                <li data-price="1000.00" data-control="dzqy">
+                                    <i class="meepo-signin"></i>
+                                    <a class="module-name">电子签约</a><span>￥1000.00</span>
+                                </li>
+                                <li data-price="800.00" data-control="ydj">
+                                    <i class="meepo-shake"></i>
+                                    <a class="module-name">摇大奖</a><span>￥800.00</span>
+                                </li>
+                                <li data-price="500.00" data-control="lottory_3d" class="module_on">
+                                    <i class="meepo-gift"></i>
+                                    <a class="module-name">3D抽奖</a><span>￥500.00</span>
+                                    <i class="fa fa-check-circle module_checked"></i>					</li>
+                                <li data-price="800.00" data-control="yyy_3d">
+                                    <i class="meepo-shake"></i>
+                                    <a class="module-name">3D摇一摇</a><span>￥800.00</span>
+                                </li>
+                                <li data-price="800.00" data-control="swimming">
+                                    <i class="meepo-shake"></i>
+                                    <a class="module-name">3D游泳</a><span>￥800.00</span>
+                                </li>
+                                <li data-price="800.00" data-control="horse">
+                                    <i class="meepo-shake"></i>
+                                    <a class="module-name">3D赛马</a><span>￥800.00</span>
+                                </li>
+                            </ul>
+                        </div>
+                        <div class="panel-body">
+                            <div class="order_title">增值服务功能</div>
+                            <ul id="zzList" class="zzList order_line">
+                                <li data-price="1000.00" data-zzcontrol="zz_ovdqc">
+                                    <i class="fa fa-external-link"></i>
+                                    <a class="module-name">高级签到</a><span>￥1000.00</span>
+                                </li>
+                                <li data-price="3000.00" data-zzcontrol="zz_emhyq">
+                                    <i class="fa fa-external-link"></i>
+                                    <a class="module-name">3D签到</a><span>￥3000.00</span>
+                                </li>
+                                <li data-price="1500.00" data-zzcontrol="zz_pmy4q" class="module_on">
+                                    <i class="fa fa-external-link"></i>
+                                    <a class="module-name">现场支持(重庆)</a><span>￥1500.00</span>
+                                    <i class="fa fa-check-circle module_checked"></i></li>
+                                <li data-price="2500.00" data-zzcontrol="zz_jxryd">
+                                    <i class="fa fa-external-link"></i>
+                                    <a class="module-name">现场支持(省外)</a><span>￥2500.00</span>
+                                </li>
+                                <li data-price="800.00" data-zzcontrol="zz_dehq6" class="module_on">
+                                    <i class="fa fa-external-link"></i>
+                                    <a class="module-name">手绘签到</a><span>￥800.00</span>
+                                    <i class="fa fa-check-circle module_checked"></i></li>
+                                <li data-price="1500.00" data-zzcontrol="zz_pd6ni">
+                                    <i class="fa fa-external-link"></i>
+                                    <a class="module-name">高级弹幕</a><span>￥1500.00</span>
+                                </li>
+                                <li data-price="1500.00" data-zzcontrol="zz_yqo3h">
+                                    <i class="fa fa-external-link"></i>
+                                    <a class="module-name">现场直播</a><span>￥1500.00</span>
+                                </li>
+                            </ul>
+                        </div>
+                        <div class="panel-body">
+                            <div class="order_title">参与人数选择</div>
+                            <!--slider--->
+                            <div class="form-group" style="padding:20px;margin-bottom:0px">
+                                <div class="col-sm-12  col-xs-12 col-md-12">
+                                    <div class="slider slider-horizontal" id="Slider"><div class="slider-track"><div class="slider-track-low" style="left: 0px; width: 0%;"></div><div class="slider-selection" style="left: 0%; width: 11.9354%;"></div><div class="slider-track-high" style="right: 0px; width: 88.0646%;"></div></div><div class="tooltip tooltip-main top in" role="presentation" style="left: 11.9354%; margin-left: -30.5px;"><div class="tooltip-arrow"></div><div class="tooltip-inner">11953人</div></div><div class="tooltip tooltip-min top" role="presentation" style="display: none;"><div class="tooltip-arrow"></div><div class="tooltip-inner"></div></div><div class="tooltip tooltip-max top" role="presentation" style="display: none;"><div class="tooltip-arrow"></div><div class="tooltip-inner"></div></div><div class="slider-handle min-slider-handle" role="slider" aria-valuemin="20" aria-valuemax="100000" aria-valuenow="11953" tabindex="0" style="left: 11.9354%;"></div><div class="slider-handle max-slider-handle hide" role="slider" aria-valuemin="20" aria-valuemax="100000" aria-valuenow="20" tabindex="0" style="left: 0%;"></div></div><input id="slider2" data-slider-id="Slider" type="text" data-value="11953" value="11953" style="display: none;">
+                                    <span class="label label-success">拖动上方绿色圆点即可更改活动人数</span>
+                                    <br><br>
+                                    <span class="label label-danger">活动免费人数为:50人以内</span>
+                                </div>
+
+                            </div>
+                            <!--slider--->
+                            <ul id="personsList" class="personsList order_line">
+                                <li data-price="5951.50" class="module_on" id="persons_li">
+                                    <i class="meepo-users"></i>
+                                    <a class="module-name persons_num">11953人</a><span class="persons_money">5951.50元</span>
+                                    <i class="fa fa-check-circle module_checked"></i>
+                                </li>
+                            </ul>
+                        </div>
+                        <div class="form-group col-sm-12">
+                            <div id="choseModule" class="order_line">
+                                当前已选择 <span class="label label-success" id="num">5</span> 个功能，共 <span class="label label-danger" id="allPrice">￥10551.50</span>
+                            </div>
+                        </div>
+                        <div class="form-group">
+                            <label class="col-xs-12 col-sm-3 col-md-2  control-label"></label>
+                            <div class="col-sm-9 ">
+                                <input type="submit" name="submit" value="保存" class="btn btn-success">
+                                <input type="hidden" name="token" value="7ea42ec0">
+                            </div>
+                        </div>
+                    </div>
+                </div><!--step2-->
+
+                <script type="text/javascript">
+                    var requireExtend = require.config({
+                        baseUrl: 'resource/js/app', //基础目录，将从此目录引用JS
+                        paths: {
+                            'bootstrap-slider': '../../../../addons/meepo_xianchang/template/resource/js/bootstrap-slider.min', //结尾不写.js
+                        }
+                    });
+                    var one_price = 0.50;
+                    var min_persons = 20;
+                    var max_persons = 100000;
+                    var free_persons = 50;
+
+                    requireExtend(["bootstrap-slider"],function(){
+                        var mySlider = $('#slider2').slider({
+                            step: 1,
+                            min: min_persons,
+                            max: max_persons,
+                            value:"5948",
+                            handle: 'square',
+                            tooltip: 'always',
+                            formatter: function(value) {
+                                //$("#true_persons").val(value);
+                                $(".persons_num").text(value+"人");
+                                var money = (value - free_persons )*one_price;
+                                $("#can_join").val(value);
+                                $("#persons_li").attr("data-price",(money<0?0:money.toFixed(2)));
+                                $(".persons_money").text((money<0?0:money.toFixed(2))+"元");
+                                var all_modules = $('#moduleList li.module_on');
+                                var allPrice = (money<0?0:money);
+                                for(var i=0;i<all_modules.length;i++){
+                                    allPrice += parseFloat($(all_modules[i]).data('price'));
+                                }
+                                var zz_modules = $('#zzList li.module_on');
+                                if(zz_modules.length>0){
+                                    for(var i=0;i<zz_modules.length;i++){
+                                        allPrice += parseFloat($(zz_modules[i]).data('price'));
+                                    }
+                                }
+                                $('#num').html(($('#moduleList li.module_on').length+1));
+                                $("#total_money").val(allPrice.toFixed(2));
+                                $('#allPrice').html('￥' + allPrice.toFixed(2));
+                                return value+"人";
+                            }
+                        });
+                        $(".quantity-add").click(function(e){
+                            var newcount = parseInt($("#true_persons").val()) + 1;
+                            if(newcount<=min_persons){
+                                newcount = min_persons;
+                            }
+                            if(newcount>=max_persons){
+                                newcount = max_persons;
+                            }
+                            mySlider.slider('setValue', newcount);
+                            $("#true_persons").val(newcount);
+                            $("#can_join").val(newcount);
+                            var money = newcount*one_price;
+                            $("#persons_li").attr("data-price",money.toFixed(2));
+                            $(".persons_money").text(money.toFixed(2)+"元");
+                            $(".persons_num").text(newcount+"人");
+                            var all_modules = $('#moduleList li.module_on');
+                            var allPrice = money;
+                            for(var i=0;i<all_modules.length;i++){
+                                allPrice += parseFloat($(all_modules[i]).data('price'));
+                            }
+                            var zz_modules = $('#zzList li.module_on');
+                            if(zz_modules.length>0){
+                                for(var i=0;i<zz_modules.length;i++){
+                                    allPrice += parseFloat($(zz_modules[i]).data('price'));
+                                }
+                            }
+                            $('#num').html(($('#moduleList li.module_on').length+1));
+                            $("#total_money").val(allPrice.toFixed(2));
+                            $('#allPrice').html('￥' + allPrice.toFixed(2));
+
+                        });
+                        $(".quantity-jian").click(function(e){
+                            var newcount = parseInt($("#true_persons").val()) - 1;
+                            if(newcount<=min_persons){
+                                newcount = min_persons;
+                            }
+                            if(newcount>=max_persons){
+                                newcount = max_persons;
+                            }
+                            mySlider.slider('setValue', newcount);
+                            $("#can_join").val(newcount);
+                            $("#true_persons").val(newcount);
+                            $(".persons_num").text(newcount+"人");
+                            var all_modules = $('#moduleList li.module_on');
+                            var money = newcount*one_price;
+                            $(".persons_money").text(money.toFixed(2)+"元");
+                            $("#persons_li").attr("data-price",money.toFixed(2));
+                            var allPrice = money;
+                            for(var i=0;i<all_modules.length;i++){
+                                allPrice += parseFloat($(all_modules[i]).data('price'));
+                            }
+                            var zz_modules = $('#zzList li.module_on');
+                            if(zz_modules.length>0){
+                                for(var i=0;i<zz_modules.length;i++){
+                                    allPrice += parseFloat($(zz_modules[i]).data('price'));
+                                }
+                            }
+                            $('#num').html(($('#moduleList li.module_on').length+1));
+                            $("#total_money").val(allPrice.toFixed(2));
+                            $('#allPrice').html('￥' + allPrice.toFixed(2));
+                        });
+                        $('#true_persons').bind('input propertychange', function() {
+                            var newcount = parseInt($("#true_persons").val());
+                            if(newcount<=min_persons){
+                                newcount = min_persons;
+                            }
+                            if(newcount>=max_persons){
+                                newcount = max_persons;
+                            }
+                            var money = newcount*one_price;
+                            $("#persons_li").attr("data-price",money.toFixed(2));
+                            $(".persons_money").text(money.toFixed(2)+"元");
+                            mySlider.slider('setValue',newcount);
+                            $("#can_join").val(newcount);
+                            $(".persons_num").text(newcount+"人");
+                            var all_modules = $('#moduleList li.module_on');
+                            var allPrice = money;
+                            for(var i=0;i<all_modules.length;i++){
+                                allPrice += parseFloat($(all_modules[i]).data('price'));
+                            }
+                            var zz_modules = $('#zzList li.module_on');
+                            if(zz_modules.length>0){
+                                for(var i=0;i<zz_modules.length;i++){
+                                    allPrice += parseFloat($(zz_modules[i]).data('price'));
+                                }
+                            }
+                            $('#num').html(($('#moduleList li.module_on').length+1));
+                            $("#total_money").val(allPrice.toFixed(2));
+                            $('#allPrice').html('￥' + allPrice.toFixed(2));
+                        });
+                    });
+                </script>
+                <script>
+                    $(function(){
+
+                        var num = $('#moduleList li.module_on').length;
+                        num = num + $('#personsList li.module_on').length;
+                        var all_modules = $('#moduleList li.module_on');
+                        var allPrice = 0.00;
+                        for(var i=0;i<all_modules.length;i++){
+                            allPrice += parseFloat($(all_modules[i]).data('price'));
+                        }
+                        var zz_modules = $('#zzList li.module_on');
+                        if(zz_modules.length>0){
+                            for(var i=0;i<zz_modules.length;i++){
+                                allPrice += parseFloat($(zz_modules[i]).data('price'));
+                            }
+                        }
+                        if($('#personsList li.module_on').length>0){
+                            allPrice = allPrice + parseFloat($("#persons_li").attr("data-price"));
+                        }
+                        $('#num').html(num);
+                        $("#total_money").val(allPrice.toFixed(2));
+                        $('#allPrice').html('￥' + allPrice.toFixed(2));
+                        $('html,body').animate({scrollTop: '0px'}, 80);
+                        $("#open_gz").on('click',function(){
+                            $(".open_gz").show();
+                        });
+                        $("#close_gz").on('click',function(){
+                            $(".open_gz").hide();
+                        });
+                        $("#open_gps").on('click',function(){
+                            $(".open_gps").show();
+                        });
+                        $("#close_gps").on('click',function(){
+                            $(".open_gps").hide();
+                        });
+                        $('#zzList li').click(function(){
+                            var $this = $(this);
+                            if($this.hasClass('module_on')){
+                                $('.had_selected_zzcontrol').find('.'+$this.attr('data-zzcontrol')).remove();
+                                $this.removeClass('module_on').find('.module_checked').remove();
+                            }else{
+                                //if($('.had_selected_zzcontrol').find('.'+$this.attr('data-zzcontrol')).length==0){
+                                $('.had_selected_zzcontrol').append('<input type="hidden" name="zz_controls[]" class="'+$this.attr('data-zzcontrol')+'" value="'+$this.attr('data-zzcontrol')+'">');
+                                //}
+                                $this.addClass('module_on').append('<i class="fa fa-check-circle module_checked"></i>');
+                            }
+                            var num = $('#moduleList li.module_on').length;
+                            num = num + $('#personsList li.module_on').length;
+                            var all_modules = $('#moduleList li.module_on');
+                            var allPrice = 0.00;
+                            for(var i=0;i<all_modules.length;i++){
+                                allPrice += parseFloat($(all_modules[i]).data('price'));
+                            }
+                            var zz_modules = $('#zzList li.module_on');
+                            if(zz_modules.length>0){
+                                for(var i=0;i<zz_modules.length;i++){
+                                    allPrice += parseFloat($(zz_modules[i]).data('price'));
+                                }
+                            }
+                            if($('#personsList li.module_on').length>0){
+                                allPrice = allPrice + parseFloat($("#persons_li").attr("data-price"));
+                            }
+                            $('#num').html(num);
+                            $("#total_money").val(allPrice.toFixed(2));
+                            $('#allPrice').html('￥' + allPrice.toFixed(2));
+                        });
+                        $('#moduleList li').click(function(){
+                            var $this = $(this);
+                            if($this.hasClass('module_on')){
+                                $('.had_selected_control').find('.'+$this.attr('data-control')).remove();
+                                $this.removeClass('module_on').find('.module_checked').remove();
+                            }else{
+                                if($('.had_selected_control').find('.'+$this.attr('data-control')).length<=0){
+                                    $('.had_selected_control').append('<input type="hidden" name="controls[]" class="'+$this.attr('data-control')+'" value="'+$this.attr('data-control')+'">');
+                                }
+                                $this.addClass('module_on').append('<i class="fa fa-check-circle module_checked"></i>');
+                            }
+                            var num = $('#moduleList li.module_on').length;
+                            num = num + $('#personsList li.module_on').length;
+                            var all_modules = $('#moduleList li.module_on');
+                            var allPrice = 0.00;
+                            for(var i=0;i<all_modules.length;i++){
+                                allPrice += parseFloat($(all_modules[i]).data('price'));
+                            }
+                            if($('#personsList li.module_on').length>0){
+                                allPrice = allPrice + parseFloat($("#persons_li").attr("data-price"));
+                            }
+                            var zz_modules = $('#zzList li.module_on');
+                            if(zz_modules.length>0){
+                                for(var i=0;i<zz_modules.length;i++){
+                                    allPrice += parseFloat($(zz_modules[i]).data('price'));
+                                }
+                            }
+                            $('#num').html(num);
+                            $("#total_money").val(allPrice.toFixed(2));
+                            $('#allPrice').html('￥' + allPrice.toFixed(2));
+                        });
+                    });
+                    function check_edit(){
+                        return true;
+                    }
+                    function check_gn(){
+                        var all_modules = $('#moduleList li.module_on');
+                        var check_modules = all_modules.length;
+                        if(check_modules<=0){
+                            util.message('请选择活动功能.', '', 'error');
+                            return false;
+                        }
+                        if($('#personsList li.module_on').length<=0){
+                            util.message('请选择活动参与人数.', '', 'error');
+                            return false;
+                        }
+                        return true;
+                    }
+                </script>
+            </div>
+        </div></form>
+</div>
+</block>

@@ -1,3 +1,76 @@
+<<<<<<< HEAD
+[ 2018-01-10T09:03:27+08:00 ] 127.0.0.1 /index.php/Home/Yanzheng/YanzhenggetVerify/t/%2B%28new+Date%28%29%29.getTime%28%29%2B.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+NOTIC: [8] A session had already been started - ignoring session_start() E:\dingy\test\codea\php\jxc\tp\TP\Application\Home\Controller\YanzhengController.class.php 第 13 行.
+NOTIC: [8] Array to string conversion E:\dingy\test\codea\php\jxc\tp\TP\Application\Home\Controller\YanzhengController.class.php 第 20 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002000s ]
+
+[ 2018-01-10T10:20:17+08:00 ] 127.0.0.1 /index.php/Home/Login/index
+ERR: 非法操作:index
+
+[ 2018-01-10T10:35:08+08:00 ] 127.0.0.1 /
+ERR: 模板不存在:./Application/Home/View/Index/Home\index.html
+
+[ 2018-01-10T10:35:14+08:00 ] 127.0.0.1 /
+ERR: 模板不存在:./Application/Home/View/Home/index.html
+
+[ 2018-01-10T10:35:32+08:00 ] 127.0.0.1 /
+ERR: 模板不存在:./Application/Home/View/Home/index/index.html
+
+[ 2018-01-10T10:35:39+08:00 ] 127.0.0.1 /
+ERR: 模板不存在:./Application/Home/View/Home/Index/index.html
+
+[ 2018-01-10T10:50:19+08:00 ] 127.0.0.1 /index.php/Home/Yanzheng/YanzhenggetVerify/t/%2B%28new+Date%28%29%29.getTime%28%29%2B.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+NOTIC: [8] A session had already been started - ignoring session_start() E:\dingy\test\codea\php\jxc\tp\TP\Application\Home\Controller\YanzhengController.class.php 第 13 行.
+NOTIC: [8] Array to string conversion E:\dingy\test\codea\php\jxc\tp\TP\Application\Home\Controller\YanzhengController.class.php 第 20 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2018-01-10T11:28:34+08:00 ] 127.0.0.1 /index.php/Home/Index/HomeLoginlogin.html
+ERR: 非法操作:HomeLoginlogin
+
+[ 2018-01-10T11:29:06+08:00 ] 127.0.0.1 /index.php/Home/Index/HomeLoginlogin.html
+ERR: 非法操作:HomeLoginlogin
+
+[ 2018-01-10T11:29:08+08:00 ] 127.0.0.1 /index.php/Home/Index/HomeLoginlogin.html
+ERR: 非法操作:HomeLoginlogin
+
+[ 2018-01-10T11:29:08+08:00 ] 127.0.0.1 /index.php/Home/Index/HomeLoginlogin.html
+ERR: 非法操作:HomeLoginlogin
+
+[ 2018-01-10T11:29:09+08:00 ] 127.0.0.1 /index.php/Home/Index/HomeLoginlogin.html
+ERR: 非法操作:HomeLoginlogin
+
+[ 2018-01-10T11:29:09+08:00 ] 127.0.0.1 /index.php/Home/Index/HomeLoginlogin.html
+ERR: 非法操作:HomeLoginlogin
+
+[ 2018-01-10T11:29:09+08:00 ] 127.0.0.1 /index.php/Home/Index/HomeLoginlogin.html
+ERR: 非法操作:HomeLoginlogin
+
+[ 2018-01-10T11:29:09+08:00 ] 127.0.0.1 /index.php/Home/Index/HomeLoginlogin.html
+ERR: 非法操作:HomeLoginlogin
+
+[ 2018-01-10T11:29:12+08:00 ] 127.0.0.1 /index.php/Home/Index/HomeLoginlogin.html
+ERR: 非法操作:HomeLoginlogin
+
+[ 2018-01-10T11:29:40+08:00 ] 127.0.0.1 /index.php/Home/Yanzheng/YanzhenggetVerify/t/%2B%28new+Date%28%29%29.getTime%28%29%2B.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] A session had already been started - ignoring session_start() E:\dingy\test\codea\php\jxc\tp\TP\Application\Home\Controller\YanzhengController.class.php 第 13 行.
+NOTIC: [8] Array to string conversion E:\dingy\test\codea\php\jxc\tp\TP\Application\Home\Controller\YanzhengController.class.php 第 20 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+=======
 [ 2018-01-10T10:22:19+08:00 ] 127.0.0.1 /index.php/Home/Lk/resource/js/lib/jquery-1.11.1.min.js?v=20180105100330
 ERR: 非法操作:resource
 
@@ -637,4 +710,5 @@ ERR: SQLSTATE[HY000] [2002] ����Ŀ�����������ܾ����޷����ӡ�
 
 [ 2018-01-10T19:31:40+08:00 ] 127.0.0.1 /index.php/Home/Lk/resource/js/lib/jquery-1.11.1.min.js?v=20180105100330
 ERR: 非法操作:resource
+>>>>>>> 0a54979... 1
 
