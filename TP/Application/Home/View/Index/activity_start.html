@@ -1,0 +1,204 @@
+<extend name="./public_part/public_part"/>
+        <!--右边内容-->
+        <block name="right">
+        <div class="col-xs-12 col-sm-9 col-lg-10 sys_menu_box">
+            <!--slider css--->
+            <link rel="stylesheet" href="../addons/meepo_xianchang/template/resource/css/boostrap.slider.css">
+            <style>
+                .slider.slider-horizontal {
+                    height:40px;
+                    width:100%;
+                }
+                .slider.slider-horizontal .slider-handle {
+                    margin-left: -10px;
+                    margin-top: 10px;
+                }
+                #Slider .slider-handle {
+                    background: #36b27a;
+                    border-radius:50%;
+                }
+                #Slider .slider-selection {
+                    background: #36b27a;
+                }
+                .add-jian input{height:40px;text-align:center}
+                .quantity-remove, .quantity-add {
+                    cursor: pointer;
+                }
+                .quantity-add.glyphicon, .quantity-remove.glyphicon {
+                    display: block;
+                    cursor: pointer;
+                }
+                .slider_box{
+                    padding:20px;margin-bottom:0px;display:none
+                }
+                .update_important{
+                    position:absolute;
+                    top:0;
+                    right:80px;
+                    color:gray;
+                    cursor:pointer;
+                    z-index:10
+                }
+                .update_important.active{
+                    color:#22B766
+                }
+                .update_important.active:hover{
+                    color:gray
+                }
+                .update_important:hover{
+                    color:#22B766
+                }
+            </style>
+            <!--slider end--->
+            <ul class="nav nav-tabs">
+                <li>
+                    <a href="{:U('activity_person')}"><i class="fa fa-file"></i> 全部活动</a>
+                </li>
+                <li class="active">
+                    <a href="{:U('activity_start')}"><i class="fa fa-play"></i> 正在进行</a>
+                </li>
+                <li>
+                    <a href="{:U('activity_notstart')}"><i class="fa fa-pause"></i> 未开始</a>
+                </li>
+                <li>
+                    <a href="{:U('activity_end')}"><i class="fa fa-stop"></i> 已结束</a>
+                </li>
+                <li class="pull-right active">
+                    <a href="./index.php?c=site&amp;a=entry&amp;op=post&amp;do=list&amp;m=meepo_xianchang" class="btn btn-primary"><i class="fa fa-plus"></i> 新建活动</a>
+                </li>
+            </ul>
+
+            <div class="panel panel-default">
+                <div class="panel-heading">活动筛选</div>
+                <div class="panel-body">
+                    <form action="{:U('activity_start')}" method="get" class="form-horizontal" role="form" id="form1">
+
+                        <div class="form-group">
+                            <label class="col-xs-6 col-sm-4 col-md-4 col-lg-2 control-label">活动名称</label>
+                            <div class="col-xs-6 col-sm-6 col-lg-6 col-md-6">
+                                <input class="form-control" name="activity_name" id="" type="text" value="" placeholder="请输入活动名称">
+                            </div>
+                        </div>
+                        <div class="form-group">
+                            <label class="col-xs-6 col-sm-4 col-md-4 col-lg-2 control-label">活动所属用户名称</label>
+                            <div class="col-xs-6 col-sm-6 col-lg-6 col-md-6">
+                                <input class="form-control" name="member_name" id="" type="text" value="" placeholder="请输入活动所属用户名称">
+                            </div>
+                        </div>
+                        <div class="form-group">
+                            <label class="col-xs-12 col-sm-2 col-md-2 col-lg-1 control-label"></label>
+                            <div class="col-sm-8 col-lg-9 col-xs-12">
+                                <input class="btn btn-primary" id="" type="submit" value="搜索">
+                            </div>
+                        </div>
+                    </form>
+                </div>
+            </div>
+            <div class="wall-lists">
+                <foreach name="res" item="v">
+                    <div class="listBox" style="position:relative">
+                        <div class="dataBox">
+                            <div class="earsTag styEnd">
+                                <div class="box end">
+                                    <div class="stateTxt">
+                                        <div><span class="label label-danger">进行中</span></div>
+                                    </div>
+                                    <div style="display:block">
+                                        <div class="stateTime">
+                                            <div class="timeDay">{:date('Y-m-d',$v['activity_start_time'])}</div>
+                                            <div class="timeHour">{:date('H:i:s',$v['activity_start_time'])}</div>
+                                        </div>
+                                        <div class="endTime">至{:date('Y-m-d H:i:s',$v['activity_start_time'])}</div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="tag-state" style="position:relative;overflow:hidden">
+                                <div class="contMain">
+                                    <div class="playCont">
+                                        <div class="campaignBox">
+                                            <div class="box">
+                                                <div class="tabCell first noBound">
+                                                    <div class="edition noBound">
+                                                        <div class="playTite">{$v['activity_theme']}&nbsp;&nbsp;</div>
+
+                                                    </div>
+                                                    <div class="wallKey" style="display:none">
+                                                        <div class="fl"></div>
+                                                        <div class="fr">
+                                                            <span class="auditeBtn"></span>
+                                                        </div>
+                                                    </div>
+                                                    <div class="playData">
+                                                        <div class="dataBlk">
+                                                            <i class="hi-guest22"></i>
+                                                            <span class="txt">参与人数</span>
+
+                                                            <span class="dataNum">{$v['num']}人</span>
+
+                                                        </div>
+                                                        <div class="dataBlk">
+                                                            <i class="hi-guest22"></i>
+                                                            <span class="txt">签到人数</span>
+                                                            <span class="dataNum">{$v['sign']}人</span>
+                                                        </div>
+                                                        <div class="dataBlk">
+                                                            <i class="hi-msgRadius"></i>
+                                                            <span class="txt">上墙消息</span>
+                                                            <span class="dataNum">{$v['wall']}条</span>
+                                                        </div>
+                                                        <div class="dataBlk">
+                                                            <i class="hi-msgRadius"></i>
+                                                            <span class="txt">霸屏上墙消息</span>
+                                                            <span class="dataNum">{$v['screen']}条</span>
+                                                        </div>
+                                                    </div>
+                                                    <div class="editionTag" style="display:none">
+                                                        <img style="display:block" src="http://wall.juxianchang.com/addons/meepo_xianchang/sys_logo.png" onerror="">
+                                                    </div>
+                                                </div><!--tabCell-->
+                                                <div class="tabCell second">
+                                                    <ul class="cotrolBox noBound">
+                                                        <li><a href="./index.php?c=site&amp;a=entry&amp;op=edit&amp;id=1293&amp;do=list&amp;m=meepo_xianchang"><i class="fa fa-cog"></i><div>编辑活动</div></a></li>
+                                                        <li><a href="./index.php?c=site&amp;a=entry&amp;id=1293&amp;do=basic_config&amp;m=meepo_xianchang"><i class="fa fa-cubes"></i><div>管理活动</div></a></li>
+                                                        <li><a href="./index.php?c=site&amp;a=entry&amp;id=1293&amp;do=urls&amp;m=meepo_xianchang"><i class="fa fa-weixin fa-fw"></i><div>活动二维码</div></a></li>
+                                                        <li style="opacity:0"><a href="./index.php?c=site&amp;a=entry&amp;op=del&amp;id=1293&amp;do=list&amp;m=meepo_xianchang" onclick="return confirm('删除将无法恢复，确认吗？');return false;"><i class="fa fa-times"></i><div>删除活动</div></a></li>
+                                                    </ul>
+                                                </div><!--tabCell-->
+                                                <div class="tabCell last  noBound" style="display:none">
+                                                    <div class="cotrLi"><a target="_blank" href="./index.php?c=site&amp;a=entry&amp;id=1293&amp;do=data_show&amp;m=meepo_xianchang"><i class="meepo-crumbs"></i><div>数据统计</div></a></div>
+                                                </div>
+                                                <div style="position:absolute;top:10%;padding:10px;background-color:#44b549;border-radius:6px"><a href="./index.php?c=site&amp;a=entry&amp;id=1293&amp;do=web_pay&amp;m=meepo_xianchang" target="_blank" style="color:#fff;">支付未完成</a></div>							</div> <!--box-->
+                                        </div><!--campaignBox--->
+                                    </div><!--playCont--->
+                                </div><!---contMain-->
+                            </div><!--tag-state-->
+                        </div><!--dataBox--->
+                    </div><!--listBox-->
+                </foreach>
+                <div class="pager_box">
+                </div>
+            </div><!--wall-list-->
+            <script>
+                $(function(){
+                    $(".update_important").on('click',function(){
+                        var $this = $(this);
+                        var ac_id = $this.attr('data-id');
+                        var is_important = $this.attr('data-important');
+                        $.post("./index.php?c=site&a=entry&do=update_important&m=meepo_xianchang",{ac_id:ac_id,is_important:is_important},function(result){
+                            console.log(result);
+                            if(result.errno==0){
+                                if(result.message==1){//加入特别关心
+                                    $this.attr('data-important','1');
+                                    $this.addClass('active');
+
+                                }else{//取消特别关心
+                                    $this.attr('data-important','0');
+                                    $this.removeClass('active');
+                                }
+                            }
+                        },'json');
+                    });
+                })
+            </script>
+        </div>
+        </block>

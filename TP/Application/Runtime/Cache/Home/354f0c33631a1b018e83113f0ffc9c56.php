@@ -1,4 +1,3 @@
-<<<<<<< Updated upstream:TP/Application/Runtime/Cache/Home/9a98843e7ef63110b3f5b8247bf08016.php
 <?php if (!defined('THINK_PATH')) exit();?><!DOCTYPE html>
 <!-- saved from url=(0100)http://wall.juxianchang.com/web/index.php?c=site&a=entry&_admin_uniacid=52&do=list&m=meepo_xianchang -->
 <html lang="zh-cn"><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8"><style type="text/css">@charset "UTF-8";[ng\:cloak],[ng-cloak],[data-ng-cloak],[x-ng-cloak],.ng-cloak,.x-ng-cloak,.ng-hide:not(.ng-hide-animate){display:none !important;}ng\:form{display:block;}.ng-animate-shim{visibility:hidden;}.ng-anchor{position:absolute;}</style>
@@ -6,7 +5,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>聚现场</title>
-    <link rel="shortcut icon" href="http://wall.juxianchang.com/web/resource//Public/Home/images/favicon.ico">
+    <link rel="shortcut icon" href="http://wall.juxianchang.com/web/resource/images/favicon.ico">
     <meta name="keywords" content="聚现场">
     <meta name="description" content="聚现场">
     <link href="/Public/Home/css/bootstrap.min.css" rel="stylesheet">
@@ -35,11 +34,11 @@
 
     </script>
     <script>var require = { urlArgs: 'v=20180105100330' };</script>
-    <script type="text/javascript" src="/Public/Home/js/jquery-1.11.1.min.js"></script>
-    <script type="text/javascript" src="/Public/Home/js/util.js"></script>
-    <script type="text/javascript" src="/Public/Home/js/common.min.js"></script>
-    <script type="text/javascript" src="/Public/Home/js/require.js"></script>
-    <script type="text/javascript" src="/Public/Home/js/config.js"></script>
+    <script type="text/javascript" href="/Public/Home/js/jquery-2.1.4.js"></script>
+    <script type="text/javascript" href="/Public/Home/js/util.js"></script>
+    <script type="text/javascript" href="/Public/Home/js/common.min.js"></script>
+    <script type="text/javascript" href="/Public/Home/js/require.js"></script>
+    <script type="text/javascript" href="/Public/Home/js/config.js"></script>
     <style>
         body{background-color:#e7e8eb;}
         .nav-tabs>li.active>a, .nav-tabs>li.active>a:hover, .nav-tabs>li.active>a:focus{
@@ -87,7 +86,7 @@
             margin:0 80px 0 80px;
         }
         .gw-container{
-            background:#e7e8eb url('/Public/Home/images/hucebg.png') repeat;
+            background:#e7e8eb url("/Public/Home/images/hucebg.png") repeat;
         }
         .gw-container .breadcrumb{
             background-color:#FFF;
@@ -152,6 +151,7 @@
                 alert('您使用的 IE 浏览器版本过低, 推荐使用 Chrome 浏览器或 IE8 及以上版本浏览器.');
             }
         }
+
         window.sysinfo = {
             'uniacid': '52',
             'acid': '52',
@@ -164,10 +164,11 @@
         };
     </script>
     <!---默认-->
-    <script type="text/javascript" charset="utf-8" async="" data-requirecontext="_" data-requiremodule="jquery" src="/Public/Home/js/jquery-1.11.1.min.js(1)"></script><script type="text/javascript" charset="utf-8" async="" data-requirecontext="_" data-requiremodule="bootstrap" src="/Public/Home/js/bootstrap.min.js"></script></head>
+   <script type="text/javascript" charset="utf-8" async="" data-requirecontext="_" data-requiremodule="bootstrap" href="/Public/Home/js/bootstrap.min.js"></script></head>
 <body class="zh_CN">
 
 <div class="meepo_head">
+
     <div class="meepo_head_box">
         <div class="meepo_inner">
             <div class="meepo_logo"><a href="http://wall.juxianchang.com/web/index.php?c=site&amp;a=entry&amp;_admin_uniacid=52&amp;do=list&amp;m=meepo_xianchang#"></a></div>
@@ -224,34 +225,34 @@
                 <div class="sys-menu-user" style="border-bottom: 1px solid #e9e9e9;">
                     <div>
                         <div class="avatar">
-                            <a href="./index.php?c=site&amp;a=entry&amp;do=my_home&amp;m=meepo_xianchang"><img src="http://of3kdd1ar.bkt.clouddn.com//Public/Home/images/52/2018/01/T2vY9IEAOsod1O221oIrVIY1i5Kyvh.jpg" onerror=""></a>
+                            <a href="http://wall.juxianchang.com/web/index.php?c=site&amp;a=entry&amp;do=my_home&amp;m=meepo_xianchang"><img src="images/uqGt3Q9ngqHWGTqh3T3GvASSr7tNHH.jpg" onerror=""></a>
                         </div>
                         <i class="elem"></i>
                     </div>
-                    <h3 class="name"><a href="./index.php?c=site&amp;a=entry&amp;do=my_home&amp;m=meepo_xianchang">LZ123456</a></h3>
+                    <h3 class="name"><a href="http://wall.juxianchang.com/web/index.php?c=site&amp;a=entry&amp;do=my_home&amp;m=meepo_xianchang">13700834467</a></h3>
                     <!--<p>普通用户</p>-->
-                    <p><a id="agent_gl" href="./index.php?c=site&amp;a=entry&amp;do=my_home&amp;m=meepo_xianchang" class="btn-agency">个人中心</a></p>
+                    <p><a id="agent_gl" href="http://wall.juxianchang.com/web/index.php?c=site&amp;a=entry&amp;do=my_home&amp;m=meepo_xianchang" class="btn-agency">个人中心</a></p>
                 </div>
 
                 <ul class="sys-menu-menu">
                     <li>
                         <a href="javascript:void(0);"><em class="icon-screen"></em>活动</a>
                         <ul class="level2">
-                            <li><a href="./index.php?c=site&amp;a=entry&amp;do=list&amp;m=meepo_xianchang">我的活动</a></li>
+                            <li class="curr"><a href="http://wall.juxianchang.com/web/index.php?c=site&amp;a=entry&amp;do=list&amp;m=meepo_xianchang">我的活动</a></li>
                         </ul>
                     </li>
                     <li>
                         <a href="javascript:;"><em class="icon-orders"></em>订单</a>
                         <ul class="level2">
-                            <li><a href="./index.php?c=site&amp;a=entry&amp;do=my_order&amp;m=meepo_xianchang">我的订单</a></li>
+                            <li><a href="http://wall.juxianchang.com/web/index.php?c=site&amp;a=entry&amp;do=my_order&amp;m=meepo_xianchang">我的订单</a></li>
                         </ul>
                     </li>
                     <li>
                         <a href="javascript:;"><em class="icon-count"></em>账户</a>
                         <ul class="level2">
-                            <li><a href="<?php echo U('Lk/zhyue');?>">我的账户</a></li>
-                            <li class="curr"><a href="<?php echo U('Lk/details');?>">红包账户</a></li>
-                            <li><a href="./index.php?c=site&amp;a=entry&amp;do=my_home&amp;m=meepo_xianchang">个人中心</a></li>
+                            <li><a href="http://wall.juxianchang.com/web/index.php?c=site&amp;a=entry&amp;do=my_wallet&amp;m=meepo_xianchang">我的账户</a></li>
+                            <li><a href="http://wall.juxianchang.com/web/index.php?c=site&amp;a=entry&amp;do=redpack_wallet&amp;m=meepo_xianchang">红包账户</a></li>
+                            <li><a href="http://wall.juxianchang.com/web/index.php?c=site&amp;a=entry&amp;do=my_home&amp;m=meepo_xianchang">个人中心</a></li>
 
                         </ul>
                     </li>
@@ -259,160 +260,80 @@
                 </ul>
             </div>
         </div>
-=======
-<extend name="./public_part/public_part"/>
->>>>>>> Stashed changes:TP/Application/Home/View/Index/activity_notstart.html
         <!--右边内容-->
-<block name="right">
+
+        
         <div class="col-xs-12 col-sm-9 col-lg-10 sys_menu_box">
+            <!--slider css--->
+            <link rel="stylesheet" href="../addons/meepo_xianchang/template/resource/css/boostrap.slider.css">
             <style>
-                .withdrawals-box .account-money,.withdrawals-box .tip-account{width:50%}
-                .tool-bar {
-                    margin-bottom: 10px;
-                    line-height: 30px;
+                .slider.slider-horizontal {
+                    height:40px;
+                    width:100%;
                 }
-                .pd-20 {
-                    padding: 20px;
-                }
-                .border-radus {
-                    border-radius: 4px 4px 0 0;
-                }
-                .bg-white {
-                    background-color: #fff!important;
-                }
-                .withdrawals-box .account-money .acc-title {
-                    margin-right: 30px;
-                }
-                .color-red {
-                    color: red;
-                }
-                .withdrawals-box .account-money .acc-title {
-                    margin-right: 30px
-                }
-                .withdrawals-box .help-com, .withdrawals-box .tip-account {
-                    position: relative;
-                }
-                .withdrawals-box .account-money ul {
-                    padding-top: 20px;
-                    border-right: 1px solid #e5e5e5
-                }
-
-                .withdrawals-box .account-money li {
-                    float: left;
-                    margin-right: 80px;
-                    text-align: center
-                }
-
-                .withdrawals-box .account-money li span.acc-num {
-                    font-size: 18px
-                }
-
-                .withdrawals-box .tip-account p {
-                    margin: 0
-                }
-
-                .withdrawals-box .tip-account p.gray-color {
-                    color: #666
-                }
-
-                .withdrawals-box .help-com .help-cont {
-                    position: absolute;
-                    width: 320px;
-                    top: 35px;
-                    left: -172px;
-                    border: 1px solid #f1da96;
-                    border-radius: 4px;
-                    font-size: 12px;
-                    background-color: #ffedb9;
-                    z-index: 100
-                }
-
-                .withdrawals-box .help-com .help-cont p {
-                    margin: 0;
-                    line-height: 20px
-                }
-
-                .withdrawals-box .help-com .help-cont:after,.withdrawals-box .help-com .help-cont:before {
-                    position: absolute;
-                    display: block;
-                    content: '';
-                    width: 0;
-                    height: 0;
-                    left: 56%;
+                .slider.slider-horizontal .slider-handle {
                     margin-left: -10px;
-                    border-left: 10px solid transparent;
-                    border-right: 10px solid transparent
+                    margin-top: 10px;
                 }
-
-                .withdrawals-box .help-com .help-cont:before {
-                    top: -11px;
-                    border-bottom: 10px solid #f1da96
+                #Slider .slider-handle {
+                    background: #36b27a;
+                    border-radius:50%;
                 }
-
-                .withdrawals-box .help-com .help-cont:after {
-                    top: -10px;
-                    border-bottom: 10px solid #ffedb9
+                #Slider .slider-selection {
+                    background: #36b27a;
                 }
-                .gray-color{color:gray}
-                .timer, {
-                    text-align:Center;
-                    text-shadow: 0 1px 5px rgba(0,0,0,.1);
+                .add-jian input{height:40px;text-align:center}
+                .quantity-remove, .quantity-add {
+                    cursor: pointer;
                 }
-                .timer_title{height:20px;line-height:20px;margin:10px 0px;}
-                .timer .days-wrapper,
-                .timer .hours-wrapper,
-                .timer .minutes-wrapper,
-                .timer .seconds-wrapper {
-                    display: inline-block;
-                    width: 60px;
-                    height: 60px;
-                    margin: 0 10px;
-                    background: #32b16c;
-                    color:#fff;
-                    font-size: 18px;
-                    line-height:60px;
-                    text-align:Center;
-                    -moz-border-radius: 50%;
-                    -webkit-border-radius: 50%;
-                    border-radius: 50%;
+                .quantity-add.glyphicon, .quantity-remove.glyphicon {
+                    display: block;
+                    cursor: pointer;
                 }
-
+                .slider_box{
+                    padding:20px;margin-bottom:0px;display:none
+                }
+                .update_important{
+                    position:absolute;
+                    top:0;
+                    right:80px;
+                    color:gray;
+                    cursor:pointer;
+                    z-index:10
+                }
+                .update_important.active{
+                    color:#22B766
+                }
+                .update_important.active:hover{
+                    color:gray
+                }
+                .update_important:hover{
+                    color:#22B766
+                }
             </style>
+            <!--slider end--->
             <ul class="nav nav-tabs">
                 <li>
-                    <a href="<?php echo U('Lk/details');?>"><i class="fa fa-money" aria-hidden="true"></i> 红包账户明细</a>
+                    <a href="<?php echo U('activity_person');?>"></i> 全部活动</a>
+                </li>
+                <li>
+                    <a href="<?php echo U('activity_start');?>"><i class="fa fa-play"></i> 正在进行</a>
+                </li>
+                <li>
+                    <a href="<?php echo U('activity_notstart');?>"><i class="fa fa-pause"></i> 未开始</a>
                 </li>
                 <li class="active">
-                    <a href="<?php echo U('Lk/chongzhi');?>"><i class="fa fa-file-text" aria-hidden="true"></i> 账户充值</a>
+                    <a href="<?php echo U('activity_end');?>"><i class="fa fa-stop"></i> 已结束</a>
                 </li>
-                <li class="">
-                    <a href="<?php echo U('Lk/order');?>"><i class="fa fa-file-text" aria-hidden="true"></i> 支付订单</a>
+                <li class="pull-right active">
+                    <a href="./index.php?c=site&amp;a=entry&amp;op=post&amp;do=list&amp;m=meepo_xianchang" class="btn btn-primary"><i class="fa fa-plus"></i> 新建活动</a>
                 </li>
             </ul>
+
             <div class="panel panel-default">
-                <div class="panel-heading">
-                    <p>账户充值</p>
-                    <span class="label label-success">注意事项:</span>
-                    <p style="margin-top:10px;color:red">
-                        1. 每次充值红包、将收取充值金额总数的5%的手续费
-                    </p>
-                    <p style="margin-top:10px;color:red">
-                        2. 单次充值金额必须大于10元
-                    </p>
-                </div>
+                <div class="panel-heading">活动筛选</div>
                 <div class="panel-body">
-<<<<<<< Updated upstream:TP/Application/Runtime/Cache/Home/9a98843e7ef63110b3f5b8247bf08016.php
-                    <form action="<?php echo U('Lk/chongzhi');?>" method="post" class="form-horizontal" role="form" onsubmit="return check_cz()">
-                        <input type="hidden" value="" name="account_id">
-                        <div class="form-group">
-                            <label class="col-xs-12 col-sm-3 col-md-2 control-label"><span style="color:red">*</span><span class="label label-danger">充值金额</span></label>
-                            <div class="col-sm-6">
-                                <div class="input-group">
-                                    <input type="num" name="money" class="form-control" placeholder="请输入大于10的数字">
-                                    <span class="input-group-addon">元</span>
-                                </div>
-=======
-                    <form action="{:U('activity_notstart')}" method="get" class="form-horizontal" role="form" id="form1">
+                    <form action="<?php echo U('activity_end');?>" method="get" class="form-horizontal" role="form" id="form1">
 
                         <div class="form-group">
                             <label class="col-xs-6 col-sm-4 col-md-4 col-lg-2 control-label">活动名称</label>
@@ -424,74 +345,117 @@
                             <label class="col-xs-6 col-sm-4 col-md-4 col-lg-2 control-label">活动所属用户名称</label>
                             <div class="col-xs-6 col-sm-6 col-lg-6 col-md-6">
                                 <input class="form-control" name="member_name" id="" type="text" value="" placeholder="请输入活动所属用户名称">
->>>>>>> Stashed changes:TP/Application/Home/View/Index/activity_notstart.html
                             </div>
                         </div>
-                        <div class="form-group col-sm-12">
-                            <label class="col-xs-6 col-sm-3 col-md-2 control-label"></label>
-                            <div class="col-xs-6 col-sm-9 col-md-10">
-                                <input type="submit" name="submit" value="充值" class="btn btn-primary col-lg-1">
-                                <input type="hidden" name="token" value="7ea42ec0">
+                        <div class="form-group">
+                            <label class="col-xs-12 col-sm-2 col-md-2 col-lg-1 control-label"></label>
+                            <div class="col-sm-8 col-lg-9 col-xs-12">
+                                <input class="btn btn-primary" id="" type="submit" value="搜索">
                             </div>
                         </div>
-                    </form></div>
-            </div>
-            <script>
-                //require(['jquery','../../../../addons/meepo_xianchang/template/resource//Public/Home/js/core']);
-                function check_cz(){
-                    var money = $("input[name='money']").val();
-                    if(money<10){
-                        util.message('充值金额必须大于10元.', '', 'error');
-                        return false;
-                    }
-                    var sxf = money*0.05;
-                    sxf = parseFloat(sxf);
-                    sxf = sxf.toFixed(2);
-                    if(sxf>0){
-                        if(confirm("充值"+money+"元、将收取"+sxf+"元手续费、确认么？")){
-                            return true;
-                        }else{
-                            return false;
-                        }
-                    }else{
-                        return true;
-                    }
-                }
-            </script>
-
-            <div class="panel panel-default">
-                <div class="panel-heading">账户充值明细</div>
-                <div class="panel-body">
-                    <table class="table table-hover" style="display:auto;">
-
-                        <tr>
-                            <th style="width:10%;text-align:center">状态</th>
-                            <th style="width:30%;text-align:center">详细</th>
-                            <th style="width:20%;text-align:center">时间</th>
-                            <th style="width:40%;text-align:center">操作</th>
-                        </tr>
-                        <?php if(is_array($lk)): foreach($lk as $key=>$v): ?><tr>
-                            <td style="width:10%;text-align:center">
-                            <a style="color: red"><?php echo ($v['status_id']==1?'支付成功':'支付失败'); ?></a>
-                            </td>
-                            <td style="width:30%;text-align:center">
-                                <p style="color: #ff0000">支付总金额:<span><?php echo ($v["zongjine"]); ?>元</span></p>
-                                <p style="color: #ff0000">充值金额:<span><?php echo ($v["jine"]); ?>元</span></p>
-                                <p style="color: #ff0000">充值手续费:<span><?php echo ($v["shouxufei"]); ?>元</span></p>
-                            </td>
-                            <td style="width:20%;text-align:center;color: #ff0000"><?php echo (date("Y-m-d H:i:s" ,$v["addtime"])); ?></td>
-                            <td style="width:40%;text-align:center">
-                                <a href="<?php echo U('Lk/status');?>?id=<?php echo ($v["id"]); ?>&<?php echo ($v["status_id"]); ?>" style="color: #ff0000"><?php echo ($v['status_id']==1?'继续充值':'重新支付'); ?></a>
-                            </td>
-                        </tr><?php endforeach; endif; ?>
-                    </table>
-                    <div class="pager_box">
-                    </div>
+                    </form>
                 </div>
             </div>
+            <div class="wall-lists">
+                <?php if(is_array($res)): foreach($res as $key=>$v): ?><div class="listBox" style="position:relative">
+                        <div class="dataBox">
+                            <div class="earsTag styEnd">
+                                <div class="box end">
+                                    <div class="stateTxt">
+                                        <div><span class="label label-danger">已结束</span></div>
+                                    </div>
+                                    <div style="display:block">
+                                        <div class="stateTime">
+                                            <div class="timeDay"><?php echo date('Y-m-d',$v['activity_start_time']);?></div>
+                                            <div class="timeHour"><?php echo date('H:i:s',$v['activity_start_time']);?></div>
+                                        </div>
+                                        <div class="endTime">至<?php echo date('Y-m-d H:i:s',$v['activity_start_time']);?></div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="tag-state" style="position:relative;overflow:hidden">
+                                <div class="contMain">
+                                    <div class="playCont">
+                                        <div class="campaignBox">
+                                            <div class="box">
+                                                <div class="tabCell first noBound">
+                                                    <div class="edition noBound">
+                                                        <div class="playTite"><?php echo ($v['activity_theme']); ?>&nbsp;&nbsp;</div>
 
+                                                    </div>
+                                                    <div class="wallKey" style="display:none">
+                                                        <div class="fl"></div>
+                                                        <div class="fr">
+                                                            <span class="auditeBtn"></span>
+                                                        </div>
+                                                    </div>
+                                                    <div class="playData">
+                                                        <div class="dataBlk">
+                                                            <i class="hi-guest22"></i>
+                                                            <span class="txt">参与人数</span>
+
+                                                            <span class="dataNum"><?php echo ($v['num']); ?>人</span>
+
+                                                        </div>
+                                                        <div class="dataBlk">
+                                                            <i class="hi-guest22"></i>
+                                                            <span class="txt">签到人数</span>
+                                                            <span class="dataNum"><?php echo ($v['sign']); ?>人</span>
+                                                        </div>
+                                                        <div class="dataBlk">
+                                                            <i class="hi-msgRadius"></i>
+                                                            <span class="txt">上墙消息</span>
+                                                            <span class="dataNum"><?php echo ($v['wall']); ?>条</span>
+                                                        </div>
+                                                        <div class="dataBlk">
+                                                            <i class="hi-msgRadius"></i>
+                                                            <span class="txt">霸屏上墙消息</span>
+                                                            <span class="dataNum"><?php echo ($v['screen']); ?>条</span>
+                                                        </div>
+                                                    </div>
+                                                    <div class="editionTag" style="display:none">
+                                                        <img style="display:block" src="http://wall.juxianchang.com/addons/meepo_xianchang/sys_logo.png" onerror="">
+                                                    </div>
+                                                </div><!--tabCell-->
+                                                <div class="tabCell second">
+                                                    <ul class="cotrolBox noBound">
+                                                        <li><a href="./index.php?c=site&amp;a=entry&amp;op=edit&amp;id=1293&amp;do=list&amp;m=meepo_xianchang"><i class="fa fa-cog"></i><div>编辑活动</div></a></li>
+                                                        <li><a href="./index.php?c=site&amp;a=entry&amp;id=1293&amp;do=basic_config&amp;m=meepo_xianchang"><i class="fa fa-cubes"></i><div>管理活动</div></a></li>
+                                                        <li><a href="./index.php?c=site&amp;a=entry&amp;id=1293&amp;do=urls&amp;m=meepo_xianchang"><i class="fa fa-weixin fa-fw"></i><div>活动二维码</div></a></li>
+                                                        <li style="opacity:0"><a href="./index.php?c=site&amp;a=entry&amp;op=del&amp;id=1293&amp;do=list&amp;m=meepo_xianchang" onclick="return confirm('删除将无法恢复，确认吗？');return false;"><i class="fa fa-times"></i><div>删除活动</div></a></li>
+                                                    </ul>
+                                                </div><!--tabCell-->
+                                                <div class="tabCell last  noBound" style="display:none">
+                                                    <div class="cotrLi"><a target="_blank" href="./index.php?c=site&amp;a=entry&amp;id=1293&amp;do=data_show&amp;m=meepo_xianchang"><i class="meepo-crumbs"></i><div>数据统计</div></a></div>
+                                                </div>
+                                                <div style="position:absolute;top:10%;padding:10px;background-color:#44b549;border-radius:6px"><a href="./index.php?c=site&amp;a=entry&amp;id=1293&amp;do=web_pay&amp;m=meepo_xianchang" target="_blank" style="color:#fff;">支付未完成</a></div>							</div> <!--box-->
+                                        </div><!--campaignBox--->
+                                    </div><!--playCont--->
+                                </div><!---contMain-->
+                            </div><!--tag-state-->
+                        </div><!--dataBox--->
+                    </div><!--listBox--><?php endforeach; endif; ?>
+                <div class="pager_box">
+                </div>
+            </div><!--wall-list-->
+            <script>
+                $(function(){
+                    $(".update_important").on('click',function(){
+                        var $this = $(this);
+                        var ac_id = $this.attr('data-id');
+                        var is_important = $this.attr('data-important');
+                        $.post("./index.php?c=site&a=entry&do=update_important&m=meepo_xianchang",{ac_id:ac_id,is_important:is_important},function(result){
+                            console.log(result);
+                            if(result.errno==0){
+                                if(result.message==1)else
+                            }
+                        },'json');
+                    });
+                })
+            </script>
         </div>
-<<<<<<< Updated upstream:TP/Application/Runtime/Cache/Home/9a98843e7ef63110b3f5b8247bf08016.php
+            
+
         <!--slider css--->
         <link rel="stylesheet" href="/Public/Home/css/boostrap.slider.css">
         <style>
@@ -609,7 +573,7 @@
     .rides-cs .cn ul li span { color: #777;}
     .rides-cs .cn ul li a{color: #777;}
     .rides-cs .cn ul li img { vertical-align: middle;}
-    .rides-cs .btnOpen, .rides-cs .btnCtn {  position: relative; z-index:9; top:25px; left: 0;  background-image: url(http://demo.lanrenzhijia.com/2014/service1031//Public/Home/images/lanrenzhijia.png); background-repeat: no-repeat; display:block;  height: 146px; padding: 8px;}
+    .rides-cs .btnOpen, .rides-cs .btnCtn {  position: relative; z-index:9; top:25px; left: 0;  background-image: url(http://demo.lanrenzhijia.com/2014/service1031/images/lanrenzhijia.png); background-repeat: no-repeat; display:block;  height: 146px; padding: 8px;}
     .rides-cs .btnOpen { background-position: 0 0;}
     .rides-cs .btnCtn { background-position: -37px 0;}
     .rides-cs ul li.top { border-bottom: solid #ACE5F9 1px;}
@@ -620,7 +584,7 @@
         position:fixed;
         width:40px;
         height:40px;
-        background-image:url(../addons/meepo_xianchang/template/resource//Public/Home/images/top.png);
+        background-image:url("/Public/Home/images/top.png");
         bottom:30px;
         right:10px;
         -webkit-transition:all 0.2s;
@@ -693,6 +657,3 @@
 
 
 </body></html>
-=======
-</block>
->>>>>>> Stashed changes:TP/Application/Home/View/Index/activity_notstart.html
