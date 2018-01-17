@@ -5,14 +5,14 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>聚现场</title>
-    <link rel="shortcut icon" href="http://wall.juxianchang.com/web/resource//Public/Home/images/favicon.ico">
+    <link rel="shortcut icon" href="http://wall.juxianchang.com/web/resource/images/favicon.ico">
     <meta name="keywords" content="聚现场">
     <meta name="description" content="聚现场">
     <link href="/Public/Home/css/bootstrap.min.css" rel="stylesheet">
     <link href="/Public/Home/css/font-awesome.min.css" rel="stylesheet">
     <link href="/Public/Home/css/common.css" rel="stylesheet">
     <!--my css-->
-    <link rel="stylesheet" href="/Public/Home/css/common(1).css">
+    <link rel="stylesheet" href="/Public/Home/css/common1.css">
     <link rel="stylesheet" href="/Public/Home/css/sys.css">
     <link rel="stylesheet" href="/Public/Home/css/style.css">
     <link rel="stylesheet" href="/Public/Home/css/spinners.css" type="text/css">
@@ -35,6 +35,9 @@
     </script>
     <script>var require = { urlArgs: 'v=20180105100330' };</script>
     <script type="text/javascript" src="/Public/Home/js/jquery-1.11.1.min.js"></script>
+    <script type="text/javascript" src="/Public/Home/js/jquery_validation/jquery.validate.js"></script>
+    <script type="text/javascript" src="/Public/Home/js/jquery_validation/validate-methods.js"></script>
+    <script type="text/javascript" src="/Public/Home/js/jquery_validation/messages_zh.js"></script>
     <script type="text/javascript" src="/Public/Home/js/util.js"></script>
     <script type="text/javascript" src="/Public/Home/js/common.min.js"></script>
     <script type="text/javascript" src="/Public/Home/js/require.js"></script>
@@ -86,7 +89,7 @@
             margin:0 80px 0 80px;
         }
         .gw-container{
-            background:#e7e8eb url('/Public/Home/images/hucebg.png') repeat;
+            background:#e7e8eb url("/Public/Home/images/hucebg.png") repeat;
         }
         .gw-container .breadcrumb{
             background-color:#FFF;
@@ -164,10 +167,11 @@
         };
     </script>
     <!---默认-->
-    <script type="text/javascript" charset="utf-8" async="" data-requirecontext="_" data-requiremodule="jquery" src="/Public/Home/js/jquery-1.11.1.min.js(1)"></script><script type="text/javascript" charset="utf-8" async="" data-requirecontext="_" data-requiremodule="bootstrap" src="/Public/Home/js/bootstrap.min.js"></script></head>
+    <script type="text/javascript" charset="utf-8" async="" data-requirecontext="_" data-requiremodule="jquery" href="/Public/Home/js/jquery-1.11.1.min.js(1)"></script><script type="text/javascript" charset="utf-8" async="" data-requirecontext="_" data-requiremodule="bootstrap" href="/Public/Home/js/bootstrap.min.js"></script></head>
 <body class="zh_CN">
 
 <div class="meepo_head">
+
     <div class="meepo_head_box">
         <div class="meepo_inner">
             <div class="meepo_logo"><a href="http://wall.juxianchang.com/web/index.php?c=site&amp;a=entry&amp;_admin_uniacid=52&amp;do=list&amp;m=meepo_xianchang#"></a></div>
@@ -192,15 +196,15 @@
                         right:-5px;
                     }
                 </style>
-                <li class="active"><a href="http://wall.juxianchang.com/web/index.php?c=site&amp;a=entry&amp;do=list&amp;m=meepo_xianchang">我的活动</a></li>
-                <li><a href="http://wall.juxianchang.com/web/index.php?c=site&amp;a=entry&amp;do=my_home&amp;m=meepo_xianchang">个人中心</a></li>
-                <li><a href="http://wall.juxianchang.com/web/index.php?c=site&amp;a=entry&amp;do=my_order&amp;m=meepo_xianchang">我的订单</a></li>
+                <li class="active"><a href="<?php echo U('/Home/Index/activity_person');?>">我的活动</a></li>
+                <li><a href="<?php echo U('/Home/Member/member_info');?>">个人中心</a></li>
+                <li><a href="<?php echo U('/Home/Aorder/activity_order');?>">我的订单</a></li>
             </ul>
             <div class="meepo_accounts">
                 <div class="acounts_box dropdown" style="">
                     <a href="javascript:;" class="dropdown-toggle accounts_box_a" data-toggle="dropdown">
                         <img class="avatar" src="./uqGt3Q9ngqHWGTqh3T3GvASSr7tNHH.jpg" onerror="">
-                        <span class="username">你好、13700834467</span><i class="fa fa-angle-down"></i>
+                        <span class="username">你好、<?php echo (session('member_name')); ?></span><i class="fa fa-angle-down"></i>
                     </a>
                     <ul class="dropdown-menu account_menu">
                         <li><a href="http://wall.juxianchang.com/web/index.php?c=site&amp;a=entry&amp;do=my_home&amp;m=meepo_xianchang"><i class="fa fa-user"></i> 个人中心</a></li>
@@ -224,41 +228,42 @@
                 <div class="sys-menu-user" style="border-bottom: 1px solid #e9e9e9;">
                     <div>
                         <div class="avatar">
-                            <a href="./index.php?c=site&amp;a=entry&amp;do=my_home&amp;m=meepo_xianchang"><img src="http://of3kdd1ar.bkt.clouddn.com//Public/Home/images/52/2018/01/T2vY9IEAOsod1O221oIrVIY1i5Kyvh.jpg" onerror=""></a>
+                            <a href="http://wall.juxianchang.com/web/index.php?c=site&amp;a=entry&amp;do=my_home&amp;m=meepo_xianchang"><img src="images/uqGt3Q9ngqHWGTqh3T3GvASSr7tNHH.jpg" onerror=""></a>
                         </div>
                         <i class="elem"></i>
                     </div>
-                    <h3 class="name"><a href="./index.php?c=site&amp;a=entry&amp;do=my_home&amp;m=meepo_xianchang">LZ123456</a></h3>
+                    <h3 class="name"><a href="http://wall.juxianchang.com/web/index.php?c=site&amp;a=entry&amp;do=my_home&amp;m=meepo_xianchang"><?php echo (session('member_name')); ?></a></h3>
                     <!--<p>普通用户</p>-->
-                    <p><a id="agent_gl" href="./index.php?c=site&amp;a=entry&amp;do=my_home&amp;m=meepo_xianchang" class="btn-agency">个人中心</a></p>
+                    <p><a id="agent_gl" href="<?php echo U('/Home/Member/member_info');?>" class="btn-agency">个人中心</a></p>
                 </div>
 
                 <ul class="sys-menu-menu">
                     <li>
                         <a href="javascript:void(0);"><em class="icon-screen"></em>活动</a>
                         <ul class="level2">
-                            <li><a href="./index.php?c=site&amp;a=entry&amp;do=list&amp;m=meepo_xianchang">我的活动</a></li>
+                            <li class="curr"><a href="<?php echo U('/Home/Index/activity_person');?>">我的活动</a></li>
                         </ul>
                     </li>
                     <li>
                         <a href="javascript:;"><em class="icon-orders"></em>订单</a>
                         <ul class="level2">
-                            <li><a href="./index.php?c=site&amp;a=entry&amp;do=my_order&amp;m=meepo_xianchang">我的订单</a></li>
+                            <li><a href="<?php echo U('/Home/Aorder/activity_order');?>">我的订单</a></li>
                         </ul>
                     </li>
                     <li>
                         <a href="javascript:;"><em class="icon-count"></em>账户</a>
                         <ul class="level2">
-                            <li class="curr"><a href="<?php echo U('Lk/zhyue');?>">我的账户</a></li>
-                            <li><a href="<?php echo U('Lk/details');?>">红包账户</a></li>
-                            <li><a href="./index.php?c=site&amp;a=entry&amp;do=my_home&amp;m=meepo_xianchang">个人中心</a></li>
-
+                            <li><a href="<?php echo U('Home/Lk/zhyue');?>">我的账户</a></li>
+                            <li><a href="<?php echo U('Home/Lk/details');?>">红包账户</a></li>
+                            <li><a href="<?php echo U('/Home/Member/member_info');?>">个人中心</a></li>
                         </ul>
                     </li>
-
                 </ul>
             </div>
         </div>
+        <!--右边内容-->
+        
+
         <!--右边内容-->
         <div class="col-xs-12 col-sm-9 col-lg-10 sys_menu_box">
             <style>
@@ -472,9 +477,6 @@
                 });
             })
         </script>
-    </div>
-</div>
-</div>
 <script>
     $(document).ready(function(){
         if($('#loading').length>0){
@@ -549,6 +551,149 @@
         cursor:point
     }
 </style>
+
+
+        <!--slider css--->
+        <link rel="stylesheet" href="/Public/Home/css/boostrap.slider.css">
+        <style>
+            .slider.slider-horizontal {
+                height:40px;
+                width:100%;
+            }
+            .slider.slider-horizontal .slider-handle {
+                margin-left: -10px;
+                margin-top: 10px;
+            }
+            #Slider .slider-handle {
+                background: #36b27a;
+                border-radius:50%;
+            }
+            #Slider .slider-selection {
+                background: #36b27a;
+            }
+            .add-jian input{height:40px;text-align:center}
+            .quantity-remove, .quantity-add {
+                cursor: pointer;
+            }
+            .quantity-add.glyphicon, .quantity-remove.glyphicon {
+                display: block;
+                cursor: pointer;
+            }
+            .slider_box{
+                padding:20px;margin-bottom:0px;display:none
+            }
+            .update_important{
+                position:absolute;
+                top:0;
+                right:80px;
+                color:gray;
+                cursor:pointer;
+                z-index:10
+            }
+            .update_important.active{
+                color:#22B766
+            }
+            .update_important.active:hover{
+                color:gray
+            }
+            .update_important:hover{
+                color:#22B766
+            }
+        </style>
+        <!--slider end--->
+        <!--wall-list-->
+        <script>
+            $(function(){
+                $(".update_important").on('click',function(){
+                    var $this = $(this);
+                    var ac_id = $this.attr('data-id');
+                    var is_important = $this.attr('data-important');
+                    $.post("./index.php?c=site&a=entry&do=update_important&m=meepo_xianchang",{ac_id:ac_id,is_important:is_important},function(result){
+                        console.log(result);
+                        if(result.errno==0){
+                            if(result.message==1)else
+                        }
+                    },'json');
+                });
+            })
+        </script>
+    </div>
+</div>
+</div>
+<script>
+    $(document).ready(function(){
+        if($('#loading').length>0){
+            $('#loading').remove();
+        }
+    });
+</script>
+<!--默认js-->
+
+<script type="text/javascript">
+    require(['bootstrap']);
+    $('.js-clip').each(function(){
+        util.clip(this, $(this).attr('data-url'));
+    });
+</script>
+
+<!--默认js-->
+
+
+<!--尾部-->
+<style>
+    #footer{
+        height:60px;
+        width:100%;
+        text-align: center;
+        /*background-color: #f3f3f4;*/
+        line-height:60px;
+    }
+    #footer .copy_right{
+        color: #000;
+        margin:0;
+
+    }
+
+    *{ margin:0; padding:0; list-style:none;}
+    img{ border:0;}
+
+    .rides-cs {  font-size: 12px; background:#29a7e2; position: fixed; top: 250px; right: 0px; _position: absolute; z-index: 1500; border-radius:6px 0px 0 6px;}
+    .rides-cs a { color: #00A0E9;}
+    .rides-cs a:hover { color: #ff8100; text-decoration: none;}
+    .rides-cs .floatL { width: 36px; float:left; position: relative; z-index:1;margin-top: 21px;min-height: 181px;}
+    .rides-cs .floatL a { font-size:0; text-indent: -999em; display: block;}
+    .rides-cs .floatR { width: 130px; float: left; padding: 5px; overflow:hidden;}
+    .rides-cs .floatR .cn {background:#F7F7F7; border-radius:6px;margin-top:4px;}
+    .rides-cs .cn .titZx{ font-size: 14px; color: #333;font-weight:600; line-height:24px;padding:5px;text-align:center;}
+    .rides-cs .cn ul {padding:0px;}
+    .rides-cs .cn ul li { line-height: 38px; height:38px;border-bottom: solid 1px #E6E4E4;overflow: hidden;text-align:center;}
+    .rides-cs .cn ul li span { color: #777;}
+    .rides-cs .cn ul li a{color: #777;}
+    .rides-cs .cn ul li img { vertical-align: middle;}
+    .rides-cs .btnOpen, .rides-cs .btnCtn {  position: relative; z-index:9; top:25px; left: 0;  background-image: url(http://demo.lanrenzhijia.com/2014/service1031/images/lanrenzhijia.png); background-repeat: no-repeat; display:block;  height: 146px; padding: 8px;}
+    .rides-cs .btnOpen { background-position: 0 0;}
+    .rides-cs .btnCtn { background-position: -37px 0;}
+    .rides-cs ul li.top { border-bottom: solid #ACE5F9 1px;}
+    .rides-cs ul li.bot { border-bottom: none;}
+
+    #goto-top {
+        display:none;
+        position:fixed;
+        width:40px;
+        height:40px;
+        background-image:url("/Public/Home/images/top.png");
+        bottom:30px;
+        right:10px;
+        -webkit-transition:all 0.2s;
+        -moz-transition:all 0.2s;
+        -o-transition:all 0.2s;
+        transition:all 0.2s;
+        z-index:9999;
+    }
+    #goto-top:hover {
+        cursor:point
+    }
+</style>
 <div id="floatTools" class="rides-cs" style="min-height:246px;display:none">
     <div class="floatL">
         <a id="aFloatTools_Show" class="btnOpen" title="查看在线客服" style="top:20px;display:block" href="javascript:void(0);">展开</a>
@@ -606,6 +751,5 @@
 </div>
 <a href="http://wall.juxianchang.com/web/index.php?c=site&amp;a=entry&amp;_admin_uniacid=52&amp;do=list&amp;m=meepo_xianchang#" title="返回顶部" id="goto-top"></a>
 <script>$(function(){$('img').attr('onerror', '').on('error', function(){if (!$(this).data('check-src') && (this.src.indexOf('http://') > -1 || this.src.indexOf('https://') > -1)) {this.src = this.src.indexOf('http://wall.juxianchang.com/attachment/') == -1 ? this.src.replace('http://of3kdd1ar.bkt.clouddn.com/', 'http://wall.juxianchang.com/attachment/') : this.src.replace('http://wall.juxianchang.com/attachment/', 'http://of3kdd1ar.bkt.clouddn.com/');$(this).data('check-src', true);}});});</script>
-
 
 </body></html>

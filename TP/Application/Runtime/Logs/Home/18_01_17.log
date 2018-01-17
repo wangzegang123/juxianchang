@@ -382,3 +382,25 @@ INFO: [ app_end ] --END-- [ RunTime:0.002000s ]
 [ 2018-01-17T15:48:52+08:00 ] 127.0.0.1 /index.php/Home/Lk1/j/Public/Home/js/push.js
 ERR: 非法操作:j
 
+[ 2018-01-17T16:20:35+08:00 ] 127.0.0.1 /index.php/Home/Aorder/css/boostrap.slider.css
+ERR: 非法操作:css
+
+[ 2018-01-17T16:20:36+08:00 ] 127.0.0.1 /index.php/Home/Aorder/css/boostrap.slider.css
+ERR: 非法操作:css
+
+[ 2018-01-17T16:21:40+08:00 ] 127.0.0.1 /index.php/Home/Aorder/css/boostrap.slider.css
+ERR: 非法操作:css
+
+[ 2018-01-17T16:21:40+08:00 ] 127.0.0.1 /index.php/Home/Aorder/css/boostrap.slider.css
+ERR: 非法操作:css
+
+[ 2018-01-17T16:22:12+08:00 ] 127.0.0.1 /index.php/Home/Aorder/css/boostrap.slider.css
+ERR: 非法操作:css
+
+[ 2018-01-17T16:22:27+08:00 ] 127.0.0.1 /index.php/Home/Member/member_info.html
+ERR: 1054:Unknown column 'Array' in 'where clause'
+ [ SQL语句 ] : SELECT `member_name` FROM `jxc_member` WHERE ( member_id=Array ) LIMIT 1  
+
+[ 2018-01-17T16:30:47+08:00 ] 127.0.0.1 /index.php/Home/Lk/status.html?id=1&1
+ERR: 非法操作:status
+
