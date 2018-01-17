@@ -25,22 +25,14 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="Lk1Controller.class.php" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Application/Home/Controller/Lk1Controller.class.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="-10.125" vertical-offset="0" max-vertical-offset="4239">
-              <caret line="12" column="5" selection-start-line="12" selection-start-column="5" selection-end-line="12" selection-end-column="5" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file leaf-file-name="head.html" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/Application/Home/View/Home/head.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="-46.625" vertical-offset="11279" max-vertical-offset="13068">
-              <caret line="473" column="6" selection-start-line="473" selection-start-column="6" selection-end-line="473" selection-end-column="6" />
-              <folding />
+            <state vertical-scroll-proportion="0.0" vertical-offset="837" max-vertical-offset="12582">
+              <caret line="49" column="13" selection-start-line="49" selection-start-column="13" selection-end-line="49" selection-end-column="13" />
+              <folding>
+                <element signature="n#style#0;n#head#0;n#html#0;n#!!top" expanded="false" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -48,40 +40,21 @@
       <file leaf-file-name="head3.html" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/Application/Home/View/Home/head3.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="-14.21875" vertical-offset="11263" max-vertical-offset="11934">
-              <caret line="434" column="4" selection-start-line="434" selection-start-column="4" selection-end-line="434" selection-end-column="4" />
+            <state vertical-scroll-proportion="0.0" vertical-offset="864" max-vertical-offset="11961">
+              <caret line="32" column="45" selection-start-line="32" selection-start-column="45" selection-end-line="32" selection-end-column="45" />
               <folding>
-                <marker date="1516095248609" expanded="true" signature="17007:17082" placeholder="..." />
+                <marker date="1516172378316" expanded="true" signature="16859:16934" placeholder="..." />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="IndexController.php" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/../../web4/code/laravel52/app/Http/Controllers/Home/IndexController.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="-20.25" vertical-offset="23004" max-vertical-offset="27756">
-              <caret line="886" column="19" selection-start-line="886" selection-start-column="19" selection-end-line="886" selection-end-column="19" />
-              <folding>
-                <marker date="1514107863479" expanded="true" signature="10127:10251" placeholder="select g.*,u..group_order..." />
-                <marker date="1514107863479" expanded="true" signature="21100:21129" placeholder="select * fro..goods..." />
-                <marker date="1514107863479" expanded="true" signature="22451:22480" placeholder="select * fro..goods..." />
-                <marker date="1514107863479" expanded="true" signature="22528:22572" placeholder="select buynu..goods_cart..." />
-                <marker date="1514107863479" expanded="true" signature="23045:23074" placeholder="select * fro..goods..." />
-                <marker date="1514107863479" expanded="true" signature="26220:26312" placeholder="select * fro..group_order_goods..." />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="head2.html" pinned="false" current-in-tab="false">
+      <file leaf-file-name="head2.html" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/Application/Home/View/Home/head2.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="13.28125" vertical-offset="3692" max-vertical-offset="5049">
-              <caret line="183" column="47" selection-start-line="183" selection-start-column="47" selection-end-line="183" selection-end-column="47" />
+            <state vertical-scroll-proportion="0.0" vertical-offset="783" max-vertical-offset="4536">
+              <caret line="29" column="0" selection-start-line="29" selection-start-column="0" selection-end-line="30" selection-end-column="0" />
               <folding>
-                <element signature="n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
-                <element signature="n#ul#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
                 <element signature="n#script#0;n#body#0;n#html#0;n#!!top" expanded="false" />
                 <element signature="n#script#1;n#body#0;n#html#0;n#!!top" expanded="false" />
                 <element signature="n#style#0;n#ul#0;n#div#0;n#div#0;n#div#0;n#div#2;n#body#0;n#html#0;n#!!top" expanded="true" />
@@ -114,119 +87,59 @@
                 <element signature="n#script#10;n#body#0;n#html#0;n#!!top" expanded="false" />
                 <element signature="n#script#11;n#body#0;n#html#0;n#!!top" expanded="false" />
                 <element signature="n#a#1;n#body#0;n#html#0;n#!!top" expanded="false" />
-                <marker date="1516153942328" expanded="true" signature="23144:23219" placeholder="..." />
+                <marker date="1516172378321" expanded="true" signature="22948:23023" placeholder="..." />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="MemberController.class.php" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Application/Home/Controller/MemberController.class.php">
+      <file leaf-file-name="SignController.class.php" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Application/Home/Controller/SignController.class.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0" vertical-offset="378" max-vertical-offset="1944">
-              <caret line="16" column="33" selection-start-line="16" selection-start-column="33" selection-end-line="16" selection-end-column="33" />
+            <state vertical-scroll-proportion="0.0" vertical-offset="81" max-vertical-offset="864">
+              <caret line="18" column="42" selection-start-line="18" selection-start-column="42" selection-end-line="18" selection-end-column="42" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="LoginController.class.php" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Application/Home/Controller/LoginController.class.php">
+      <file leaf-file-name="fuwudingjia.html" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Application/Home/View/Home/fuwudingjia.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0" vertical-offset="852" max-vertical-offset="6075">
-              <caret line="43" column="15" selection-start-line="43" selection-start-column="15" selection-end-line="43" selection-end-column="15" />
+            <state vertical-scroll-proportion="0.0" vertical-offset="243" max-vertical-offset="22167">
+              <caret line="9" column="21" selection-start-line="9" selection-start-column="21" selection-end-line="9" selection-end-column="21" />
               <folding>
-                <marker date="1516095254989" expanded="true" signature="1034:1110" placeholder="select * fro..jxc_member..." />
-                <marker date="1516095254989" expanded="true" signature="1153:1237" placeholder="select membe..jxc_member..." />
-                <marker date="1516095254989" expanded="true" signature="1955:2031" placeholder="select * fro..jxc_member..." />
-                <marker date="1516095254989" expanded="true" signature="2074:2158" placeholder="select membe..jxc_member..." />
-                <marker date="1516095254989" expanded="true" signature="2751:2827" placeholder="select * fro..jxc_member..." />
-                <marker date="1516095254989" expanded="true" signature="2873:2957" placeholder="select membe..jxc_member..." />
+                <element signature="e#23525#24714#0" expanded="false" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="LkController.class.php" pinned="false" current-in-tab="true">
+      <file leaf-file-name="IndexController.class.php" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Application/Home/Controller/IndexController.class.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="0.0" vertical-offset="30" max-vertical-offset="4968">
+              <caret line="18" column="29" selection-start-line="18" selection-start-column="29" selection-end-line="18" selection-end-column="29" />
+              <folding>
+                <marker date="1516158379937" expanded="true" signature="581:632" placeholder="select * fro..jxc_activity_fans..." />
+                <marker date="1516158379937" expanded="true" signature="996:1083" placeholder="select * fro..jxc_activity_fans..." />
+                <marker date="1516158379937" expanded="true" signature="1426:1506" placeholder="select * fro..jxc_wall..." />
+                <marker date="1516158379937" expanded="true" signature="1851:1931" placeholder="select * fro..jxc_wall..." />
+                <marker date="1516158379937" expanded="true" signature="2490:2671" placeholder="select a.* F..jxc_activity..." />
+                <marker date="1516158379937" expanded="true" signature="3446:3695" placeholder="select a.* F..jxc_activity..." />
+                <marker date="1516158379937" expanded="true" signature="4534:4749" placeholder="select a.* F..jxc_activity..." />
+                <marker date="1516158379937" expanded="true" signature="5575:5788" placeholder="select a.* F..jxc_activity..." />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="LkController.class.php" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/Application/Home/Controller/LkController.class.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.6035768" vertical-offset="0" max-vertical-offset="3537">
+            <state vertical-scroll-proportion="0.0" vertical-offset="243" max-vertical-offset="3537">
               <caret line="15" column="31" selection-start-line="15" selection-start-column="31" selection-end-line="15" selection-end-column="31" />
               <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="shouhui.html" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Application/Home/View/Home/shouhui.html">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0" vertical-offset="81" max-vertical-offset="8829">
-              <caret line="3" column="22" selection-start-line="3" selection-start-column="22" selection-end-line="3" selection-end-column="22" />
-              <folding>
-                <element signature="n#style#0;n#p#2;n#div#1;n#div#0;n#div#3;n#div#0;n#block#0;n#!!top" expanded="true" />
-                <element signature="n#style#0;n#img#0;n#a#0;n#li#0;n#ul#0;n#div#0;n#div#1;n#div#3;n#div#0;n#block#0;n#!!top" expanded="true" />
-                <element signature="n#style#0;n#img#0;n#a#0;n#li#1;n#ul#0;n#div#0;n#div#1;n#div#3;n#div#0;n#block#0;n#!!top" expanded="true" />
-                <element signature="n#style#0;n#img#0;n#a#0;n#li#2;n#ul#0;n#div#0;n#div#1;n#div#3;n#div#0;n#block#0;n#!!top" expanded="true" />
-                <element signature="n#style#0;n#img#0;n#a#0;n#li#3;n#ul#0;n#div#0;n#div#1;n#div#3;n#div#0;n#block#0;n#!!top" expanded="true" />
-                <element signature="n#style#0;n#img#0;n#a#0;n#li#4;n#ul#0;n#div#0;n#div#1;n#div#3;n#div#0;n#block#0;n#!!top" expanded="true" />
-                <element signature="n#style#0;n#img#0;n#a#0;n#li#5;n#ul#0;n#div#0;n#div#1;n#div#3;n#div#0;n#block#0;n#!!top" expanded="true" />
-                <element signature="n#style#0;n#p#0;n#div#0;n#div#1;n#div#1;n#div#1;n#div#3;n#div#0;n#block#0;n#!!top" expanded="true" />
-                <element signature="n#style#0;n#span#0;n#p#0;n#div#0;n#div#1;n#div#1;n#div#1;n#div#3;n#div#0;n#block#0;n#!!top" expanded="true" />
-                <element signature="n#style#0;n#strong#0;n#span#0;n#p#0;n#div#0;n#div#1;n#div#1;n#div#1;n#div#3;n#div#0;n#block#0;n#!!top" expanded="true" />
-                <element signature="n#style#0;n#p#1;n#div#0;n#div#1;n#div#1;n#div#1;n#div#3;n#div#0;n#block#0;n#!!top" expanded="true" />
-                <element signature="n#style#0;n#span#0;n#p#1;n#div#0;n#div#1;n#div#1;n#div#1;n#div#3;n#div#0;n#block#0;n#!!top" expanded="true" />
-                <element signature="n#style#0;n#strong#0;n#span#0;n#p#1;n#div#0;n#div#1;n#div#1;n#div#1;n#div#3;n#div#0;n#block#0;n#!!top" expanded="true" />
-                <element signature="n#style#0;n#p#2;n#div#0;n#div#1;n#div#1;n#div#1;n#div#3;n#div#0;n#block#0;n#!!top" expanded="true" />
-                <element signature="n#style#0;n#span#0;n#p#2;n#div#0;n#div#1;n#div#1;n#div#1;n#div#3;n#div#0;n#block#0;n#!!top" expanded="true" />
-                <element signature="n#style#0;n#strong#0;n#span#0;n#p#2;n#div#0;n#div#1;n#div#1;n#div#1;n#div#3;n#div#0;n#block#0;n#!!top" expanded="true" />
-                <element signature="n#style#0;n#p#3;n#div#0;n#div#1;n#div#1;n#div#1;n#div#3;n#div#0;n#block#0;n#!!top" expanded="true" />
-                <element signature="n#style#0;n#span#0;n#p#3;n#div#0;n#div#1;n#div#1;n#div#1;n#div#3;n#div#0;n#block#0;n#!!top" expanded="true" />
-                <element signature="n#style#0;n#strong#0;n#span#0;n#p#3;n#div#0;n#div#1;n#div#1;n#div#1;n#div#3;n#div#0;n#block#0;n#!!top" expanded="true" />
-                <element signature="n#style#0;n#br#0;n#strong#0;n#span#0;n#p#3;n#div#0;n#div#1;n#div#1;n#div#1;n#div#3;n#div#0;n#block#0;n#!!top" expanded="true" />
-                <element signature="n#style#0;n#p#4;n#div#0;n#div#1;n#div#1;n#div#1;n#div#3;n#div#0;n#block#0;n#!!top" expanded="true" />
-                <element signature="n#style#0;n#span#0;n#p#4;n#div#0;n#div#1;n#div#1;n#div#1;n#div#3;n#div#0;n#block#0;n#!!top" expanded="true" />
-                <element signature="n#style#0;n#strong#0;n#span#0;n#p#4;n#div#0;n#div#1;n#div#1;n#div#1;n#div#3;n#div#0;n#block#0;n#!!top" expanded="true" />
-                <element signature="n#style#0;n#span#0;n#strong#0;n#span#0;n#p#4;n#div#0;n#div#1;n#div#1;n#div#1;n#div#3;n#div#0;n#block#0;n#!!top" expanded="true" />
-                <element signature="n#style#0;n#p#5;n#div#0;n#div#1;n#div#1;n#div#1;n#div#3;n#div#0;n#block#0;n#!!top" expanded="true" />
-                <element signature="n#style#0;n#span#0;n#p#5;n#div#0;n#div#1;n#div#1;n#div#1;n#div#3;n#div#0;n#block#0;n#!!top" expanded="true" />
-                <element signature="n#style#0;n#strong#0;n#span#0;n#p#5;n#div#0;n#div#1;n#div#1;n#div#1;n#div#3;n#div#0;n#block#0;n#!!top" expanded="true" />
-                <element signature="n#style#0;n#br#0;n#strong#0;n#span#0;n#p#5;n#div#0;n#div#1;n#div#1;n#div#1;n#div#3;n#div#0;n#block#0;n#!!top" expanded="true" />
-                <element signature="n#style#0;n#p#6;n#div#0;n#div#1;n#div#1;n#div#1;n#div#3;n#div#0;n#block#0;n#!!top" expanded="true" />
-                <element signature="n#style#0;n#span#0;n#p#6;n#div#0;n#div#1;n#div#1;n#div#1;n#div#3;n#div#0;n#block#0;n#!!top" expanded="true" />
-                <element signature="n#style#0;n#strong#0;n#span#0;n#p#6;n#div#0;n#div#1;n#div#1;n#div#1;n#div#3;n#div#0;n#block#0;n#!!top" expanded="true" />
-                <element signature="n#style#0;n#p#7;n#div#0;n#div#1;n#div#1;n#div#1;n#div#3;n#div#0;n#block#0;n#!!top" expanded="true" />
-                <element signature="n#style#0;n#span#0;n#p#7;n#div#0;n#div#1;n#div#1;n#div#1;n#div#3;n#div#0;n#block#0;n#!!top" expanded="true" />
-                <element signature="n#style#0;n#br#0;n#span#0;n#p#7;n#div#0;n#div#1;n#div#1;n#div#1;n#div#3;n#div#0;n#block#0;n#!!top" expanded="true" />
-                <element signature="n#style#0;n#p#8;n#div#0;n#div#1;n#div#1;n#div#1;n#div#3;n#div#0;n#block#0;n#!!top" expanded="true" />
-                <element signature="n#style#0;n#span#0;n#p#8;n#div#0;n#div#1;n#div#1;n#div#1;n#div#3;n#div#0;n#block#0;n#!!top" expanded="true" />
-                <element signature="n#style#0;n#br#0;n#p#8;n#div#0;n#div#1;n#div#1;n#div#1;n#div#3;n#div#0;n#block#0;n#!!top" expanded="true" />
-                <element signature="n#style#0;n#p#9;n#div#0;n#div#1;n#div#1;n#div#1;n#div#3;n#div#0;n#block#0;n#!!top" expanded="true" />
-                <element signature="n#style#0;n#p#10;n#div#0;n#div#1;n#div#1;n#div#1;n#div#3;n#div#0;n#block#0;n#!!top" expanded="true" />
-                <element signature="n#style#0;n#span#0;n#p#10;n#div#0;n#div#1;n#div#1;n#div#1;n#div#3;n#div#0;n#block#0;n#!!top" expanded="true" />
-                <element signature="n#style#0;n#strong#0;n#span#0;n#p#10;n#div#0;n#div#1;n#div#1;n#div#1;n#div#3;n#div#0;n#block#0;n#!!top" expanded="true" />
-                <element signature="n#style#0;n#p#11;n#div#0;n#div#1;n#div#1;n#div#1;n#div#3;n#div#0;n#block#0;n#!!top" expanded="true" />
-                <element signature="n#style#0;n#p#12;n#div#0;n#div#1;n#div#1;n#div#1;n#div#3;n#div#0;n#block#0;n#!!top" expanded="true" />
-                <element signature="n#style#0;n#p#13;n#div#0;n#div#1;n#div#1;n#div#1;n#div#3;n#div#0;n#block#0;n#!!top" expanded="true" />
-                <element signature="n#style#0;n#strong#0;n#p#13;n#div#0;n#div#1;n#div#1;n#div#1;n#div#3;n#div#0;n#block#0;n#!!top" expanded="true" />
-                <element signature="n#style#0;n#span#0;n#strong#0;n#p#13;n#div#0;n#div#1;n#div#1;n#div#1;n#div#3;n#div#0;n#block#0;n#!!top" expanded="true" />
-                <element signature="n#style#0;n#p#14;n#div#0;n#div#1;n#div#1;n#div#1;n#div#3;n#div#0;n#block#0;n#!!top" expanded="true" />
-                <element signature="n#style#0;n#strong#0;n#p#14;n#div#0;n#div#1;n#div#1;n#div#1;n#div#3;n#div#0;n#block#0;n#!!top" expanded="true" />
-                <element signature="n#style#0;n#span#0;n#strong#0;n#p#14;n#div#0;n#div#1;n#div#1;n#div#1;n#div#3;n#div#0;n#block#0;n#!!top" expanded="true" />
-                <element signature="n#style#0;n#img#0;n#span#0;n#strong#0;n#p#14;n#div#0;n#div#1;n#div#1;n#div#1;n#div#3;n#div#0;n#block#0;n#!!top" expanded="true" />
-                <element signature="n#style#0;n#strong#0;n#p#15;n#div#0;n#div#1;n#div#1;n#div#1;n#div#3;n#div#0;n#block#0;n#!!top" expanded="true" />
-                <element signature="n#style#0;n#span#0;n#strong#0;n#p#15;n#div#0;n#div#1;n#div#1;n#div#1;n#div#3;n#div#0;n#block#0;n#!!top" expanded="true" />
-                <element signature="n#style#0;n#p#16;n#div#0;n#div#1;n#div#1;n#div#1;n#div#3;n#div#0;n#block#0;n#!!top" expanded="true" />
-                <element signature="n#style#0;n#img#0;n#p#16;n#div#0;n#div#1;n#div#1;n#div#1;n#div#3;n#div#0;n#block#0;n#!!top" expanded="true" />
-                <element signature="n#style#0;n#p#17;n#div#0;n#div#1;n#div#1;n#div#1;n#div#3;n#div#0;n#block#0;n#!!top" expanded="true" />
-                <element signature="n#style#0;n#strong#0;n#p#18;n#div#0;n#div#1;n#div#1;n#div#1;n#div#3;n#div#0;n#block#0;n#!!top" expanded="true" />
-                <element signature="n#style#0;n#span#0;n#strong#0;n#p#18;n#div#0;n#div#1;n#div#1;n#div#1;n#div#3;n#div#0;n#block#0;n#!!top" expanded="true" />
-                <element signature="n#style#0;n#strong#0;n#p#19;n#div#0;n#div#1;n#div#1;n#div#1;n#div#3;n#div#0;n#block#0;n#!!top" expanded="true" />
-                <element signature="n#style#0;n#span#0;n#strong#0;n#p#19;n#div#0;n#div#1;n#div#1;n#div#1;n#div#3;n#div#0;n#block#0;n#!!top" expanded="true" />
-                <element signature="n#style#0;n#div#0;n#div#1;n#block#0;n#!!top" expanded="true" />
-                <element signature="n#style#0;n#div#2;n#block#0;n#!!top" expanded="true" />
-                <element signature="n#style#0;n#div#0;n#div#0;n#div#2;n#block#0;n#!!top" expanded="true" />
-                <marker date="1516085596863" expanded="true" signature="17279:17354" placeholder="..." />
-              </folding>
             </state>
           </provider>
         </entry>
@@ -249,7 +162,6 @@
         <option value="$PROJECT_DIR$/Application/Home/View/Home/lknane.html" />
         <option value="$PROJECT_DIR$/Application/Home/View/Home/lkone.html" />
         <option value="$PROJECT_DIR$/Application/Home/View/Home/paizhao.html" />
-        <option value="$PROJECT_DIR$/Application/Home/View/Home/head3.html" />
         <option value="$PROJECT_DIR$/Application/Home/View/Home/shouhui.html" />
         <option value="$PROJECT_DIR$/Application/Home/View/Home/huodongbaoming.html" />
         <option value="$PROJECT_DIR$/Application/Home/View/Home/tongji.html" />
@@ -282,11 +194,12 @@
         <option value="$PROJECT_DIR$/Application/Home/View/Home/cehua.html" />
         <option value="$PROJECT_DIR$/Application/Home/View/Home/shengwai.html" />
         <option value="$PROJECT_DIR$/Application/Home/View/Home/chongqing.html" />
-        <option value="$PROJECT_DIR$/Application/Home/View/Home/fuwudingjia.html" />
         <option value="$PROJECT_DIR$/Application/Home/Controller/Lk1Controller.class.php" />
-        <option value="$PROJECT_DIR$/Application/Home/View/Home/head.html" />
-        <option value="$PROJECT_DIR$/Application/Home/View/Home/head2.html" />
         <option value="$PROJECT_DIR$/Application/Home/Controller/IndexController.class.php" />
+        <option value="$PROJECT_DIR$/Application/Home/View/Home/fuwudingjia.html" />
+        <option value="$PROJECT_DIR$/Application/Home/View/Home/head.html" />
+        <option value="$PROJECT_DIR$/Application/Home/View/Home/head3.html" />
+        <option value="$PROJECT_DIR$/Application/Home/View/Home/head2.html" />
       </list>
     </option>
   </component>
@@ -508,30 +421,8 @@
               <option name="myItemId" value="View" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
-          </PATH>
-          <PATH>
             <PATH_ELEMENT>
-              <option name="myItemId" value="TP" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="TP" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Application" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Home" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="View" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Index" />
+              <option name="myItemId" value="Sign" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -554,10 +445,6 @@
             </PATH_ELEMENT>
             <PATH_ELEMENT>
               <option name="myItemId" value="View" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Home" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -633,9 +520,6 @@
       <BehatRunner />
       <method />
     </configuration>
-    <configuration default="true" type="PhpUnitRemoteRunConfigurationType" factoryName="PHPUnit on Server">
-      <method />
-    </configuration>
     <configuration default="true" type="js.build_tools.gulp" factoryName="Gulp.js">
       <node-options />
       <gulpfile />
@@ -643,6 +527,9 @@
       <arguments />
       <pass-parent-envs>true</pass-parent-envs>
       <envs />
+      <method />
+    </configuration>
+    <configuration default="true" type="PhpUnitRemoteRunConfigurationType" factoryName="PHPUnit on Server">
       <method />
     </configuration>
     <configuration default="false" name="Unnamed" type="PhpWebAppRunConfigurationType" factoryName="PHP Web Application" server_name="Unnamed" start_url="/index.php/Home/Lk1">
@@ -665,7 +552,7 @@
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-8" y="-8" width="1616" height="876" extended-state="7" />
+    <frame x="-8" y="-8" width="1616" height="876" extended-state="0" />
     <editor active="true" />
     <layout>
       <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
@@ -675,19 +562,19 @@
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Application Servers" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Remote Host" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32977304" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.24357326" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.24678664" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
-      <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Debug" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.39917696" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="SLIDING" type="SLIDING" visible="false" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
-      <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
-      <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
+      <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
     </layout>
   </component>
   <component name="Vcs.Log.UiProperties">
@@ -711,62 +598,6 @@
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/Application/Home/View/Home/lkseven.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.3816794" vertical-offset="1586" max-vertical-offset="2241">
-          <caret line="42" column="73" selection-start-line="42" selection-start-column="73" selection-end-line="42" selection-end-column="73" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Application/Home/View/Home/lknane.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="1971" max-vertical-offset="2268">
-          <caret line="73" column="12" selection-start-line="73" selection-start-column="12" selection-end-line="73" selection-end-column="12" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Application/Home/View/Home/lkone.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="506" max-vertical-offset="1323">
-          <caret line="37" column="28" selection-start-line="37" selection-start-column="28" selection-end-line="37" selection-end-column="28" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Application/Home/View/Home/lk.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="864" max-vertical-offset="1242">
-          <caret line="32" column="69" selection-start-line="32" selection-start-column="69" selection-end-line="32" selection-end-column="69" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Application/Home/View/Home/index.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.123664126" vertical-offset="0" max-vertical-offset="2079">
-          <caret line="3" column="22" selection-start-line="3" selection-start-column="22" selection-end-line="3" selection-end-column="22" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Application/Home/Controller/YanzhengController.class.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="756">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Application/Home/View/Home/lkeight.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.16488549" vertical-offset="0" max-vertical-offset="2430">
-          <caret line="4" column="43" selection-start-line="4" selection-start-column="43" selection-end-line="4" selection-end-column="43" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Application/Home/View/Home/paizhao.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="135" max-vertical-offset="7263">
-          <caret line="5" column="40" selection-start-line="5" selection-start-column="40" selection-end-line="5" selection-end-column="40" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/Application/Home/View/Home/huodongbaoming.html">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="-19.0" vertical-offset="2389" max-vertical-offset="8262">
@@ -879,13 +710,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Application/Home/View/Home/jindan.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="2.3709924" vertical-offset="2875" max-vertical-offset="8289">
-          <caret line="164" column="27" selection-start-line="164" selection-start-column="27" selection-end-line="164" selection-end-column="27" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/Application/Home/View/Home/phone.html">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="1.2992367" vertical-offset="3604" max-vertical-offset="8316">
@@ -963,97 +787,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Application/Home/View/Home/shouhui.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="81" max-vertical-offset="8829">
-          <caret line="3" column="22" selection-start-line="3" selection-start-column="22" selection-end-line="3" selection-end-column="22" />
-          <folding>
-            <element signature="n#style#0;n#p#2;n#div#1;n#div#0;n#div#3;n#div#0;n#block#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#img#0;n#a#0;n#li#0;n#ul#0;n#div#0;n#div#1;n#div#3;n#div#0;n#block#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#img#0;n#a#0;n#li#1;n#ul#0;n#div#0;n#div#1;n#div#3;n#div#0;n#block#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#img#0;n#a#0;n#li#2;n#ul#0;n#div#0;n#div#1;n#div#3;n#div#0;n#block#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#img#0;n#a#0;n#li#3;n#ul#0;n#div#0;n#div#1;n#div#3;n#div#0;n#block#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#img#0;n#a#0;n#li#4;n#ul#0;n#div#0;n#div#1;n#div#3;n#div#0;n#block#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#img#0;n#a#0;n#li#5;n#ul#0;n#div#0;n#div#1;n#div#3;n#div#0;n#block#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#p#0;n#div#0;n#div#1;n#div#1;n#div#1;n#div#3;n#div#0;n#block#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#span#0;n#p#0;n#div#0;n#div#1;n#div#1;n#div#1;n#div#3;n#div#0;n#block#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#strong#0;n#span#0;n#p#0;n#div#0;n#div#1;n#div#1;n#div#1;n#div#3;n#div#0;n#block#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#p#1;n#div#0;n#div#1;n#div#1;n#div#1;n#div#3;n#div#0;n#block#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#span#0;n#p#1;n#div#0;n#div#1;n#div#1;n#div#1;n#div#3;n#div#0;n#block#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#strong#0;n#span#0;n#p#1;n#div#0;n#div#1;n#div#1;n#div#1;n#div#3;n#div#0;n#block#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#p#2;n#div#0;n#div#1;n#div#1;n#div#1;n#div#3;n#div#0;n#block#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#span#0;n#p#2;n#div#0;n#div#1;n#div#1;n#div#1;n#div#3;n#div#0;n#block#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#strong#0;n#span#0;n#p#2;n#div#0;n#div#1;n#div#1;n#div#1;n#div#3;n#div#0;n#block#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#p#3;n#div#0;n#div#1;n#div#1;n#div#1;n#div#3;n#div#0;n#block#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#span#0;n#p#3;n#div#0;n#div#1;n#div#1;n#div#1;n#div#3;n#div#0;n#block#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#strong#0;n#span#0;n#p#3;n#div#0;n#div#1;n#div#1;n#div#1;n#div#3;n#div#0;n#block#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#br#0;n#strong#0;n#span#0;n#p#3;n#div#0;n#div#1;n#div#1;n#div#1;n#div#3;n#div#0;n#block#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#p#4;n#div#0;n#div#1;n#div#1;n#div#1;n#div#3;n#div#0;n#block#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#span#0;n#p#4;n#div#0;n#div#1;n#div#1;n#div#1;n#div#3;n#div#0;n#block#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#strong#0;n#span#0;n#p#4;n#div#0;n#div#1;n#div#1;n#div#1;n#div#3;n#div#0;n#block#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#span#0;n#strong#0;n#span#0;n#p#4;n#div#0;n#div#1;n#div#1;n#div#1;n#div#3;n#div#0;n#block#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#p#5;n#div#0;n#div#1;n#div#1;n#div#1;n#div#3;n#div#0;n#block#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#span#0;n#p#5;n#div#0;n#div#1;n#div#1;n#div#1;n#div#3;n#div#0;n#block#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#strong#0;n#span#0;n#p#5;n#div#0;n#div#1;n#div#1;n#div#1;n#div#3;n#div#0;n#block#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#br#0;n#strong#0;n#span#0;n#p#5;n#div#0;n#div#1;n#div#1;n#div#1;n#div#3;n#div#0;n#block#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#p#6;n#div#0;n#div#1;n#div#1;n#div#1;n#div#3;n#div#0;n#block#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#span#0;n#p#6;n#div#0;n#div#1;n#div#1;n#div#1;n#div#3;n#div#0;n#block#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#strong#0;n#span#0;n#p#6;n#div#0;n#div#1;n#div#1;n#div#1;n#div#3;n#div#0;n#block#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#p#7;n#div#0;n#div#1;n#div#1;n#div#1;n#div#3;n#div#0;n#block#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#span#0;n#p#7;n#div#0;n#div#1;n#div#1;n#div#1;n#div#3;n#div#0;n#block#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#br#0;n#span#0;n#p#7;n#div#0;n#div#1;n#div#1;n#div#1;n#div#3;n#div#0;n#block#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#p#8;n#div#0;n#div#1;n#div#1;n#div#1;n#div#3;n#div#0;n#block#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#span#0;n#p#8;n#div#0;n#div#1;n#div#1;n#div#1;n#div#3;n#div#0;n#block#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#br#0;n#p#8;n#div#0;n#div#1;n#div#1;n#div#1;n#div#3;n#div#0;n#block#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#p#9;n#div#0;n#div#1;n#div#1;n#div#1;n#div#3;n#div#0;n#block#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#p#10;n#div#0;n#div#1;n#div#1;n#div#1;n#div#3;n#div#0;n#block#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#span#0;n#p#10;n#div#0;n#div#1;n#div#1;n#div#1;n#div#3;n#div#0;n#block#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#strong#0;n#span#0;n#p#10;n#div#0;n#div#1;n#div#1;n#div#1;n#div#3;n#div#0;n#block#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#p#11;n#div#0;n#div#1;n#div#1;n#div#1;n#div#3;n#div#0;n#block#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#p#12;n#div#0;n#div#1;n#div#1;n#div#1;n#div#3;n#div#0;n#block#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#p#13;n#div#0;n#div#1;n#div#1;n#div#1;n#div#3;n#div#0;n#block#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#strong#0;n#p#13;n#div#0;n#div#1;n#div#1;n#div#1;n#div#3;n#div#0;n#block#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#span#0;n#strong#0;n#p#13;n#div#0;n#div#1;n#div#1;n#div#1;n#div#3;n#div#0;n#block#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#p#14;n#div#0;n#div#1;n#div#1;n#div#1;n#div#3;n#div#0;n#block#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#strong#0;n#p#14;n#div#0;n#div#1;n#div#1;n#div#1;n#div#3;n#div#0;n#block#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#span#0;n#strong#0;n#p#14;n#div#0;n#div#1;n#div#1;n#div#1;n#div#3;n#div#0;n#block#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#img#0;n#span#0;n#strong#0;n#p#14;n#div#0;n#div#1;n#div#1;n#div#1;n#div#3;n#div#0;n#block#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#strong#0;n#p#15;n#div#0;n#div#1;n#div#1;n#div#1;n#div#3;n#div#0;n#block#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#span#0;n#strong#0;n#p#15;n#div#0;n#div#1;n#div#1;n#div#1;n#div#3;n#div#0;n#block#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#p#16;n#div#0;n#div#1;n#div#1;n#div#1;n#div#3;n#div#0;n#block#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#img#0;n#p#16;n#div#0;n#div#1;n#div#1;n#div#1;n#div#3;n#div#0;n#block#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#p#17;n#div#0;n#div#1;n#div#1;n#div#1;n#div#3;n#div#0;n#block#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#strong#0;n#p#18;n#div#0;n#div#1;n#div#1;n#div#1;n#div#3;n#div#0;n#block#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#span#0;n#strong#0;n#p#18;n#div#0;n#div#1;n#div#1;n#div#1;n#div#3;n#div#0;n#block#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#strong#0;n#p#19;n#div#0;n#div#1;n#div#1;n#div#1;n#div#3;n#div#0;n#block#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#span#0;n#strong#0;n#p#19;n#div#0;n#div#1;n#div#1;n#div#1;n#div#3;n#div#0;n#block#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#div#0;n#div#1;n#block#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#div#2;n#block#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#div#0;n#div#0;n#div#2;n#block#0;n#!!top" expanded="true" />
-            <marker date="1516085596863" expanded="true" signature="17279:17354" placeholder="..." />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/Application/Home/View/Home/chongqing.html">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="-15.40625" vertical-offset="7661" max-vertical-offset="8316">
           <caret line="302" column="8" selection-start-line="302" selection-start-column="8" selection-end-line="302" selection-end-column="8" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Application/Home/Controller/LoginController.class.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="852" max-vertical-offset="6075">
-          <caret line="43" column="15" selection-start-line="43" selection-start-column="15" selection-end-line="43" selection-end-column="15" />
-          <folding>
-            <marker date="1516095254989" expanded="true" signature="1034:1110" placeholder="select * fro..jxc_member..." />
-            <marker date="1516095254989" expanded="true" signature="1153:1237" placeholder="select membe..jxc_member..." />
-            <marker date="1516095254989" expanded="true" signature="1955:2031" placeholder="select * fro..jxc_member..." />
-            <marker date="1516095254989" expanded="true" signature="2074:2158" placeholder="select membe..jxc_member..." />
-            <marker date="1516095254989" expanded="true" signature="2751:2827" placeholder="select * fro..jxc_member..." />
-            <marker date="1516095254989" expanded="true" signature="2873:2957" placeholder="select membe..jxc_member..." />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -1064,44 +801,179 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Application/Home/View/Home/fuwudingjia.html">
+    <entry file="file://$PROJECT_DIR$/Application/Home/Controller/Lk1Controller.class.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.57709926" vertical-offset="0" max-vertical-offset="22167">
-          <caret line="14" column="68" selection-start-line="14" selection-start-column="68" selection-end-line="14" selection-end-column="68" />
+        <state vertical-scroll-proportion="-10.125" vertical-offset="0" max-vertical-offset="4239">
+          <caret line="12" column="5" selection-start-line="12" selection-start-column="5" selection-end-line="12" selection-end-column="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../../web4/code/laravel52/resources/views/Home/User_integral.blade.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.7526718" vertical-offset="1181" max-vertical-offset="1836">
+          <caret line="62" column="0" selection-start-line="62" selection-start-column="0" selection-end-line="62" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Application/Home/View/Home/chongzhi.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-3.9031296" vertical-offset="2916" max-vertical-offset="18576">
+          <caret line="11" column="50" selection-start-line="11" selection-start-column="50" selection-end-line="11" selection-end-column="50" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Application/Home/Controller/LoginController.class.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-6.6050673" vertical-offset="5404" max-vertical-offset="6075">
+          <caret line="37" column="55" selection-start-line="37" selection-start-column="55" selection-end-line="37" selection-end-column="55" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/Application/Home/Controller/MemberController.class.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="378" max-vertical-offset="1944">
-          <caret line="16" column="33" selection-start-line="16" selection-start-column="33" selection-end-line="16" selection-end-column="33" />
+        <state vertical-scroll-proportion="0.55263156" vertical-offset="378" max-vertical-offset="1944">
+          <caret line="30" column="22" selection-start-line="30" selection-start-column="22" selection-end-line="30" selection-end-column="22" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../../web4/code/laravel52/app/Http/Controllers/Home/IndexController.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.9657228" vertical-offset="23004" max-vertical-offset="27756">
+          <caret line="886" column="19" selection-start-line="886" selection-start-column="19" selection-end-line="886" selection-end-column="19" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Application/Home/View/Home/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.12071535" vertical-offset="0" max-vertical-offset="2079">
+          <caret line="3" column="22" selection-start-line="3" selection-start-column="22" selection-end-line="3" selection-end-column="22" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Application/Home/View/Home/shouhui.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-12.037258" vertical-offset="8158" max-vertical-offset="8829">
+          <caret line="3" column="22" selection-start-line="3" selection-start-column="22" selection-end-line="3" selection-end-column="22" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Application/Home/View/Home/jiaocheng.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="13824">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Application/Home/Controller/LkController.class.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="243" max-vertical-offset="3537">
+          <caret line="15" column="31" selection-start-line="15" selection-start-column="31" selection-end-line="15" selection-end-column="31" />
           <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Application/Home/View/Home/jindan.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-138.375" vertical-offset="0" max-vertical-offset="8289">
+          <caret line="164" column="27" selection-start-line="164" selection-start-column="27" selection-end-line="164" selection-end-column="27" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Application/Home/View/Home/lkeight.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-3.375" vertical-offset="0" max-vertical-offset="2430">
+          <caret line="4" column="43" selection-start-line="4" selection-start-column="43" selection-end-line="4" selection-end-column="43" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Application/Home/View/Home/lk.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-27.0" vertical-offset="0" max-vertical-offset="1242">
+          <caret line="32" column="69" selection-start-line="32" selection-start-column="69" selection-end-line="32" selection-end-column="69" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Application/Home/View/Home/lkone.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-10.84375" vertical-offset="652" max-vertical-offset="1323">
+          <caret line="37" column="28" selection-start-line="37" selection-start-column="28" selection-end-line="37" selection-end-column="28" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Application/Home/Controller/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="716">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Application/Home/Controller/IndexController.class.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="30" max-vertical-offset="4968">
+          <caret line="18" column="29" selection-start-line="18" selection-start-column="29" selection-end-line="18" selection-end-column="29" />
+          <folding>
+            <marker date="1516158379937" expanded="true" signature="581:632" placeholder="select * fro..jxc_activity_fans..." />
+            <marker date="1516158379937" expanded="true" signature="996:1083" placeholder="select * fro..jxc_activity_fans..." />
+            <marker date="1516158379937" expanded="true" signature="1426:1506" placeholder="select * fro..jxc_wall..." />
+            <marker date="1516158379937" expanded="true" signature="1851:1931" placeholder="select * fro..jxc_wall..." />
+            <marker date="1516158379937" expanded="true" signature="2490:2671" placeholder="select a.* F..jxc_activity..." />
+            <marker date="1516158379937" expanded="true" signature="3446:3695" placeholder="select a.* F..jxc_activity..." />
+            <marker date="1516158379937" expanded="true" signature="4534:4749" placeholder="select a.* F..jxc_activity..." />
+            <marker date="1516158379937" expanded="true" signature="5575:5788" placeholder="select a.* F..jxc_activity..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Application/Home/View/Index/index_case.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="13689">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/Application/Home/Controller/SignController.class.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.11077844" vertical-offset="196" max-vertical-offset="864">
-          <caret line="10" column="5" selection-start-line="10" selection-start-column="5" selection-end-line="10" selection-end-column="5" />
+        <state vertical-scroll-proportion="0.0" vertical-offset="81" max-vertical-offset="864">
+          <caret line="18" column="42" selection-start-line="18" selection-start-column="42" selection-end-line="18" selection-end-column="42" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Application/Home/Controller/Lk1Controller.class.php">
+    <entry file="file://$PROJECT_DIR$/Application/Home/View/Home/fuwudingjia.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-10.125" vertical-offset="0" max-vertical-offset="4239">
-          <caret line="12" column="5" selection-start-line="12" selection-start-column="5" selection-end-line="12" selection-end-column="5" />
-          <folding />
+        <state vertical-scroll-proportion="0.0" vertical-offset="243" max-vertical-offset="22167">
+          <caret line="9" column="21" selection-start-line="9" selection-start-column="21" selection-end-line="9" selection-end-column="21" />
+          <folding>
+            <element signature="e#23525#24714#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Application/Home/View/Home/head.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="837" max-vertical-offset="12582">
+          <caret line="49" column="13" selection-start-line="49" selection-start-column="13" selection-end-line="49" selection-end-column="13" />
+          <folding>
+            <element signature="n#style#0;n#head#0;n#html#0;n#!!top" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Application/Home/View/Home/head3.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="864" max-vertical-offset="11961">
+          <caret line="32" column="45" selection-start-line="32" selection-start-column="45" selection-end-line="32" selection-end-column="45" />
+          <folding>
+            <marker date="1516172378316" expanded="true" signature="16859:16934" placeholder="..." />
+          </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/Application/Home/View/Home/head2.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="13.28125" vertical-offset="3692" max-vertical-offset="5049">
-          <caret line="183" column="47" selection-start-line="183" selection-start-column="47" selection-end-line="183" selection-end-column="47" />
+        <state vertical-scroll-proportion="0.0" vertical-offset="783" max-vertical-offset="4536">
+          <caret line="29" column="0" selection-start-line="29" selection-start-column="0" selection-end-line="30" selection-end-column="0" />
           <folding>
-            <element signature="n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
-            <element signature="n#ul#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
             <element signature="n#script#0;n#body#0;n#html#0;n#!!top" expanded="false" />
             <element signature="n#script#1;n#body#0;n#html#0;n#!!top" expanded="false" />
             <element signature="n#style#0;n#ul#0;n#div#0;n#div#0;n#div#0;n#div#2;n#body#0;n#html#0;n#!!top" expanded="true" />
@@ -1134,65 +1006,8 @@
             <element signature="n#script#10;n#body#0;n#html#0;n#!!top" expanded="false" />
             <element signature="n#script#11;n#body#0;n#html#0;n#!!top" expanded="false" />
             <element signature="n#a#1;n#body#0;n#html#0;n#!!top" expanded="false" />
-            <marker date="1516153942328" expanded="true" signature="23144:23219" placeholder="..." />
+            <marker date="1516172378321" expanded="true" signature="22948:23023" placeholder="..." />
           </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Application/Home/View/Home/head.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-46.625" vertical-offset="11279" max-vertical-offset="13068">
-          <caret line="473" column="6" selection-start-line="473" selection-start-column="6" selection-end-line="473" selection-end-column="6" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/../../web4/code/laravel52/resources/views/Home/User_integral.blade.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.7526718" vertical-offset="1181" max-vertical-offset="1836">
-          <caret line="62" column="0" selection-start-line="62" selection-start-column="0" selection-end-line="62" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Application/Home/View/Home/head3.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-14.21875" vertical-offset="11263" max-vertical-offset="11934">
-          <caret line="434" column="4" selection-start-line="434" selection-start-column="4" selection-end-line="434" selection-end-column="4" />
-          <folding>
-            <marker date="1516095248609" expanded="true" signature="17007:17082" placeholder="..." />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/../../web4/code/laravel52/app/Http/Controllers/Home/IndexController.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-20.25" vertical-offset="23004" max-vertical-offset="27756">
-          <caret line="886" column="19" selection-start-line="886" selection-start-column="19" selection-end-line="886" selection-end-column="19" />
-          <folding>
-            <marker date="1514107863479" expanded="true" signature="10127:10251" placeholder="select g.*,u..group_order..." />
-            <marker date="1514107863479" expanded="true" signature="21100:21129" placeholder="select * fro..goods..." />
-            <marker date="1514107863479" expanded="true" signature="22451:22480" placeholder="select * fro..goods..." />
-            <marker date="1514107863479" expanded="true" signature="22528:22572" placeholder="select buynu..goods_cart..." />
-            <marker date="1514107863479" expanded="true" signature="23045:23074" placeholder="select * fro..goods..." />
-            <marker date="1514107863479" expanded="true" signature="26220:26312" placeholder="select * fro..group_order_goods..." />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Application/Home/View/Home/chongzhi.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-3.9031296" vertical-offset="2916" max-vertical-offset="18576">
-          <caret line="11" column="50" selection-start-line="11" selection-start-column="50" selection-end-line="11" selection-end-column="50" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Application/Home/Controller/LkController.class.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.6035768" vertical-offset="0" max-vertical-offset="3537">
-          <caret line="15" column="31" selection-start-line="15" selection-start-column="31" selection-end-line="15" selection-end-column="31" />
-          <folding />
         </state>
       </provider>
     </entry>

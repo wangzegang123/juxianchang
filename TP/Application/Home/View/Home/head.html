@@ -35,7 +35,6 @@
             }
         </style>
         <script src="__PUBLIC__/Home/js/pc_nb.js" charset="UTF-8">
-
         </script>
     <link rel="stylesheet" type="text/css" href="__PUBLIC__/Home/css/main.css">
     <script type="text/javascript" src="http://p.qiao.baidu.com/cps/site/poll?cb=jsonp_bridge_1515654329172_8543663646110409&amp;l=1&amp;v=151503234331531619&amp;s=11464089&amp;e=24749122&amp;dev=0&amp;auth=%7B%22anonym%22%3A0%2C%22key%22%3A%222343139377234179395yjmr2622404744%22%2C%22sn%22%3A%22766138647%22%2C%22id%22%3A%22151503234331531619%22%2C%22from%22%3A4%2C%22token%22%3A%22bridge%22%7D&amp;_time=1515654329172" id="id_jsonp_bridge_1515654329172_8543663646110409" charset="utf-8">
@@ -46,19 +45,20 @@
     <block name="head1">
     <div class="inner2 clearfix">
         <h1 class="logo left">
-            <a href="http://www.juxianchang.com/">聚现场-微信互动大屏幕</a>
+            <a href="{:U('Home/Index/index')}">聚现场-微信互动大屏幕</a>
+            <a href="{:U('Home/Index/index')}" class="btn-back">回首页</a>
         </h1>
         <button class="btn-menu js_BtnMenu right"><span></span><span></span><span></span></button>
-        <div class="nav-login right"><a href="http://user.juxianchang.com/" rel="external nofollow" title="登录">登录</a></div>
+        <div class="nav-login right"><a href="{:U('Home/Login/login')}" rel="external nofollow" title="登录">登录</a></div>
         <ul class="nav-list right js_navList">
-            <li><a href="http://www.juxianchang.com/case" title="精选案例">案例</a></li>
-            <li><a href="http://demo.juxianchang.com/" title="演示" rel="external nofollow" target="_blank">演示<em class="icon-hot"></em></a></li>
-            <li><a href="http://www.juxianchang.com/wxfunction/qiandao/10.html" title="3D签到">3D签到</a></li>
+            <li><a href="{:U('Home/Index/index_case')}" title="精选案例">案例</a></li>
+            <li><a href="{:U('Home/Index/demo')}" title="演示" rel="external nofollow" target="_blank">演示<em class="icon-hot"></em></a></li>
+            <li><a href="{:U('Home/Sign/Sign')}" title="3D签到">3D签到</a></li>
 
-            <li><a href="http://www.juxianchang.com/jiaocheng" title="使用教程">使用教程</a></li>
+            <li><a href="{:U('index')}" title="使用教程">使用教程</a></li>
             <li><a href="{:U('fuwudingjia')}" title="服务定价">服务定价</a></li>
 
-            <li><a href="http://user.juxianchang.com/register.html" rel="external nofollow" title="免费开通">免费开通<em class="icon-hot"></em></a></li>
+            <li><a href="{:U('Home/Login/login')}" rel="external nofollow" title="免费开通">免费开通<em class="icon-hot"></em></a></li>
 
         </ul>
     </div>

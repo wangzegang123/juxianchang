@@ -141,7 +141,7 @@
                 </ul>
             </li> -->
                 <li><a href="<?php echo U('Home/Index/index_case');?>" title="精选案例">案例</a></li>
-                <li><a href="http://demo.juxianchang.com/" title="演示" rel="external nofollow" target="_blank">演示<em class="icon-hot"></em></a></li>
+                <li><a href="<?php echo U('Home/Index/demo');?>" title="演示" rel="external nofollow" target="_blank">演示<em class="icon-hot"></em></a></li>
                 <li><a href="http://www.juxianchang.com/wxfunction/qiandao/10.html" title="3D签到">3D签到</a></li>
 
                 <li><a href="http://www.juxianchang.com/jiaocheng" title="使用教程">使用教程</a></li>
@@ -331,7 +331,6 @@
         <div class="index_main_box">
             <div class="index_main_titlebox index_wxsystem_title index_main_titlebox_zhuyun">
                 <h1>活动一站式流程</h1>
-
             </div>
             <div class="index_system_mainbox clearfix">
                 <div class="index_system_listbox">
@@ -1171,10 +1170,9 @@ color: #fff;">微信墙教程/新闻</span></h2>
 </a><div class="keifu_box"><a>
 </a><div class="keifu_head"><a></a><a href="javascript:void(0)" class="keifu_close"></a></div>
     <ul class="keifu_con">
-        <li>聚现场-羊<br>
-            <a target="_blank" href="http://wpa.qq.com/msgrd?v=3&uin=1374018606&site=qq&menu=yes"><img border="0" src="http://wpa.qq.com/pa?p=2:1374018606:41" alt="聚现场-售后" title="聚现场-售后"/></a></li>
-        <br> <li>聚现场-卢<br><a target="_blank" href="http://wpa.qq.com/msgrd?v=3&uin=2323811462&site=qq&menu=yes"><img border="0" src="http://wpa.qq.com/pa?p=2:2323811462:51" alt="聚现场-售后" title="聚现场-售后"/></a></li>
-        <br> <li>聚现场-刘<br> <a target="_blank" href="http://wpa.qq.com/msgrd?v=3&uin=1953596767&site=qq&menu=yes"><img border="0" src="http://wpa.qq.com/pa?p=2:1953596767:41" alt="聚现场-售后" title="聚现场-售后"/></a></li>
+        <li>聚现场-牛凯<br><a target="_blank" title="聚现场乐乐" href="http://wpa.qq.com/msgrd?v=3&amp;uin=1479265188&amp;site=qq&amp;menu=yes" rel="external nofollow"><img src="/Public/Home/images/qq.png" height="22" width="92"></a></li>
+        <br> <li>聚现场-李小璐<br><a target="_blank" title="聚现场阳阳" href="http://wpa.qq.com/msgrd?v=3&amp;uin=214023493&amp;site=qq&amp;menu=yes" rel="external nofollow"><img src="/Public/Home/images/qq.png" height="22" width="92"></a></li>
+        <br> <li>聚现场-售后<br><a target="_blank" title="聚现场售后" href="http://wpa.qq.com/msgrd?v=3&amp;uin=2758820275&amp;site=qq&amp;menu=yes" rel="external nofollow"><img src="/Public/Home/images/qq.png" height="22" width="92"></a></li>
         <li> </li></ul>
     <div class="keifu_bot"></div>
 </div>
