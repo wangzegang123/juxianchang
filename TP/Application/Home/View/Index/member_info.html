@@ -277,7 +277,7 @@
                     <div class="form-group">
                         <label class="col-xs-12 col-sm-2 col-md-2 col-lg-2 control-label">用户昵称</label>
                         <div class="col-sm-10 col-xs-12">
-                            <input id="username" name="username" type="text" class="form-control" value="LZ123456" readonly="">
+                            <input id="username" name="username" type="text" class="form-control" value="{$member_name}" readonly="">
                         </div>
                     </div>
                     <div class="form-group">
@@ -322,89 +322,43 @@
             });
         </script>
     </div>
-        <!--slider css--->
-        <link rel="stylesheet" href="__PUBLIC__/Home/css/boostrap.slider.css">
-        <style>
-            .slider.slider-horizontal {
-                height:40px;
-                width:100%;
-            }
-            .slider.slider-horizontal .slider-handle {
-                margin-left: -10px;
-                margin-top: 10px;
-            }
-            #Slider .slider-handle {
-                background: #36b27a;
-                border-radius:50%;
-            }
-            #Slider .slider-selection {
-                background: #36b27a;
-            }
-            .add-jian input{height:40px;text-align:center}
-            .quantity-remove, .quantity-add {
-                cursor: pointer;
-            }
-            .quantity-add.glyphicon, .quantity-remove.glyphicon {
-                display: block;
-                cursor: pointer;
-            }
-            .slider_box{
-                padding:20px;margin-bottom:0px;display:none
-            }
-            .update_important{
-                position:absolute;
-                top:0;
-                right:80px;
-                color:gray;
-                cursor:pointer;
-                z-index:10
-            }
-            .update_important.active{
-                color:#22B766
-            }
-            .update_important.active:hover{
-                color:gray
-            }
-            .update_important:hover{
-                color:#22B766
-            }
-        </style>
-        <!--slider end--->
-        <!--wall-list-->
-        <script>
-            $(function(){
-                $(".update_important").on('click',function(){
-                    var $this = $(this);
-                    var ac_id = $this.attr('data-id');
-                    var is_important = $this.attr('data-important');
-                    $.post("./index.php?c=site&a=entry&do=update_important&m=meepo_xianchang",{ac_id:ac_id,is_important:is_important},function(result){
-                        console.log(result);
-                        if(result.errno==0){
-                            if(result.message==1){//加入特别关心
-                                $this.attr('data-important','1');
-                                $this.addClass('active');
-
-                            }else{//取消特别关心
-                                $this.attr('data-important','0');
-                                $this.removeClass('active');
-                            }
+    <script type="text/javascript" src="__PUBLIC__/Home/js/jquery.uploadify-3.1.min.js"></script>
+    <script type="text/javascript">
+        $(document).ready(function(){
+            $(".close").click(function(){
+                $(this).parents().find("#member_header").remove();
+                $(this).remove();
+                $(".member_pic").append("<input type='file' id='PictureUrl' name='member_header' />")
+            });
+                    $(document).on('change', '#PictureUrl', function () {
+                    console.log(this.files[0]);
+                    function getObjectURL(file) {
+                        var url = null;
+                        if (window.createObjcectURL != undefined) {
+                            url = window.createOjcectURL(file);
+                        } else if (window.URL != undefined) {
+                            url = window.URL.createObjectURL(file);
+                        } else if (window.webkitURL != undefined) {
+                            url = window.webkitURL.createObjectURL(file);
                         }
-                    },'json');
-                });
-            })
-        </script>
-    </div>
-</div>
-</div>
-<script>
-    $(document).ready(function(){
-        if($('#loading').length>0){
-            $('#loading').remove();
-        }
-    });
-</script>
-<!--默认js-->
-
+                        return url;
+                    }
+                        var objURL = getObjectURL(this.files[0]);
+                    $(":submit").click(function() {
+                        var member_name = $(this).parents().find("#username").val();
+//                var member_header = $(this).parents().find(":file").val();
+                        var member_sex = $(this).parents().find(":radio").val();
+                        $.ajax({
+                            url: "{:U('/Home/Member/member_info')}",
+                            type: "get",
+                            data: {member_name: member_name, member_header: objURL, member_sex: member_sex},
+                            success: function (res) {
+//                                console.log(res);
+                            alert(res);
+                            }
+                        });
+                    });
+                 })
 <script type="text/javascript">
     require(['bootstrap']);
     $('.js-clip').each(function(){

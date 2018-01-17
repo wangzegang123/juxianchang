@@ -23,10 +23,12 @@ class MemberController extends Controller{
                     imagecopyresampled($img2,$img1, 0, 0, 0, 0, 80 , 80 , $info[0], $info[1]);//缩放图片
                     $saveName=strstr($member_header,"\\",false);
                     $savePath="./Public/Home/member_header/{$saveName}";
-                    imagejpeg($img2,$savePath);//bool imagejpeg ( resource image [, string filename [, int quality]] )
+                    $res1=imagejpeg($img2,$savePath);//bool imagejpeg ( resource image [, string filename [, int quality]] )
+                if($res1){
                     $data['member_header']=$member_header;
                     $data['member_sex']=$member_sex;
                     $res=$model->where($map)->save($data);
+                }
             }
             if($res) {
                 echo "1";
@@ -35,14 +37,20 @@ class MemberController extends Controller{
             }
         }
         else{
-                $this->display("index/member_info");
+            $mid=session("mid");
+            $model=M("member");
+            $member_name=$model->where("member_id=$mid")->getField("member_name");
+            $this->assign("member_name",$member_name);
+            $this->display("index/member_info");
             }
         }
     public function member_pwd(){
         if(IS_AJAX){
             $oldpwd=md5($_GET['oldpassword']);
+            $mid=session("mid");
             $model=M("member");
-            $map['member_name']=array('eq','LZ123456');
+            $member_name=$model->where("member_id=$mid")->getField("member_name");
+            $map['member_name']=array('eq',"{$member_name}");
             $map['member_pwd']=array('eq',"{$oldpwd}");
             $res=$model->where($map)->select();
             if($res){

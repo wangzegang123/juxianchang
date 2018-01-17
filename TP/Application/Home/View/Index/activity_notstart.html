@@ -1,6 +1,6 @@
 <extend name="./public_part/public_part"/>
         <!--右边内容-->
-        <block name="right">
+<block name="right">
         <div class="col-xs-12 col-sm-9 col-lg-10 sys_menu_box">
             <!--slider css--->
             <link rel="stylesheet" href="../addons/meepo_xianchang/template/resource/css/boostrap.slider.css">
@@ -54,10 +54,10 @@
                 <li>
                     <a href="{:U('activity_person')}"><i class="fa fa-file"></i> 全部活动</a>
                 </li>
-                <li class="active">
+                <li>
                     <a href="{:U('activity_start')}"><i class="fa fa-play"></i> 正在进行</a>
                 </li>
-                <li>
+                <li class="active">
                     <a href="{:U('activity_notstart')}"><i class="fa fa-pause"></i> 未开始</a>
                 </li>
                 <li>
@@ -71,7 +71,7 @@
             <div class="panel panel-default">
                 <div class="panel-heading">活动筛选</div>
                 <div class="panel-body">
-                    <form action="{:U('activity_start')}" method="get" class="form-horizontal" role="form" id="form1">
+                    <form action="{:U('activity_notstart')}" method="get" class="form-horizontal" role="form" id="form1">
 
                         <div class="form-group">
                             <label class="col-xs-6 col-sm-4 col-md-4 col-lg-2 control-label">活动名称</label>
@@ -201,4 +201,4 @@
                 })
             </script>
         </div>
-        </block>
+</block>
