@@ -39,10 +39,10 @@
             <li><a href="http://demo.juxianchang.com/" title="演示" rel="external nofollow" target="_blank">演示<em class="icon-hot"></em></a></li>
             <li><a href="http://www.juxianchang.com/3d" title="3D签到">3D签到</a></li>
             <li><a href="http://www.juxianchang.com/jiaocheng" title="微信墙教程">使用教程</a></li>
-            <li><a href="http://www.juxianchang.com/mall" title="服务定价">服务定价</a></li>
+            <li><a href="<?php echo U('fuwudingjia');?>" title="服务定价">服务定价</a></li>
             <li><a href="http://user.juxianchang.com/register.html" rel="external nofollow" title="申请开通">申请开通<em class="icon-hot"></em></a></li>
         </ul>
-    </div><!-- inner or inner2 end-->
+    </div>
 </div>
 <script>
     $(function(){
@@ -188,49 +188,48 @@
     <!--start:最新案例-->
     <div class="cases-about2 right">
         <p class="rc-top clearfix">
-            <a href="http://www.juxianchang.com/case" class="more right">更多</a>
+            <a href="<?php echo U('index/index_case');?>" class="more right">更多</a>
             <span class="rc-tit">最新案例</span>
         </p>
         <ul class="related-case-list">
             <li class="clearfix">
-                <a href="http://www.juxianchang.com/case/126.html" class="case-img2"><img src="/Public/Home/images/20171030010804910.jpg" alt=""></a>
+                <a href="<?php echo U('index/index_case1');?>" class="case-img2"><img src="/Public/Home/images/20171030010804910.jpg" alt=""></a>
                 <p class="words-right">
                     <a href="http://www.juxianchang.com/case/126.html">微信墙助力长安马自达第二代CX-5重庆上市发布会！</a>
                 </p>
             </li>
             <li class="clearfix">
-                <a href="http://www.juxianchang.com/case/125.html" class="case-img2"><img src="/Public/Home/images/20170927112056224.jpg" alt=""></a>
+                <a href="<?php echo U('index/index_case2');?>" class="case-img2"><img src="/Public/Home/images/20170927112056224.jpg" alt=""></a>
                 <p class="words-right">
                     <a href="http://www.juxianchang.com/case/125.html">微信摇一摇助力重庆最嗨城市音乐节hip-hop澎湃音乐力量燃爆人民大礼堂!</a>
                 </p>
             </li>
             <li class="clearfix">
-                <a href="http://www.juxianchang.com/case/123.html" class="case-img2"><img src="/Public/Home/images/20170823081217424.png" alt=""></a>
+                <a href="<?php echo U('index/index_case3');?>" class="case-img2"><img src="/Public/Home/images/20170823081217424.png" alt=""></a>
                 <p class="words-right">
                     <a href="http://www.juxianchang.com/case/123.html">北京微信红包雨,聚现场助力管家帮家政日启动仪式。</a>
                 </p>
             </li>
             <li class="clearfix">
-                <a href="http://www.juxianchang.com/case/122.html" class="case-img2"><img src="/Public/Home/images/20170823074729810.png" alt=""></a>
+                <a href="<?php echo U('index/index_case4');?>" class="case-img2"><img src="/Public/Home/images/20170823074729810.png" alt=""></a>
                 <p class="words-right">
                     <a href="http://www.juxianchang.com/case/122.html">3D签到微信墙助【中国平安】人力峰会盛典！</a>
                 </p>
             </li>
             <li class="clearfix">
-                <a href="http://www.juxianchang.com/case/121.html" class="case-img2"><img src="/Public/Home/images/20170819105020371.jpg" alt=""></a>
+                <a href="<?php echo U('index/index_case1');?>" class="case-img2"><img src="/Public/Home/images/20170819105020371.jpg" alt=""></a>
                 <p class="words-right">
                     <a href="http://www.juxianchang.com/case/121.html">重庆西旅会带你逛现场！微信摇一摇抽大奖... 各种耍事任你嗨！</a>
                 </p>
             </li>
             <li class="clearfix">
-                <a href="http://www.juxianchang.com/case/120.html" class="case-img2"><img src="/Public/Home/images/20170819105210624.jpg" alt=""></a>
+                <a href="<?php echo U('index/index_case2');?>" class="case-img2"><img src="/Public/Home/images/20170819105210624.jpg" alt=""></a>
                 <p class="words-right">
                     <a href="http://www.juxianchang.com/case/120.html">满满的感动！微信3D签到，微信许愿墙弹幕助力重庆师范大学涉外商院2017毕业典礼现场！</a>
                 </p>
             </li>
         </ul>
     </div>
-    <!--end:最新案例-->
 </div>
 <script>
     $(function(){
@@ -269,12 +268,8 @@
 </script>
 <!-- <script type="text/javascript" src="http://www.juxianchang.com/statics/js/show_picture.js"></script>
 <script type="text/javascript" src="http://www.juxianchang.com/api.php?op=count&id=101&modelid=1"></script>-->
-
 <script>
-
     $(function(){
-
-
         if ($('#js_funcsScence').width()<695){
             var js_funcsScenceW = $('#js_funcsScence').width();
             $('#js_funcsScence li.swiper-slide').css({ width:js_funcsScenceW-20 });
@@ -318,10 +313,7 @@
                     slideShadows : true
                 }
             });
-
         }
-
-
         var bodyw= $('body').width();
         if (bodyw>1100) {
             $('#js_casesBooking li').mouseover(function(){
@@ -385,7 +377,6 @@
         </div>
     </div>
 </div>
-
 <script>
     $(function(){
         var KF = $(".keifu");
@@ -436,7 +427,6 @@
         };
 
     };
-
     function startMove(obj, attr, iTarget){
         clearInterval(obj.timer);
         obj.timer = setInterval(function(){
@@ -446,16 +436,11 @@
             }else{
                 curr = parseInt(getStyle(obj,attr));
             };
-
             var speed = (iTarget-curr)/6;
             speed = speed>0?Math.ceil(speed):Math.floor(speed);
-
             if(curr == iTarget){
-
                 clearInterval(obj.timer);
-
             }else{
-
                 if(attr == 'opacity'){
 
                     obj.style.filter = 'alpha(opacity:'+(curr + speed)+')';
@@ -473,7 +458,8 @@
     };
 
 </script>
-<div class="popmayer hidden"></div>
+<div class="popmayer hidden">
+</div>
 <div class="pop-common pop-pay" style="display:none;position:fixed;" id="commMsgLayer">
     <div class="inner-pop">
         <div class="pop-top">
@@ -487,10 +473,9 @@
         </div>
     </div>
 </div>
-
 <a href="http://www.juxianchang.com/jiaocheng/101.html#top" id="scrollUp" style="display: none; position: fixed; z-index: 2147483647;"></a>
-<script type="text/javascript" src="/Public/Home/js/jquery.scrollUp.min.js"></script>
-
+<script type="text/javascript" src="/Public/Home/js/jquery.scrollUp.min.js">
+</script>
 <script>
     var companyId = 0;
 
@@ -551,15 +536,14 @@
         }
     });
 </script>
-<!--百度统计-->
 <script>
-    var _hmt = _hmt || [];
-    (function() {
-        var hm = document.createElement("script");
-        hm.src = "https://hm.baidu.com/hm.js?08100f796f807b97c6fd87f5214fb7b6";
-        var s = document.getElementsByTagName("script")[0];
-        s.parentNode.insertBefore(hm, s);
-    })();
+var _hmt = _hmt || [];
+(function() {
+var hm = document.createElement("script");
+hm.src = "https://hm.baidu.com/hm.js?08100f796f807b97c6fd87f5214fb7b6";
+var s = document.getElementsByTagName("script")[0];
+s.parentNode.insertBefore(hm, s);
+})();
 </script>
 <script>
     (function(){
@@ -582,7 +566,7 @@
         }
     });
 </script>
-
-<a id="scrollUp" href="http://www.juxianchang.com/jiaocheng/101.html#top" title=""></a>
+<a id="scrollUp" href="http://www.juxianchang.com/jiaocheng/101.html#top" title="">
+</a>
 </body>
 </html>

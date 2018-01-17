@@ -56,7 +56,7 @@
             <li><a href="http://www.juxianchang.com/wxfunction/qiandao/10.html" title="3D签到">3D签到</a></li>
 
             <li><a href="http://www.juxianchang.com/jiaocheng" title="使用教程">使用教程</a></li>
-            <li><a href="http://www.juxianchang.com/mall" title="服务定价">服务定价</a></li>
+            <li><a href="<?php echo U('fuwudingjia');?>" title="服务定价">服务定价</a></li>
 
             <li><a href="http://user.juxianchang.com/register.html" rel="external nofollow" title="免费开通">免费开通<em class="icon-hot"></em></a></li>
 

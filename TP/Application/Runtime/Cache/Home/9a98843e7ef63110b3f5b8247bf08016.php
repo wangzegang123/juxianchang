@@ -1,4 +1,3 @@
-<<<<<<< Updated upstream:TP/Application/Runtime/Cache/Home/9a98843e7ef63110b3f5b8247bf08016.php
 <?php if (!defined('THINK_PATH')) exit();?><!DOCTYPE html>
 <!-- saved from url=(0100)http://wall.juxianchang.com/web/index.php?c=site&a=entry&_admin_uniacid=52&do=list&m=meepo_xianchang -->
 <html lang="zh-cn"><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8"><style type="text/css">@charset "UTF-8";[ng\:cloak],[ng-cloak],[data-ng-cloak],[x-ng-cloak],.ng-cloak,.x-ng-cloak,.ng-hide:not(.ng-hide-animate){display:none !important;}ng\:form{display:block;}.ng-animate-shim{visibility:hidden;}.ng-anchor{position:absolute;}</style>
@@ -259,11 +258,7 @@
                 </ul>
             </div>
         </div>
-=======
-<extend name="./public_part/public_part"/>
->>>>>>> Stashed changes:TP/Application/Home/View/Index/activity_notstart.html
         <!--右边内容-->
-<block name="right">
         <div class="col-xs-12 col-sm-9 col-lg-10 sys_menu_box">
             <style>
                 .withdrawals-box .account-money,.withdrawals-box .tip-account{width:50%}
@@ -401,7 +396,6 @@
                     </p>
                 </div>
                 <div class="panel-body">
-<<<<<<< Updated upstream:TP/Application/Runtime/Cache/Home/9a98843e7ef63110b3f5b8247bf08016.php
                     <form action="<?php echo U('Lk/chongzhi');?>" method="post" class="form-horizontal" role="form" onsubmit="return check_cz()">
                         <input type="hidden" value="" name="account_id">
                         <div class="form-group">
@@ -411,20 +405,6 @@
                                     <input type="num" name="money" class="form-control" placeholder="请输入大于10的数字">
                                     <span class="input-group-addon">元</span>
                                 </div>
-=======
-                    <form action="{:U('activity_notstart')}" method="get" class="form-horizontal" role="form" id="form1">
-
-                        <div class="form-group">
-                            <label class="col-xs-6 col-sm-4 col-md-4 col-lg-2 control-label">活动名称</label>
-                            <div class="col-xs-6 col-sm-6 col-lg-6 col-md-6">
-                                <input class="form-control" name="activity_name" id="" type="text" value="" placeholder="请输入活动名称">
-                            </div>
-                        </div>
-                        <div class="form-group">
-                            <label class="col-xs-6 col-sm-4 col-md-4 col-lg-2 control-label">活动所属用户名称</label>
-                            <div class="col-xs-6 col-sm-6 col-lg-6 col-md-6">
-                                <input class="form-control" name="member_name" id="" type="text" value="" placeholder="请输入活动所属用户名称">
->>>>>>> Stashed changes:TP/Application/Home/View/Index/activity_notstart.html
                             </div>
                         </div>
                         <div class="form-group col-sm-12">
@@ -491,7 +471,6 @@
             </div>
 
         </div>
-<<<<<<< Updated upstream:TP/Application/Runtime/Cache/Home/9a98843e7ef63110b3f5b8247bf08016.php
         <!--slider css--->
         <link rel="stylesheet" href="/Public/Home/css/boostrap.slider.css">
         <style>
@@ -693,6 +672,3 @@
 
 
 </body></html>
-=======
-</block>
->>>>>>> Stashed changes:TP/Application/Home/View/Index/activity_notstart.html
